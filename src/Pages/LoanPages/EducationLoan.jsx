@@ -565,7 +565,7 @@ const EducationLoan = () => {
                 <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
                   <div className="top d-flex flex-column gap-4 align-items-start">
                     <img
-                      src="./revier Avatar.png"
+                      src="/revier Avatar.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -585,7 +585,7 @@ const EducationLoan = () => {
                 <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
                   <div className="top d-flex flex-column gap-4 align-items-start">
                     <img
-                      src="./revier Avatar.png"
+                      src="/revier Avatar.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -605,7 +605,7 @@ const EducationLoan = () => {
                 <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
                   <div className="top d-flex flex-column gap-4 align-items-start">
                     <img
-                      src="./revier Avatar.png"
+                      src="/revier Avatar.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -625,7 +625,7 @@ const EducationLoan = () => {
                 <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
                   <div className="top d-flex flex-column gap-4 align-items-start">
                     <img
-                      src="./revier Avatar.png"
+                      src="/revier Avatar.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -645,7 +645,7 @@ const EducationLoan = () => {
                 <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
                   <div className="top d-flex flex-column gap-4 align-items-start">
                     <img
-                      src="./revier Avatar.png"
+                      src="/revier Avatar.png"
                       className="img-fluid"
                       alt=""
                     />

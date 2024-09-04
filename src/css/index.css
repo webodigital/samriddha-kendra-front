@@ -2381,6 +2381,103 @@ li {
   }
 }
 
+.lifeInsuranceSection_11 {
+  .faqContainer {
+    height: fit-content;
+    padding: 2rem;
+    margin-top: -5rem;
+
+    .accordion-button {
+      background: #eeeeee;
+      height: 7.2rem;
+      padding: 0 2rem !important;
+    }
+    .answerContainer {
+      border-radius: 2rem;
+      background: #d9e8ff;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      border: 1px solid #000;
+      box-shadow: rgb(51, 51, 51) 3px 3px 0px -1px;
+    }
+  }
+}
+
+.lifeInsuranceSection_12 {
+  .row {
+    margin-top: -4rem;
+
+    .owl-dots {
+      display: block !important;
+      position: absolute;
+      right: 0;
+
+      .owl-dot {
+        width: 4.4rem !important;
+        height: 0.6rem !important;
+        margin-right: 1.4rem !important;
+        margin-top: 2rem;
+
+        span {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.2rem !important;
+          -webkit-border-radius: 0.2rem !important;
+          -moz-border-radius: 0.2rem !important;
+          -ms-border-radius: 0.2rem !important;
+          -o-border-radius: 0.2rem !important;
+        }
+      }
+    }
+  }
+
+  .reviewCard {
+    width: 36rem;
+    height: 39rem;
+    background: #bbd8fb33;
+    border: 3px solid #bbd8fb33;
+
+    img {
+      width: 5rem !important;
+    }
+  }
+}
+
+.lifeInsuranceSection_13 {
+  margin-bottom: 30rem;
+
+  .blogsCard {
+    box-shadow: rgba(100, 100, 111, 0.315) 0px 7px 29px 0px;
+    border: 1px solid #0000002f;
+    margin-bottom: 4rem;
+  }
+
+  .owl-carousel {
+    margin-bottom: -19.6rem;
+
+    .owl-dots {
+      display: none !important;
+
+      .owl-dot {
+        width: 4.4rem !important;
+        height: 0.6rem !important;
+        margin-right: 1rem;
+
+        span {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.2rem !important;
+          -webkit-border-radius: 0.2rem !important;
+          -moz-border-radius: 0.2rem !important;
+          -ms-border-radius: 0.2rem !important;
+          -o-border-radius: 0.2rem !important;
+        }
+      }
+    }
+  }
+}
 /***** End Insurance Page Section *****/
 
 /***** Footer Section *****/
