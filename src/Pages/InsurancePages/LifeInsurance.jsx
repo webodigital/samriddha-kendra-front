@@ -826,8 +826,69 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           pera2={""}
         />
         <div className="container">
-          <div className="calCard p-4 bg-white">
-            <div className="d-flex justify-content-between"></div>
+          <div className="row justify-content-start gap-5">
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="calCard rounded-5 p-5 bg-white">
+                <div className="d-flex gap-5 justify-content-between">
+                  <div className="txt">
+                    <h2 className=" fs-24 fw-bolder font-inter">
+                      Coverage Calculator
+                    </h2>
+                    <p className="fs-18 font-inter fw-medium mt-4">
+                      Calculate the coverage as per your insurance needs.
+                    </p>
+
+                    <div className="mt-5">
+                      <ApplyBtn
+                        textColor={"text-white"}
+                        bgColor="bg-dark-blue"
+                        text={"Renew"}
+                        arrow={false}
+                        arrowDark={false}
+                        width=""
+                      />
+                    </div>
+                  </div>
+
+                  <img
+                    className="img-fluid"
+                    src="/Coverage Calculator.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="calCard rounded-5 p-5 bg-white">
+                <div className="d-flex gap-5 justify-content-between">
+                  <div className="txt">
+                    <h2 className=" fs-24 fw-bolder font-inter">
+                      Coverage Calculator
+                    </h2>
+                    <p className="fs-18 font-inter fw-medium mt-4">
+                      Calculate the coverage as per your insurance needs.
+                    </p>
+
+                    <div className="mt-5">
+                      <ApplyBtn
+                        textColor={"text-white"}
+                        bgColor="bg-dark-blue"
+                        text={"Renew"}
+                        arrow={false}
+                        arrowDark={false}
+                        width=""
+                      />
+                    </div>
+                  </div>
+
+                  <img
+                    className="img-fluid"
+                    src="/Coverage Calculator.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
