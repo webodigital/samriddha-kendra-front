@@ -1,0 +1,525 @@
+/***** Responsiveness Section *****/
+
+@media screen and (width < 1240px) {
+  html {
+    font-size: 53%;
+  }
+
+  .product_section_1 {
+    height: 125vh;
+  }
+}
+
+@media screen and (width < 1200px) {
+  .BecomeOurPartner_section_7 {
+    & .faqContainer {
+      .answerContainer {
+        width: 48%;
+      }
+    }
+  }
+
+  .p-66 {
+    padding: 6rem 2rem !important;
+  }
+}
+
+@media screen and (width < 992px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .product_section_1 {
+    height: 115vh;
+  }
+
+  .sign_in {
+    display: block !important;
+  }
+  .navLinks {
+    display: none !important;
+  }
+  .round {
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 0rem;
+  }
+
+  .insaurance {
+    & .text_container {
+      padding: 4rem;
+      margin-bottom: -7rem;
+
+      &.round {
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+      }
+    }
+  }
+
+  .loan_container {
+    & .text_container {
+      margin-bottom: -7rem;
+    }
+  }
+
+  .positions2 {
+    & .owl-nav {
+      top: 2rem;
+      right: 1rem;
+    }
+  }
+
+  .section_8 {
+    & .partners-Customers {
+      & .ratings-container {
+        & .rating-card {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+
+  .positions1 {
+    .owl-nav {
+      top: 2rem;
+      right: 1rem;
+    }
+  }
+
+  .fs-4 {
+    font-size: calc(2.275rem + 0.3vw) !important;
+  }
+
+  .BecomeOurPartner_section_6 {
+    & .partners-Customers {
+      & .ratings-container {
+        & .rating-card {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+  .BecomeOurPartner_section_7 {
+    & .faqContainer {
+      .answerContainer {
+        position: initial;
+        width: 100%;
+      }
+    }
+  }
+  .BecomeOurPartner_section_5 {
+    .samriddh-kendra {
+      padding: 8rem;
+    }
+  }
+
+  .career_section2 {
+    & .container {
+      margin-top: -33rem;
+      & .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        & .card {
+          padding: 7rem 3rem 2rem 12rem !important;
+
+          .img-container {
+            width: 10rem;
+            height: 10rem;
+            left: 2.2rem;
+            top: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #00000075;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border: 1px solid #fff;
+
+            img {
+              width: 80%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 888px) {
+  html {
+    font-size: 49%;
+  }
+  .section_5 {
+    & .card-slider {
+      & .custom-card {
+        height: 34rem;
+      }
+    }
+  }
+}
+
+@media screen and (width < 833px) {
+  .BecomeOurPartner_section_5 {
+    & .rightSideCards {
+      .card:nth-child(3) {
+        margin-right: 4rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (width < 768px) {
+  .product-main-text-container {
+    margin-top: 46rem;
+  }
+  .p-66 {
+    padding: 1rem 0.2rem !important;
+  }
+
+  .product_section_1 {
+    height: 150rem;
+    background-image: url("/product bg mobile view.jpg");
+    background-size: contain;
+  }
+
+  .BecomeOurPartner_section_2 {
+    .agent-card-slider {
+      padding: 2rem;
+    }
+  }
+
+  .BecomeOurPartner_section_9 {
+    iframe {
+      height: 50rem !important;
+    }
+    .pinCodeContainer {
+      width: 45rem;
+    }
+    .profile_Card {
+      width: 45rem;
+    }
+  }
+
+  .BecomeOurPartner_section_5 {
+    .center-avatar {
+      top: 15rem;
+    }
+    .card {
+      width: 100%;
+    }
+
+    .rightSideCards {
+      .card:nth-child(1) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(2) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(3) {
+        margin-right: 0rem !important;
+        margin-top: 0 !important;
+      }
+    }
+    .leftSideCards {
+      .card:nth-child(1) {
+        margin-top: 0rem !important;
+      }
+      .card:nth-child(2) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(3) {
+        margin-top: 0rem !important;
+      }
+    }
+  }
+  .fs-sm-55 {
+    font-size: 5rem !important;
+  }
+  .loan-application {
+    width: 80% !important;
+  }
+
+  .EducationLoanSection_10 {
+    .row {
+      .owl-dots {
+        width: 29rem !important;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .EducationLoanSection_11 {
+    .owl-carousel {
+      .owl-dots {
+        display: block !important;
+      }
+    }
+  }
+
+  .career_section2 {
+    & .container {
+      & .row {
+        & .card {
+          height: 22rem !important;
+          padding: 2rem 4rem 2rem 11rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 748px) {
+  html {
+    font-size: 44%;
+  }
+  .section_5 {
+    & .card-slider {
+      & .custom-card {
+        height: 36rem;
+      }
+    }
+  }
+  .section_2 {
+    & .loan_container {
+      & .text_container {
+        padding: 4rem;
+      }
+    }
+  }
+  .pera {
+    display: none;
+  }
+  .BecomeOurPartner_section_2 {
+    .agent-card-slider {
+      .agent-card {
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (width < 576px) {
+  .BecomeOurPartner_section_3 {
+    .startEarningCard {
+      background: transparent;
+      border: none;
+      color: #fff;
+      padding: 4rem;
+    }
+  }
+  .EducationLoanSection_13 {
+    .owl-nav {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (width < 548px) {
+  .footer {
+    background: linear-gradient(200deg, #000000 0%, #003c79 100%);
+  }
+  .BecomeOurPartner_section_9 {
+    .mapContainer {
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+    }
+  }
+
+  .insaurance {
+    & .image_container {
+      & .insaurance2 {
+        width: 47rem;
+        margin-bottom: -9rem;
+        z-index: 2;
+      }
+    }
+  }
+
+  .section_8 {
+    & .partners-Customers {
+      & .review-card {
+        height: 60rem;
+      }
+    }
+  }
+
+  .loan_container {
+    & .image_container {
+      & .loan2 {
+        width: 37rem;
+        margin-bottom: -6.5rem;
+        z-index: 2;
+      }
+    }
+  }
+
+  .section_8 {
+    & .partners-Customers {
+      & .img-container {
+        width: 11rem;
+        height: 11rem;
+        overflow: hidden;
+        & img {
+          width: 9rem;
+        }
+
+        & .avatar {
+          width: 7.6rem;
+        }
+      }
+    }
+  }
+
+  .owl-prev,
+  .owl-next {
+    width: 40px;
+    height: 40px;
+
+    & img {
+      width: 60%;
+    }
+  }
+
+  .about-hero-img {
+    margin-top: 7rem;
+  }
+
+  html {
+    font-size: 42%;
+  }
+
+  .resources-container {
+    .text {
+      top: 5rem;
+      left: 1rem;
+    }
+  }
+
+  .p-5-mv {
+    padding: 3rem !important;
+  }
+}
+
+@media screen and (width < 510px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 55rem;
+          }
+        }
+      }
+    }
+  }
+  .about_section_3 {
+    & .box-container {
+      & .box {
+        &:nth-child(odd) {
+          ul {
+            padding: 2rem 4.5rem 2rem 2rem;
+          }
+        }
+        ul {
+          padding: 2rem 1rem 2rem 4.5rem;
+        }
+      }
+    }
+  }
+
+  .career_section3 {
+    .searchContainer {
+      width: 100%;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media screen and (width < 461px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 45rem;
+          }
+        }
+      }
+    }
+  }
+  .BecomeOurPartner_section_5 {
+    .samriddh-kendra {
+      padding: 4rem;
+    }
+  }
+
+  .productDetailedSection_4 {
+    .emiCalculator {
+      padding: 2rem !important;
+    }
+  }
+  .loan-application {
+    width: 100% !important;
+  }
+
+  .EducationLoanSection_1 {
+    height: 48rem;
+    background-image: url("/EducationLoanHeroImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & .textContainer {
+      top: 38%;
+      left: 2%;
+    }
+  }
+
+  .fs-xs-45 {
+    font-size: 4.5rem !important;
+  }
+}
+
+@media screen and (width < 380px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 40rem;
+          }
+        }
+      }
+    }
+  }
+  .custom-btn {
+    &:nth-child(2) {
+      margin-left: 21rem;
+    }
+  }
+
+  .about_section_6 {
+    & .benefits-card {
+      .img-container {
+        width: 25rem !important;
+        height: 30rem !important;
+      }
+    }
+  }
+}
+/***** End Responsiveness Section *****/
