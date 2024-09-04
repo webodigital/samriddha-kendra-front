@@ -826,65 +826,71 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           pera2={""}
         />
         <div className="container">
-          <div className="row justify-content-between ">
-            <div className="col-lg-6 col-md-12 col-12">
-              <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
-                <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
-                  <div className="txt order-lg-first order-md-first order-sm-first order-last">
-                    <h2 className=" fs-24 fw-bolder font-inter">
-                      Coverage Calculator
-                    </h2>
-                    <p className="fs-18 font-inter fw-medium mt-4">
-                      Calculate the coverage as per your insurance needs.
-                    </p>
+          <div className="row justify-content-lg-between justify-content-center ">
+            <div className="col-lg-6 col-md-12 col-sm-12 ">
+              <div className="d-flex justify-content-center align-items-center">
+                <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
+                  <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
+                    <div className="txt order-lg-first order-md-first order-sm-first order-last">
+                      <h2 className=" fs-24 fw-bolder font-inter">
+                        Coverage Calculator
+                      </h2>
+                      <p className="fs-18 font-inter fw-medium mt-4">
+                        Calculate the coverage as per your insurance needs.
+                      </p>
 
-                    <div className="mt-5">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text={"Calculate"}
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
+                      <div className="mt-5">
+                        <ApplyBtn
+                          textColor={"text-white"}
+                          bgColor="bg-dark-blue"
+                          text={"Calculate"}
+                          arrow={false}
+                          arrowDark={false}
+                          width=""
+                        />
+                      </div>
                     </div>
-                  </div>
 
-                  <img
-                    className="img-fluid order-lg-last order-md-last order-sm-last order-first"
-                    src="/Coverage Calculator.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
-              <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
-                <div className="txt order-lg-first order-md-first order-sm-first order-last">
-                  <h2 className=" fs-24 fw-bolder font-inter">
-                    Premium Calculator
-                  </h2>
-                  <p className="fs-18 font-inter fw-medium mt-4">
-                    As per your policy & tenure calculate the premiums.
-                  </p>
-
-                  <div className="mt-5">
-                    <ApplyBtn
-                      textColor={"text-white"}
-                      bgColor="bg-dark-blue"
-                      text={"Calculate"}
-                      arrow={false}
-                      arrowDark={false}
-                      width=""
+                    <img
+                      className="img-fluid order-lg-last order-md-last order-sm-last order-first"
+                      src="/Coverage Calculator.png"
+                      alt=""
                     />
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-sm-12 ">
+              <div className="d-flex justify-content-center align-items-center">
+                <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
+                  <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
+                    <div className="txt order-lg-first order-md-first order-sm-first order-last">
+                      <h2 className=" fs-24 fw-bolder font-inter">
+                        Premium Calculator
+                      </h2>
+                      <p className="fs-18 font-inter fw-medium mt-4">
+                        As per your policy & tenure calculate the premiums.
+                      </p>
 
-                <img
-                  className="img-fluid order-lg-last order-md-last order-sm-last order-first"
-                  src="/Premium Calculator.png"
-                  alt=""
-                />
+                      <div className="mt-5">
+                        <ApplyBtn
+                          textColor={"text-white"}
+                          bgColor="bg-dark-blue"
+                          text={"Calculate"}
+                          arrow={false}
+                          arrowDark={false}
+                          width=""
+                        />
+                      </div>
+                    </div>
+
+                    <img
+                      className="img-fluid order-lg-last order-md-last order-sm-last order-first"
+                      src="/Premium Calculator.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
