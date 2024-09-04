@@ -2343,6 +2343,7 @@ li {
     width: 100% !important;
     margin-top: -5rem;
     padding: 0 !important;
+    background: transparent !important;
 
     .active {
       color: #60c6ff !important;
