@@ -2522,6 +2522,7 @@ li {
     justify-content: center;
     align-items: start;
     padding: 2rem 4rem;
+    border: 0.3rem solid var(--btn-bg);
 
     img {
       width: 3.5rem;
@@ -2596,10 +2597,71 @@ li {
   }
 }
 
-.motorInsuranceSection_4 {
+/***** End motorInsurance page Section *****/
+
+/***** ShopInsurance page Section *****/
+
+.shopInsurance_section1 {
+  height: 75rem;
+  background-image: url("/shopInsurancebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .textContainer {
+    top: 15%;
+    left: 8%;
+  }
+
+  .getInsurance {
+    width: 37rem;
+
+    input {
+      color: #f9f9f9;
+      background: #bbd8fb38;
+      border: 2px solid #9ecaff38;
+      outline: none;
+    }
+
+    button {
+      border: 2px solid #9ecaff38 !important;
+    }
+  }
 }
 
-/***** End motorInsurance page Section *****/
+.shopInsurance_section7 {
+  .row {
+    .col-lg-5:nth-child(1) {
+      .card {
+        img {
+          width: 6rem;
+        }
+      }
+    }
+    .col-lg-5:nth-child(2) {
+      .card {
+        img {
+          width: 6rem;
+        }
+      }
+    }
+    .col-lg-5:nth-child(3) {
+      .card {
+        img {
+          width: 6rem;
+        }
+      }
+    }
+    .col-lg-5:nth-child(4) {
+      .card {
+        img {
+          width: 7rem;
+        }
+      }
+    }
+  }
+}
+
+/***** End ShopInsurance page Section *****/
 
 /***** Footer Section *****/
 
