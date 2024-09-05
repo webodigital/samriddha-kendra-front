@@ -1,11 +1,7 @@
-import React from "react";
+import ContactUsForm from "../components/ContactForms/ContactUsForm";
 
 const ContactUs = () => {
-  return (
-    <center className="mt-15">
-      <h1>Contact</h1>
-    </center>
-  );
+  return <ContactUsForm />;
 };
 
 export default ContactUs;
