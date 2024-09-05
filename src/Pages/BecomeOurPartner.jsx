@@ -297,7 +297,7 @@ const BecomeOurPartner = () => {
             <div className="row">
               <div className="col-lg-2 col-md-2 col-sm-3 col-4 px-5">
                 <p className="fs-36 fw-medium text-white title-font text-lg-center text-md-center text-sm-start text-start mt-12">
-                  Insaurance
+                  Insurance
                 </p>
               </div>
               <div className="col-lg-10 col-md-10 col-sm-9 col-8">

@@ -44,7 +44,7 @@
     border-bottom-left-radius: 0rem;
   }
 
-  .insaurance {
+  .Insurance {
     & .text_container {
       padding: 4rem;
       margin-bottom: -7rem;
@@ -344,9 +344,9 @@
     }
   }
 
-  .insaurance {
+  .Insurance {
     & .image_container {
-      & .insaurance2 {
+      & .Insurance2 {
         width: 47rem;
         margin-bottom: -9rem;
         z-index: 2;

@@ -11,6 +11,7 @@ const LifeInsurance = () => {
     aspirationsSliderCarouselOptions,
     educationLoan,
     reviewCarouselOptions,
+    partnersCarouselOptions,
   } = useContext(CreatingContext);
 
   const [activeTab, setActiveTab] = useState("exclusions");
@@ -590,7 +591,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_8 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue my-7">
+      <section className="lifeInsuranceSection_8 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue">
         <EducationLoanTitle
           title={"Life Insurance Plan - What it Covers?"}
           color="white"
@@ -770,7 +771,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           pera2={""}
         />
 
-        <div className="container ">
+        <div data-aos={"fade-down"} className="container ">
           <div className="row flex-column gap-4">
             <div className="stepsContainer d-flex align-items-start gap-5">
               <p className="fs-18 fw-semibold font-inter stepCounts  text-white rounded-circle ">
@@ -833,7 +834,10 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           <div className="row justify-content-lg-between justify-content-center ">
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex justify-content-center align-items-center">
-                <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
+                <div
+                  data-aos={"flip-right"}
+                  className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white"
+                >
                   <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
                     <div className="txt order-lg-first order-md-first order-sm-first order-last">
                       <h2 className=" fs-24 fw-bolder font-inter">
@@ -866,7 +870,10 @@ It consists of parts of Latin words with no specific meaning and is used as temp
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex justify-content-center align-items-center">
-                <div className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white">
+                <div
+                  data-aos={"flip-left"}
+                  className="calCard rounded-5 mt-lg-0 mt-md-3 mt-4 p-5 bg-white"
+                >
                   <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column  gap-5 justify-content-between">
                     <div className="txt order-lg-first order-md-first order-sm-first order-last">
                       <h2 className=" fs-24 fw-bolder font-inter">
@@ -1171,6 +1178,152 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     />
                   </div>
                 </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="lifeInsuranceSection_14">
+        <EducationLoanTitle
+          title={"PRODUCTS YOU MAY LIKE"}
+          color="black"
+          fontSize="fs-32"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container">
+          <div className="row">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...reviewCarouselOptions}
+            >
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img
+                    src="/Health Insurance img.png"
+                    className="p-4 img-fluid"
+                    alt=""
+                  />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <h2 className="fs-24 ps-4 font-inter fw-semibold">
+                      Health Insurance
+                    </h2>
+                    <p className="fs-18 font-inter ps-4  mt-2">
+                      Choose the right insurance with Samriddh Kendra.
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Learn More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img
+                    src="/Motor Insurance img.png"
+                    className="p-4 img-fluid"
+                    alt=""
+                  />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <h2 className="fs-24 ps-4 font-inter fw-semibold">
+                      Motor Insurance
+                    </h2>
+                    <p className="fs-18 font-inter ps-4  mt-2">
+                      Choose the right insurance with Samriddh Kendra.
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Learn More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img
+                    src="/Shop Insurance img.png"
+                    className="p-4 img-fluid"
+                    alt=""
+                  />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <h2 className="fs-24 ps-4 font-inter fw-semibold">
+                      Shop Insurance
+                    </h2>
+                    <p className="fs-18 font-inter ps-4  mt-2">
+                      Choose the right insurance with Samriddh Kendra.
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Learn More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="lifeInsuranceSection_14  EducationLoanSection_13 my-10 px-lg-0 px-md-0 px-4">
+        <EducationLoanTitle
+          title={"Our Loan Partners"}
+          color="black"
+          fontSize="fs-36"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container position-relative">
+          <div className="row align-items-center">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...partnersCarouselOptions}
+            >
+              <div className="item">
+                <img className="img-fluid" src="/Chola Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="/Union Bank Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img
+                  className="img-fluid"
+                  src="/Bandhan Bank Logo.webp"
+                  alt=""
+                />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="/HDFC Bank Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="/Yes Bank Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img
+                  className="img-fluid"
+                  src="/Bajaj Finserve Logo.webp"
+                  alt=""
+                />
               </div>
             </OwlCarousel>
           </div>

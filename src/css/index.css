@@ -389,7 +389,7 @@ li {
 }
 
 .loan_container,
-.insaurance {
+.Insurance {
   .row > * {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -616,17 +616,17 @@ li {
 
 /* ---------------------------------------------------- */
 
-/***** insaurance Container Section *****/
+/***** Insurance Container Section *****/
 
-.insaurance {
+.Insurance {
   background: var(--bg-light-gray);
   padding: 5rem 0;
 
   & .image_container {
-    & .insaurance1 {
+    & .Insurance1 {
       width: 45rem;
     }
-    & .insaurance2 {
+    & .Insurance2 {
       width: 50rem;
     }
   }
@@ -644,7 +644,7 @@ li {
   }
 }
 
-/***** End insaurance Container Section *****/
+/***** End Insurance Container Section *****/
 
 /* ---------------------------------------------------- */
 
@@ -2478,7 +2478,128 @@ li {
     }
   }
 }
+
+.lifeInsuranceSection_14 {
+  .blogsCard {
+    margin-bottom: 4rem;
+  }
+}
 /***** End Insurance Page Section *****/
+
+/***** HealthInsurance page Section *****/
+
+.HealthInsurance_section1 {
+  height: 75rem;
+  background-image: url("/HealthInsurancebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .textContainer {
+    top: 15%;
+    left: 8%;
+  }
+
+  .getInsurance {
+    width: 37rem;
+
+    input {
+      color: #f9f9f9;
+      background: #bbd8fb38;
+      border: 2px solid #9ecaff38;
+      outline: none;
+    }
+
+    button {
+      border: 2px solid #9ecaff38 !important;
+    }
+  }
+}
+
+.healthInsuranceSection_7 {
+  .card {
+    height: 18rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem 4rem;
+
+    img {
+      width: 3.5rem;
+    }
+
+    .card-body {
+      ul li {
+        list-style: disc !important;
+        padding-top: 0.2rem;
+      }
+    }
+  }
+
+  .row {
+    .col-lg-5:nth-child(2) {
+      .card {
+        img {
+          width: 5.5rem;
+        }
+      }
+    }
+    .col-lg-5:nth-child(3) {
+      .card {
+        img {
+          width: 5.5rem;
+        }
+      }
+    }
+    .col-lg-5:nth-child(4) {
+      .card {
+        img {
+          width: 5.5rem;
+        }
+      }
+    }
+  }
+}
+
+.healthInsuranceSection_9 {
+  .text-color {
+    color: #004faccc;
+  }
+}
+/***** End HealthInsurance page Section *****/
+
+/***** motorInsurance page Section *****/
+
+.motorInsurance_section1 {
+  height: 75rem;
+  background-image: url("/MotorInsurancebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .textContainer {
+    top: 15%;
+    left: 8%;
+  }
+
+  .getInsurance {
+    width: 37rem;
+
+    input {
+      color: #f9f9f9;
+      background: #bbd8fb38;
+      border: 2px solid #9ecaff38;
+      outline: none;
+    }
+
+    button {
+      border: 2px solid #9ecaff38 !important;
+    }
+  }
+}
+
+.motorInsuranceSection_4 {
+}
+
+/***** End motorInsurance page Section *****/
 
 /***** Footer Section *****/
 

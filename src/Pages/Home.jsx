@@ -6,6 +6,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { carouselOptions } = useContext(CreatingContext);
@@ -61,7 +62,9 @@ const Home = () => {
                   scrambled it to make a type specimen book.
                 </p>
                 <div className="btn-container mt-5">
-                  <Button content={"Apply for loan"} />
+                  <Link to={"/products/loan/education_loan"}>
+                    <Button content={"Apply for loan"} />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -72,31 +75,27 @@ const Home = () => {
       {/* ----------------------------------------------------- */}
 
       <section data-aos="zoom-in" className="section_3 mt-3">
-        <div className="container-fluid insaurance">
+        <div className="container-fluid Insurance">
           <div className="row justify-content-md-center justify-content-center">
             <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10 col-10  order-lg-last  order-md-last order-last">
               <div className="text_container text-white d-flex flex-column justify-content-center align-items-start round ">
-                <p className="fs-36">Insaurance</p>
+                <p className="fs-36">Insurance</p>
                 <p className="font-inter fs-24">
                   Ipsum has been the industry's standard dummy text ever since
                   the 1500s, when an unknown printer took a galley of type and
                   scrambled it to make a type specimen book.
                 </p>
                 <div className="btn-container mt-5">
-                  <Button content={"Click to know more"} />
+                  <Link to={"/products/insurance/life"}>
+                    <Button content={"Click to know more"} />
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
               <div className="image_container d-flex flex-column align-items-center p-5  ">
-                <img
-                  className="img-fluid insaurance1"
-                  src="./Insaurance2.webp"
-                />
-                <img
-                  className="img-fluid insaurance2"
-                  src="./Insaurance.webp"
-                />
+                <img className="img-fluid Insurance1" src="./Insurance2.webp" />
+                <img className="img-fluid Insurance2" src="./Insurance.webp" />
               </div>
             </div>
           </div>
@@ -141,7 +140,7 @@ const Home = () => {
 
           <p className="fs-1 mb-5 text-light-gray px-2">
             Samriddh Kendra is pioneering an innovative approach to loan and
-            insaurance distribution in rural Bharat by leveraging technology and
+            Insurance distribution in rural Bharat by leveraging technology and
             establishing the Samriddh Sathi for effective implementation.
           </p>
         </header>
@@ -204,11 +203,7 @@ const Home = () => {
                 <img src="./STPI Logo 1.webp" alt="" className="img-fluid " />
               </div>
               <div className="company-Logo col-3">
-                <img
-                  src="./Bihar Say Logo.webp"
-                  alt=""
-                  className="img-fluid "
-                />
+                <img src="./iciitpatana.webp" alt="" className="img-fluid " />
               </div>
               <div className="company-Logo col-3">
                 <img

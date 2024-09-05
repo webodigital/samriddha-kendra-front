@@ -7,10 +7,11 @@ const EducationLoanTitle = ({
   fontSize,
   ratings,
   pera,
+  txtCenter,
   pera2,
 }) => {
   return (
-    <div className="container my-7">
+    <div className={`container w-100 ${txtCenter} my-7`}>
       <h1
         className={`${fontSize} fw-bolder font-inter ${
           color === "black"
@@ -28,7 +29,7 @@ const EducationLoanTitle = ({
         } gap-4 mt-3`}
       >
         <p
-          className={`fs-16 font-inter ${
+          className={`fs-16 font-inter ${txtCenter} w-100  ${
             color === "black" ? "text-dark" : "text-white"
           } fw-medium mt-3`}
         >
