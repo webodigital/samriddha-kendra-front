@@ -5,7 +5,7 @@ const Insurance = () => {
   return (
     <div className="insurance mt-11 ">
       <nav
-        className="navbar navbar-expand-lg font-inter I
+        className="navbar  navbar-expand-lg font-inter I
       py-4 insuranceNav "
       >
         <div className="container ">
@@ -55,6 +55,10 @@ const Insurance = () => {
                 >
                   Shop Insurance
                 </NavLink>
+
+                <a className="nav-link fs-20 fw-medium text-light-gray">
+                  Claim - 1800-122-124468
+                </a>
               </div>
             </div>
 
