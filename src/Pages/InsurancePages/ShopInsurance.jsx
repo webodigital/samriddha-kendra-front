@@ -181,7 +181,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 className="d-flex justify-content-center align-items-end"
               >
                 <img
-                  src="/Shop Insurance Avatar.png"
+                  src="/Shop Insurance Avatar.webp"
                   alt=""
                   className="img-fluid"
                 />
@@ -812,7 +812,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/ArticlesBlogsImg1.png"
+                    src="/ArticlesBlogsImg1.webp"
                     className="img-fluid"
                     alt=""
                   />
@@ -835,9 +835,9 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 </div>
               </div>
               <div className="item">
-                <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/ArticlesBlogsImg2.png"
+                    src="/ArticlesBlogsImg2.webp"
                     className="img-fluid"
                     alt=""
                   />
@@ -860,9 +860,9 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 </div>
               </div>
               <div className="item">
-                <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/ArticlesBlogsImg3.png"
+                    src="/ArticlesBlogsImg3.webp"
                     className="img-fluid"
                     alt=""
                   />
@@ -895,7 +895,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
             <div className="col-lg-6 col-md-6 col-12 ">
               <img
                 className="img-fluid h-100 object-fit-cover"
-                src="/ShopClaim.png"
+                src="/ShopClaim.webp"
                 alt=""
               />
             </div>
@@ -943,7 +943,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/Health Insurance img.png"
+                    src="/Health Insurance img.webp"
                     className="p-4 img-fluid"
                     alt=""
                   />
@@ -969,7 +969,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/Motor Insurance img.png"
+                    src="/Motor Insurance img.webp"
                     className="p-4 img-fluid"
                     alt=""
                   />
@@ -995,7 +995,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
-                    src="/Shop Insurance img.png"
+                    src="/Shop Insurance img.webp"
                     className="p-4 img-fluid"
                     alt=""
                   />

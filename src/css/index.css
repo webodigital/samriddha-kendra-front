@@ -2258,7 +2258,7 @@ li {
 
 .liftInsuranceSection_1 {
   height: 70rem;
-  background-image: url("/lifeInsurance.png");
+  background-image: url("/lifeInsurance.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2490,7 +2490,7 @@ li {
 
 .HealthInsurance_section1 {
   height: 75rem;
-  background-image: url("/HealthInsurancebg.png");
+  background-image: url("/HealthInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2562,6 +2562,12 @@ li {
 }
 
 .healthInsuranceSection_9 {
+  background-image: url("/fadedMap.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0 9rem 0;
+
   .text-color {
     color: #004faccc;
   }
@@ -2572,7 +2578,7 @@ li {
 
 .motorInsurance_section1 {
   height: 75rem;
-  background-image: url("/MotorInsurancebg.png");
+  background-image: url("/MotorInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2603,7 +2609,7 @@ li {
 
 .shopInsurance_section1 {
   height: 75rem;
-  background-image: url("/shopInsurancebg.png");
+  background-image: url("/shopInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

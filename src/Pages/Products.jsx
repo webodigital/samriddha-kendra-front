@@ -34,7 +34,7 @@ const Products = () => {
                       </button>
                     </Link>
                     <Link
-                      to={"/products/loan"}
+                      to={"/products/loan/education_loan"}
                       className="text-white fw-medium w-80 text-end me-5"
                     >
                       <button className="btn custom-btn mt-5 fs-24 text-white font-inter ">

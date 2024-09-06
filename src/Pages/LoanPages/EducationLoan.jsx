@@ -17,7 +17,7 @@ const EducationLoan = () => {
   } = useContext(CreatingContext);
 
   return (
-    <div className="EducationLoan mt-7">
+    <div className="EducationLoan">
       <section className="EducationLoanSection_1 position-relative">
         <div data-aos="flip-right" className="position-absolute textContainer">
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
