@@ -53,7 +53,7 @@ const BecomeOurPartner = () => {
               className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
             >
               <div className="img-container">
-                <img className="img-fluid" src="Loan Agents.png" alt="" />
+                <img className="img-fluid" src="Loan Agents.webp" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Loan Agents</p>
             </div>
@@ -64,7 +64,7 @@ const BecomeOurPartner = () => {
               <div className="img-container">
                 <img
                   className="img-fluid"
-                  src="Former bank employees.png"
+                  src="Former bank employees.webp"
                   alt=""
                 />
               </div>
@@ -77,7 +77,7 @@ const BecomeOurPartner = () => {
               className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
             >
               <div className="img-container">
-                <img className="img-fluid" src="Insurance agents.png" alt="" />
+                <img className="img-fluid" src="Insurance agents.webp" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Insurance agents</p>
             </div>
@@ -87,7 +87,7 @@ const BecomeOurPartner = () => {
               className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
             >
               <div className="img-container">
-                <img className="img-fluid" src="Wealth Advisors.png" alt="" />
+                <img className="img-fluid" src="Wealth Advisors.webp" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Wealth Advisors</p>
             </div>
@@ -98,7 +98,7 @@ const BecomeOurPartner = () => {
               <div className="img-container">
                 <img
                   className="img-fluid"
-                  src="BFSI Professionals.png"
+                  src="BFSI Professionals.webp"
                   alt=""
                 />
               </div>

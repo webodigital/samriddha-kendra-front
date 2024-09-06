@@ -22,6 +22,10 @@ import HealthInsurance from "../Pages/InsurancePages/HealthInsurance";
 import MotorInsurance from "../Pages/InsurancePages/MotorInsurance";
 import Loan from "../Pages/LoanPages/Loan";
 import ShopInsurance from "../Pages/InsurancePages/ShopInsurance";
+import Lap from "../Pages/LoanPages/Lap";
+import Personal from "../Pages/LoanPages/Personal";
+import Business from "../Pages/LoanPages/Business";
+import HomeLoan from "../Pages/LoanPages/HomeLoan";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,6 +41,10 @@ export const router = createBrowserRouter(
         </Route>
         <Route path="loan" element={<Loan />}>
           <Route path="education_loan" element={<EducationLoan />} />
+          <Route path="lap" element={<Lap />} />
+          <Route path="personal" element={<Personal />} />
+          <Route path="business" element={<Business />} />
+          <Route path="home" element={<HomeLoan />} />
         </Route>
         <Route
           path="Calculate_EMI_Interest"

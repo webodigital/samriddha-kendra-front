@@ -1523,6 +1523,28 @@ li {
         height: 6rem;
       }
     }
+
+    & .agent-card:nth-child(1) {
+      .img-container {
+        width: 10rem;
+      }
+    }
+
+    & .agent-card:nth-child(3) {
+      .img-container {
+        width: 9rem;
+      }
+    }
+    & .agent-card:nth-child(4) {
+      .img-container {
+        width: 9rem;
+      }
+    }
+    & .agent-card:nth-child(5) {
+      .img-container {
+        width: 7.5rem;
+      }
+    }
   }
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Lap = () => {
+const Business = () => {
   return (
     <center>
       <h1 className="font-inter text-danger my-5 fw-bold">
@@ -10,4 +10,4 @@ const Lap = () => {
   );
 };
 
-export default Lap;
+export default Business;
