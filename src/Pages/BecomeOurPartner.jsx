@@ -214,7 +214,7 @@ const BecomeOurPartner = () => {
               className="col-lg-6  col-md-12 col-12 order-lg-last order-md-first order-first"
             >
               <div className="image-container text-center mt-lg-0 mt-md-5 mt-5  p-5">
-                <img className="img-fluid" src="./start Earning.png" alt="" />
+                <img className="img-fluid" src="./start Earning.webp" alt="" />
               </div>
             </div>
           </div>

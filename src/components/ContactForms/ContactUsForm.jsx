@@ -3,7 +3,7 @@ import ApplyBtn from "./../Buttons/ApplyBtn";
 
 const ContactUsForm = () => {
   return (
-    <div data-aos="zoom-in" className="about_section_7 my-10">
+    <div className="about_section_7 my-10">
       <div className="container">
         <div className="form-container rounded-4">
           <header className="col-12">

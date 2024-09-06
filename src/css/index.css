@@ -690,7 +690,7 @@ li {
 
     & .custom-card {
       width: 30rem;
-      height: 31rem;
+      height: 35rem;
       border: 2px solid #dddd;
       background: var(--bg-light-gray);
       position: relative;
@@ -703,6 +703,7 @@ li {
 
       & .icon {
         margin-top: -10rem;
+        width: 15rem;
       }
 
       .steps-container {
@@ -2690,6 +2691,22 @@ li {
 }
 
 /***** End ShopInsurance page Section *****/
+
+/***** contactPage Section *****/
+
+.contactPage {
+  .img-container {
+    height: 98vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+/***** End contactPage Section *****/
 
 /***** Footer Section *****/
 

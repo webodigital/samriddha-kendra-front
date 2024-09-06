@@ -48,8 +48,7 @@ const Home = () => {
         <div className="container-fluid loan_container py-7">
           <div className="row justify-content-md-center justify-content-center align-items-center">
             <div className="  col-xl-7 col-lg-6 col-md-12 col-12 ">
-              <div className="image_container d-flex flex-column align-items-center p-5">
-                <img className="img-fluid loan" src="./LOAN.webp" />
+              <div className="image_container d-flex flex-column align-items-center ">
                 <img className="img-fluid loan2" src="./Loan_img_1.webp" />
               </div>
             </div>
@@ -93,8 +92,7 @@ const Home = () => {
               </div>
             </div>
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
-              <div className="image_container d-flex flex-column align-items-center p-5  ">
-                <img className="img-fluid Insurance1" src="./Insurance2.webp" />
+              <div className="image_container d-flex flex-column align-items-center  ">
                 <img className="img-fluid Insurance2" src="./Insurance.webp" />
               </div>
             </div>
