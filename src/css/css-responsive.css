@@ -458,6 +458,21 @@
       gap: 3rem;
     }
   }
+
+  .contactPage {
+    & .img-container {
+      margin-top: 6.2rem !important;
+
+      img {
+        object-position: top;
+        object-fit: contain;
+      }
+    }
+
+    .txt {
+      margin-top: -35rem !important;
+    }
+  }
 }
 
 @media screen and (width < 461px) {
@@ -501,6 +516,12 @@
 
   .fs-xs-45 {
     font-size: 4.5rem !important;
+  }
+
+  .contactPage {
+    .txt {
+      margin-top: -43rem !important;
+    }
   }
 }
 

@@ -4,8 +4,8 @@ import Button from "./../components/Buttons/Button";
 const ContactUs = () => {
   return (
     <div className="contactPage">
-      <div className="d-flex">
-        <div className="col-6">
+      <div className="d-flex flex-lg-row flex-md-row flex-column">
+        <div className="col-lg-6 col-md-6 col-12">
           <div className="img-container mt-7">
             <img
               className="img-fluid rounded-5"
@@ -15,7 +15,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="col-6">
+        <div className="col-lg-6 col-md-6 col-12">
           <div className="txt mt-15 text-center p-5">
             {" "}
             <p className="p-5 fs-24 font-inter fw-medium">
