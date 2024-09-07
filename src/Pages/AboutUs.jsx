@@ -104,7 +104,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="col-lg-6  col-md-12 col-12">
-            <div className="image-container text-center mt-lg-0 mt-md-5 order-first">
+            <div className="image-container text-center mt-lg-0 mt-md-5 order-first p-5 mt-lg-0 mt-md-0 mt-7">
               <img className="img-fluid" src="./aboutUsImg2.webp" alt="" />
             </div>
           </div>
