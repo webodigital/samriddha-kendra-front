@@ -5,7 +5,7 @@ const Insurance = () => {
   return (
     <div className="insurance mt-11 ">
       <nav
-        className="navbar  navbar-expand-lg font-inter I
+        className="navbar position-sticky z-3 top-2 navbar-expand-lg font-inter I
       py-4 insuranceNav "
       >
         <div className="container ">

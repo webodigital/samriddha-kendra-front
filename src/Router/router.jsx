@@ -26,6 +26,11 @@ import Lap from "../Pages/LoanPages/Lap";
 import Personal from "../Pages/LoanPages/Personal";
 import Business from "../Pages/LoanPages/Business";
 import HomeLoan from "../Pages/LoanPages/HomeLoan";
+import Privacy_policy from "../Pages/Privacy_policy";
+import RefundPolicy from "../Pages/RefundPolicy";
+import GrievanceOfficer from "../Pages/GrievanceOfficer";
+import TermsOfUse from "./../Pages/TermsOfUse";
+import Blogs from "../Pages/Blogs";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -52,6 +57,11 @@ export const router = createBrowserRouter(
         />
       </Route>
       <Route path="contact" element={<ContactUs />} />
+      <Route path="privacy_policy" element={<Privacy_policy />} />
+      <Route path="refund_policy" element={<RefundPolicy />} />
+      <Route path="grievance_officer" element={<GrievanceOfficer />} />
+      <Route path="terms_of_use" element={<TermsOfUse />} />
+      <Route path="blogs" element={<Blogs />} />
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
       <Route path="career" element={<Career />}>
         <Route path="apply" element={<ApplyForJob />} />

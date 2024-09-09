@@ -7,6 +7,7 @@ const CreatingContext = createContext();
 import AOS from "aos";
 import "aos/dist/aos.js";
 import "aos/dist/aos.css";
+import { useLocation } from "react-router-dom";
 
 /* carouselOptions */
 
@@ -183,6 +184,13 @@ export const ContextProvider = ({ children }) => {
   /* Education Loan */
 
   const [loanType, setLoanType] = useState("Undergraduate Loan");
+
+  /* Move To Top */
+
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   /* On Scroll Animation With AOS*/
 

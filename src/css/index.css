@@ -82,6 +82,9 @@ html {
 .mb-8 {
   margin-bottom: 8rem !important;
 }
+.top-2 {
+  top: 7.6rem !important;
+}
 
 .pb-7 {
   padding-bottom: 7rem;
@@ -2275,7 +2278,7 @@ li {
 /***** Insurance Page Section *****/
 
 .insuranceNav {
-  background: #bbd8fb38;
+  background: #e0f0ff;
   padding: 0 4% !important;
 }
 

@@ -40,14 +40,14 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="mt-4">
-                    <Link to={"about"}>
-                      <a href="#" className="text-white">
+                    <Link to={"/about"}>
+                      <a href="#faq" className="text-white">
                         How it Works
                       </a>
                     </Link>
                   </li>
                   <li className="mt-4">
-                    <Link to={"become_our_partner"}>
+                    <Link to={"/become_our_partner"}>
                       <a href="#" className="text-white">
                         FAQ
                       </a>
@@ -78,7 +78,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="mt-4">
-                    <Link to={"education_loan"}>
+                    <Link to={"/blogs"}>
                       <a href="#" className="text-white">
                         Blog
                       </a>
@@ -90,24 +90,32 @@ const Footer = () => {
                 <h1 className="footer-heading">Information</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Privacy Policy
-                    </a>
+                    <Link to={"/privacy_policy"}>
+                      <a href="#" className="text-white">
+                        Privacy Policy
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Terms of Use
-                    </a>
+                    <Link to={"/terms_of_use"}>
+                      <a href="" className="text-white">
+                        Terms of Use
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Refund Policy
-                    </a>
+                    <Link to={"/refund_policy"}>
+                      <a href="" className="text-white">
+                        Refund Policy
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Grievance officer
-                    </a>
+                    <Link to={"/grievance_officer"}>
+                      <a href="" className="text-white">
+                        Grievance officer
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -116,14 +124,14 @@ const Footer = () => {
                 <h1 className="footer-heading">Tools</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
-                    <Link to={"product_detailed_page"}>
+                    <Link to={"/products/Calculate_EMI_Interest"}>
                       <a href="#" className="text-white">
                         EMI Calculator
                       </a>
                     </Link>
                   </li>
                   <li className="mt-4">
-                    <Link to={"product_detailed_page"}>
+                    <Link to={"/products/Calculate_EMI_Interest"}>
                       <a href="#" className="text-white">
                         Balance Transfer Calculator
                       </a>

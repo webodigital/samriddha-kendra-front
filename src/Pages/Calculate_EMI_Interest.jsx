@@ -46,12 +46,13 @@ const Calculate_EMI_Interest = () => {
 
               <div className="video-container mt-5">
                 <iframe
-                  className="img-fluid"
-                  src="https://www.youtube.com/embed/HiFzEFQOUfM?si=gn4MGjwY8RzGeNP0"
+                  className="img-fluid rounded-5"
+                  src="https://www.youtube.com/embed/z6XAZve99xY?si=Rk0HIQ4rwdc31FAF"
                   title="YouTube video player"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
                 ></iframe>
               </div>
             </div>

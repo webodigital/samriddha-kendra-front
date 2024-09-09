@@ -648,7 +648,7 @@ const BecomeOurPartner = () => {
         </div>
       </section>
 
-      <section className="BecomeOurPartner_section_7">
+      <section className="BecomeOurPartner_section_7" id="faq">
         <Title
           first_text="Frequently Asked "
           span_text="Questions"
