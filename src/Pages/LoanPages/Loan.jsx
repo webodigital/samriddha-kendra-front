@@ -25,45 +25,29 @@ const Loan = () => {
                   </NavLink>
 
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? "nav-link fs-20 fw-medium Active"
-                        : "nav-link fs-20 fw-medium text-light-gray"
-                    }
-                    to="/products/loan/lap"
+                    className={"nav-link fs-20 fw-medium text-light-gray"}
+                    to="/products/loan/education_loan"
                   >
                     LAP Loans
                   </NavLink>
 
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? "nav-link fs-20 fw-medium Active"
-                        : "nav-link fs-20 fw-medium text-light-gray"
-                    }
-                    to="/products/loan/personal"
+                    className={"nav-link fs-20 fw-medium text-light-gray"}
+                    to="/products/loan/education_loan"
                   >
                     Personal Loan
                   </NavLink>
 
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? "nav-link fs-20 fw-medium Active"
-                        : "nav-link fs-20 fw-medium text-light-gray"
-                    }
-                    to="/products/loan/business"
+                    className={"nav-link fs-20 fw-medium text-light-gray"}
+                    to="/products/loan/education_loan"
                   >
                     Business Loan
                   </NavLink>
 
                   <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? "nav-link fs-20 fw-medium Active"
-                        : "nav-link fs-20 fw-medium text-light-gray"
-                    }
-                    to="/products/loan/home"
+                    className={"nav-link fs-20 fw-medium text-light-gray"}
+                    to="/products/loan/education_loan"
                   >
                     Home Loan
                   </NavLink>
