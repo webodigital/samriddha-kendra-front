@@ -902,7 +902,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           </div>
 
           <div className="mt-11 d-flex flex-column justify-content-center align-items-center gap-3">
-            <p className="fs-18 font-inter fw-semibold">
+            <p className="fs-18 font-inter fw-semibold text-center">
               Many individuals in your vicinity have already opted for Samriddh
               Health Insurance
             </p>

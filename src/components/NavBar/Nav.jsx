@@ -69,8 +69,15 @@ const Nav = () => {
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div className="offcanvas-header ">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                <img src="./Samriddh.webp" alt="" />
+              <h5
+                className="offcanvas-title w-100 text-center"
+                id="offcanvasNavbarLabel"
+              >
+                <img
+                  className="logo"
+                  src="/Samriddh Kendra Logo.png"
+                  alt="Logo"
+                />
               </h5>
               <button
                 type="button"

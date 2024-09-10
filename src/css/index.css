@@ -248,10 +248,6 @@ a {
   background: #bbd8fb38 !important;
 }
 
-.offcanvas-backdrop.show {
-  opacity: 0 !important;
-}
-
 .light-gray-bg {
   background-color: #f7f7f7;
 }
