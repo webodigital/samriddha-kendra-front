@@ -14,8 +14,8 @@ const ContactUsForm = () => {
             </p>
           </header>
 
-          <div className="d-flex mt-4 align-items-center">
-            <form className=" col-lg-5 col-md-6 col-12">
+          <div className="row mt-11 ">
+            <form className=" col-lg-5 col-md-12 col-12">
               <div className="mb-3">
                 <input
                   type="text"
@@ -44,7 +44,7 @@ const ContactUsForm = () => {
                 <textarea
                   className="rounded-lg-2 rounded-md-3 rounded-sm-4 form-control fs-2 font-inter p-4"
                   id="exampleFormControlTextarea1"
-                  rows="3"
+                  rows="5"
                   placeholder="Enquiry"
                 ></textarea>
               </div>
@@ -59,23 +59,37 @@ const ContactUsForm = () => {
               />
             </form>
 
-            <div className="col-lg-7 col-md-6 col-12">
-              <div className="imageContainer d-lg-flex d-md-flex flex-column align-items-center d-sm-none d-none">
-                <img className="img-fluid" src="./ContactImg.png" alt="" />
+            <div className="col-lg-7 col-md-12 col-12">
+              <div className="imageContainer d-lg-flex d-md-flex flex-column justify-content-center align-items-center mt-lg-0 mt-md-5 mt-11">
+                <div className="w-80">
+                  <img
+                    className="img-fluid "
+                    src="./Contact UsImg.webp"
+                    alt=""
+                  />
+                </div>
 
-                <div className="number">
-                  <p className="fs-2 text-medium-gray font-inter">
+                <div className="number mt-5">
+                  <p className="fs-2 text-medium-gray text-center fw-medium font-inter">
                     CONTACT INFO
                   </p>
-                  <div className="d-flex align-items-center gap-3">
-                    <img
-                      style={{ width: "20px" }}
-                      src="./callIcon.png"
-                      alt=""
-                    />
-                    <p className="text-white fw-semibold fs-20 font-inter">
-                      +91 8758493204
-                    </p>
+                  <div className="d-flex flex-wrap justify-content-center gap-5">
+                    <div className="d-flex align-items-center gap-3">
+                      <img style={{ width: "20px" }} src="/mail.svg" alt="" />
+                      <p className="text-white mt-3 fw-semibold fs-20 font-inter">
+                        support@samriddhkedra.in
+                      </p>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                      <img
+                        style={{ width: "20px" }}
+                        src="./callIcon.png"
+                        alt=""
+                      />
+                      <p className="text-white fw-semibold fs-20 font-inter">
+                        +91 8758493204
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

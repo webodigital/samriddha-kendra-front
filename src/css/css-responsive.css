@@ -279,6 +279,10 @@
       }
     }
   }
+
+  .w-80 {
+    width: 100% !important;
+  }
 }
 
 @media screen and (width < 748px) {
