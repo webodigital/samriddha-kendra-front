@@ -130,11 +130,13 @@ const Career = () => {
                 </div>
               </div>
 
-              <form class="row g-3 mt-7">
-                <div class="col-md-6">
-                  <label class="form-label fs-20 font-inter">Department</label>
+              <form classsName="row g-3 mt-7">
+                <div classsName="col-md-6">
+                  <label classsName="form-label fs-20 font-inter">
+                    Department
+                  </label>
                   <select
-                    class="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
+                    classsName="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
                     aria-label="Disabled select example"
                   >
                     <option selected>Select department</option>
@@ -143,10 +145,12 @@ const Career = () => {
                     <option value="3">Developer</option>
                   </select>
                 </div>
-                <div class="col-md-6">
-                  <label class="form-label fs-20 font-inter">Location</label>
+                <div classsName="col-md-6">
+                  <label classsName="form-label fs-20 font-inter">
+                    Location
+                  </label>
                   <select
-                    class="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
+                    classsName="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
                     aria-label="Disabled select example"
                   >
                     <option selected>Select location</option>

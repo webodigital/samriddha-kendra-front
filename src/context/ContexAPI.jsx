@@ -182,7 +182,6 @@ const educationLoan = [
 
 export const ContextProvider = ({ children }) => {
   /* Education Loan */
-
   const [loanType, setLoanType] = useState("Undergraduate Loan");
 
   /* Move To Top */

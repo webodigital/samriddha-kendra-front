@@ -14,10 +14,10 @@ const Products = () => {
         <>
           <section className="container-fluid mt-11 product_section_1">
             <div className="row justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
-              <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center mt-15">
+              <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center mt-60">
                 <div
                   data-aos="flip-right"
-                  className="product-main-text-container"
+                  className="product-main-text-container mt-7"
                 >
                   <h1 className="title-font fs-55 fw-normal text-light-blue">
                     At Samriddh Kendra, we offer
@@ -27,21 +27,6 @@ const Products = () => {
                     </span>{" "}
                     for our customer
                   </h1>
-                  <div className="button-container w-100 d-flex flex-column  mt-7 gap-5">
-                    <Link to={"/products/insurance/life"}>
-                      <button className="btn custom-btn fs-24 text-white ms-5 mt-4 font-inter">
-                        INSURANCE <img src="./BTNSTAR.png" alt="" />
-                      </button>
-                    </Link>
-                    <Link
-                      to={"/products/loan/education_loan"}
-                      className="text-white fw-medium w-80 text-end me-5"
-                    >
-                      <button className="btn custom-btn mt-5 fs-24 text-white font-inter ">
-                        LOANS <img src="./BTNSTAR.png" alt="" />
-                      </button>
-                    </Link>
-                  </div>
                 </div>
               </div>
               <div className="image_Container col-xl-7 col-lg-6 col-md-6 col-12 order-lg-last order-md-last order-first">
@@ -54,10 +39,6 @@ const Products = () => {
             <div className="container">
               <ProductsTitles text={"Loans"} />
 
-              <header className="my-5">
-                <p className="fs-26 font-inter fw-semibold ">Secured Loans</p>
-              </header>
-
               <div className="row  justify-content-center align-items-center">
                 <div
                   data-aos="flip-right"
@@ -67,6 +48,7 @@ const Products = () => {
                     image="./loanHome.png"
                     cardTitle="Home Loans"
                     btnContent="Apply for loan"
+                    path={"/loan/home"}
                   />
                 </div>
                 <div
@@ -77,12 +59,10 @@ const Products = () => {
                     image="./lapLoan.png"
                     cardTitle="LAP Loans"
                     btnContent="Apply for loan"
+                    path={"/loan/lap"}
                   />
                 </div>
               </div>
-              <header className="my-5">
-                <p className="fs-26 font-inter fw-semibold ">Unsecured Loans</p>
-              </header>
 
               <div className="row  justify-content-center align-items-center">
                 <div
@@ -93,6 +73,7 @@ const Products = () => {
                     image="./loanAvatar.png"
                     cardTitle="Personal Loan"
                     btnContent="Apply for loan"
+                    path={"/loan/personal"}
                   />
                 </div>
                 <div
@@ -103,12 +84,13 @@ const Products = () => {
                     image="./Business Loan.png"
                     cardTitle="Business Loan"
                     btnContent="Apply for loan"
+                    path={"/loan/business"}
                   />
                 </div>
               </div>
             </div>
 
-            <div className="container mt-40 pb-5">
+            <div className="container mt-5 pb-5">
               <ProductsTitles text={"Insurance"} />
 
               <div className="row mb-4 justify-content-center align-items-center">
@@ -120,6 +102,7 @@ const Products = () => {
                     image="./Health insurance.png"
                     cardTitle="Health insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/health"}
                   />
                 </div>
                 <div
@@ -130,6 +113,7 @@ const Products = () => {
                     image="./Life Insurance.png"
                     cardTitle="Life Insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/life"}
                   />
                 </div>
               </div>
@@ -143,6 +127,7 @@ const Products = () => {
                     image="./Shop insurance.png"
                     cardTitle="Shop insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/shop"}
                   />
                 </div>
                 <div
@@ -153,6 +138,7 @@ const Products = () => {
                     image="./Motor insurance.png"
                     cardTitle="Motor insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/motor"}
                   />
                 </div>
               </div>
@@ -165,6 +151,7 @@ const Products = () => {
                     image="./Crop insurance.png"
                     cardTitle="Crop insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/crop"}
                   />
                 </div>
                 <div
@@ -175,6 +162,7 @@ const Products = () => {
                     image="./Crop insurance2.png"
                     cardTitle="Crop insurance"
                     btnContent="Apply for loan"
+                    path={"/insurance/crop"}
                   />
                 </div>
               </div>

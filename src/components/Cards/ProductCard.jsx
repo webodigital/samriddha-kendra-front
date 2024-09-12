@@ -2,9 +2,9 @@ import React from "react";
 import Button from "./../Buttons/Button";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ image, cardTitle, btnContent }) => {
+const ProductCard = ({ image, cardTitle, btnContent, path }) => {
   return (
-    <div className="productCards rounded-5">
+    <div className="productCards rounded-5 my-2">
       <div className="w-50">
         <div className="img-container me-xl-0 me-lg-5">
           <img className="img-fluid" src={image} alt="" />
@@ -15,18 +15,20 @@ const ProductCard = ({ image, cardTitle, btnContent }) => {
 
         <div className="d-flex flex-column gap-5">
           <div className="btn-containers">
-            <Link to={"/products/Calculate_EMI_Interest"}>
+            <Link to={`/products${path}`}>
               <button className="btn fs-3 text-white fw-bold cus-btn-transparent font-poppins">
                 Know more
                 <img className="move-right" src="./Arrow white.png" alt="" />
               </button>
             </Link>
           </div>
-          <Link to="/products/loan/education_loan">
-            <div className="btn-container">
-              <Button content={btnContent} />
-            </div>
-          </Link>
+
+          <div
+            className="btn-container"
+            onClick={() => alert("Still Working on this page..")}
+          >
+            <Button content={btnContent} />
+          </div>
         </div>
       </div>
     </div>

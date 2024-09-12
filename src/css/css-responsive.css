@@ -1,5 +1,11 @@
 /***** Responsiveness Section *****/
 
+@media screen and (width < 1600px) {
+  .mt-60 {
+    margin-top: 15rem !important;
+  }
+}
+
 @media screen and (width < 1240px) {
   html {
     font-size: 53%;
@@ -181,6 +187,10 @@
   }
   .p-66 {
     padding: 1rem 0.2rem !important;
+  }
+
+  .mt-60 {
+    margin-top: 60rem !important;
   }
 
   .product_section_1 {

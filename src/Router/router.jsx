@@ -31,6 +31,7 @@ import RefundPolicy from "../Pages/RefundPolicy";
 import GrievanceOfficer from "../Pages/GrievanceOfficer";
 import TermsOfUse from "./../Pages/TermsOfUse";
 import Blogs from "../Pages/Blogs";
+import CropInsurance from "../Pages/InsurancePages/CropInsurance";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -43,6 +44,7 @@ export const router = createBrowserRouter(
           <Route path="health" element={<HealthInsurance />} />
           <Route path="motor" element={<MotorInsurance />} />
           <Route path="shop" element={<ShopInsurance />} />
+          <Route path="crop" element={<CropInsurance />} />
         </Route>
         <Route path="loan" element={<Loan />}>
           <Route path="education_loan" element={<EducationLoan />} />
