@@ -231,13 +231,140 @@ const Nav = () => {
                     About Us
                   </NavLink>
                 </li>
-                <li className="nav-item sidebar-li">
-                  <NavLink
-                    className={({ isActive }) => (isActive ? "Active" : "")}
-                    to={"products"}
+                <li className="nav-item dropdown border-0">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    onClick={() => navigate("/products")}
                   >
-                    Products
-                  </NavLink>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "Active" : "")}
+                      to={"/products"}
+                    >
+                      Products
+                    </NavLink>
+                  </a>
+                  <ul className="dropdown-menu  rounded-4">
+                    <ul>
+                      <li>
+                        <a className="dropdown-item  fw-bold font-inter">
+                          Loan
+                        </a>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/home"}
+                        >
+                          Home Loan
+                        </NavLink>
+                      </li>
+
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/lap"}
+                        >
+                          LAP Loan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/personal"}
+                        >
+                          Personal Loan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/education_loan"}
+                        >
+                          Education Loan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/business"}
+                        >
+                          Business Loan
+                        </NavLink>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a className="dropdown-item  fw-bold font-inter">
+                          Insurance
+                        </a>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/insurance/health"}
+                        >
+                          Health insurance
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/insurance/life"}
+                        >
+                          Life insurance
+                        </NavLink>
+                      </li>{" "}
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/insurance/health"}
+                        >
+                          Shop insurance
+                        </NavLink>
+                      </li>{" "}
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/insurance/motor"}
+                        >
+                          Motor insurance
+                        </NavLink>
+                      </li>{" "}
+                      <li>
+                        {" "}
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/insurance/crop"}
+                        >
+                          Crop insurance
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </ul>
                 </li>
                 <li className="nav-item sidebar-li">
                   <NavLink

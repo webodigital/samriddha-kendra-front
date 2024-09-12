@@ -38,6 +38,10 @@
     height: 115vh;
   }
 
+  .dropdown-menu {
+    padding: 0rem !important;
+  }
+
   .sign_in {
     display: block !important;
   }
