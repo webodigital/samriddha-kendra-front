@@ -1950,7 +1950,7 @@ li {
 
 .EducationLoanSection_1 {
   height: 51rem;
-  background-image: url("/EducationLoanHeroImg.png");
+  background-image: url("/EducationLoan.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2191,6 +2191,114 @@ li {
 }
 
 /***** End education_loan page Section *****/
+
+/***** lapLoanBg Section *****/
+
+.lapLoanBg {
+  height: 51rem;
+  background-image: url("/lapLoanBg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End lapLoanBg Section *****/
+
+/***** homeLoanBg Section *****/
+
+.homeLoanBg {
+  height: 51rem;
+  background-image: url("/homeLoanBg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End homeLoanBg Section *****/
+
+/***** personalLoan Section *****/
+
+.personalLoan {
+  height: 51rem;
+  background-image: url("/personalLoan.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End personalLoan Section *****/
+
+/***** businessLoan Section *****/
+
+.businessLoan {
+  height: 51rem;
+  background-image: url("/businessLoan.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End businessLoan Section *****/
 
 /***** career Page Section *****/
 
