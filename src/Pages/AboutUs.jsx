@@ -273,7 +273,7 @@ const AboutUs = () => {
                   <h5 className="card-title fs-26 fw-semibold text-dark-blue">
                     Bipul Kumar
                   </h5>
-                  <p className="text-light-blue fs-26">ounder and CE</p>
+                  <p className="text-light-blue fs-26">Founder and CE</p>
                   <p className="card-text fs-18 text-light-gray">
                     Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                   </p>
@@ -381,9 +381,14 @@ const AboutUs = () => {
                     </ul>
                   </div>
 
-                  <button className="btn btn-outline-light p-4 fs-2 rounded-4">
-                    Join
-                  </button>
+                  <a
+                    style={{ color: "#fff" }}
+                    href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  >
+                    <button className="btn btn-outline-light p-4 fs-2 rounded-4">
+                      Join
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -408,9 +413,14 @@ const AboutUs = () => {
                     </ul>
                   </div>
 
-                  <button className="btn btn-outline-light p-4 fs-2 rounded-4">
-                    Join
-                  </button>
+                  <a
+                    style={{ color: "#fff" }}
+                    href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  >
+                    <button className="btn btn-outline-light p-4 fs-2 rounded-4">
+                      Join
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
