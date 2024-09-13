@@ -74,6 +74,7 @@ const Products = () => {
                     cardTitle="Personal Loan"
                     btnContent="Apply for loan"
                     path={"/loan/personal"}
+                    applyLink="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
                   />
                 </div>
                 <div
@@ -85,6 +86,9 @@ const Products = () => {
                     cardTitle="Business Loan"
                     btnContent="Apply for loan"
                     path={"/loan/business"}
+                    applyLink={
+                      "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    }
                   />
                 </div>
               </div>

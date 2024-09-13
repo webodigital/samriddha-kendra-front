@@ -171,7 +171,12 @@ const Nav = () => {
             </li>
           </ul>
           <li className="nav-item d-lg-block d-md-none d-none">
-            <a className="btn btn-outline-dark px-4 py-1 hover">Login</a>
+            <a
+              className="btn btn-outline-dark px-4 py-1 hover"
+              href="https://sk-on-prem-production.web.app/login"
+            >
+              Login
+            </a>
           </li>
 
           <div className="d-lg-none d-flex align-items-center gap-5">
@@ -385,7 +390,16 @@ const Nav = () => {
               </ul>
             </div>
             <div className="button-container">
-              <button className="btn btn-dark-blue fs-3">Login</button>
+              <button className="btn btn-dark-blue fs-3">
+                {" "}
+                <a
+                  style={{ color: "#fff" }}
+                  className="px-4 py-1 hover"
+                  href="https://sk-on-prem-production.web.app/login"
+                >
+                  Login
+                </a>
+              </button>
               <button className="btn btn-dark-blue fs-3"> Sign Up</button>
             </div>
           </div>

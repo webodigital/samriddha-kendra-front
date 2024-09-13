@@ -5,6 +5,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
+import { color } from "chart.js/helpers";
 
 const BecomeOurPartner = () => {
   const { carouselOptions, productsCarouselOptions, faqData } =
@@ -726,9 +727,14 @@ const BecomeOurPartner = () => {
               easy steps and work at your convenience.
             </p>
 
-            <button className="btn mt-4 joinbtn text-white font-inter fs-26 fw-semibold">
-              JOIN SAMRIDDH
-            </button>
+            <a
+              style={{ color: "#fff" }}
+              href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+            >
+              <button className="btn mt-4 joinbtn text-white font-inter fs-24 fw-semibold">
+                JOIN SAMRIDDH
+              </button>
+            </a>
           </div>
         </div>
       </section>

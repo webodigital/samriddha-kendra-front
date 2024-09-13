@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./../Buttons/Button";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ image, cardTitle, btnContent, path }) => {
+const ProductCard = ({ image, cardTitle, btnContent, path, applyLink }) => {
   return (
     <div className="productCards rounded-5 my-2">
       <div className="w-50">
@@ -23,11 +23,10 @@ const ProductCard = ({ image, cardTitle, btnContent, path }) => {
             </Link>
           </div>
 
-          <div
-            className="btn-container"
-            onClick={() => alert("Still Working on this page..")}
-          >
-            <Button content={btnContent} />
+          <div className="btn-container">
+            <a href={applyLink}>
+              <Button content={btnContent} />
+            </a>
           </div>
         </div>
       </div>

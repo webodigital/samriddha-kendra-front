@@ -194,7 +194,7 @@ export const ContextProvider = ({ children }) => {
   /* On Scroll Animation With AOS*/
 
   useEffect(() => {
-    AOS.init({ offset: 200, duration: 2000 });
+    AOS.init({ offset: 200, duration: 1500 });
   }, []);
 
   const handleLoanChange = (event) => {
