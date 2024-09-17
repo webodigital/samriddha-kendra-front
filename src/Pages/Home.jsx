@@ -55,10 +55,18 @@ const Home = () => {
             <div className="  col-xl-5 col-lg-6 col-md-10 col-10  ">
               <div className="text_container  text-white d-flex flex-column justify-content-center align-items-start round">
                 <p className="fs-36">Loan</p>
-                <p className="font-inter fs-24">
-                  Ipsum has been the industry's standard dummy text ever since
-                  the 1500s, when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book.
+                <p className="font-inter fs-20">
+                  At Samriddh Kendra, we understand that every financial need is
+                  unique, whether you're looking to fulfill personal dreams,
+                  grow your business, or secure a stable future. That’s why we
+                  offer a wide range of loan options tailored to fit your
+                  requirements. Choose from personal loans, home loans, business
+                  loans and more, with flexible terms and competitive interest
+                  rates. Our simplified online process ensures quick approvals,
+                  minimal paperwork, and hassle-free disbursals, making
+                  borrowing easier and faster. Whether you’re planning a new
+                  venture, buying a home, or consolidating debt, Samriddh Kendra
+                  is your trusted partner in financial growth.
                 </p>
                 <div className="btn-container mt-5">
                   <Link to={"/products/loan/education_loan"}>
@@ -80,9 +88,15 @@ const Home = () => {
               <div className="text_container text-white d-flex flex-column justify-content-center align-items-start round ">
                 <p className="fs-36">Insurance</p>
                 <p className="font-inter fs-24">
-                  Ipsum has been the industry's standard dummy text ever since
-                  the 1500s, when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book.
+                  Protect what matters most with Samriddh Kendra’s comprehensive
+                  insurance solutions. From safeguarding your family's health
+                  and financial future to securing your assets, we provide a
+                  range of insurance plans to meet all your protection needs.
+                  Choose from health, life, motor, shop and crop insurance plans
+                  designed to offer peace of mind and security against
+                  unforeseen events. With our trusted insurance partners, we
+                  ensure that you get the best coverage at competitive rates,
+                  along with easy claim processes and 24/7 support.
                 </p>
                 <div className="btn-container mt-5">
                   <Link to={"/products/insurance/life"}>

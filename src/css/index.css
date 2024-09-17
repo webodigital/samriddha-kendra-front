@@ -642,7 +642,7 @@ li {
 
   & .text_container {
     background: var(--dark-blue);
-    padding: 8rem;
+    padding: 4rem;
   }
 }
 
@@ -667,7 +667,7 @@ li {
 
   & .text_container {
     background: var(--dark-blue);
-    padding: 8rem;
+    padding: 4rem;
 
     &.round {
       border-top-right-radius: 3rem;

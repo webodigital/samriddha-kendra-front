@@ -211,10 +211,8 @@ const Personal = () => {
           color="black"
           fontSize="fs-40"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized."
-          pera2={
-            "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized. Lorem ipsum can help  designers and developers visualize the layout, typography, and overall design of a project without being distracted by the actual  content."
-          }
+          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera2={""}
         />
       </section>
 

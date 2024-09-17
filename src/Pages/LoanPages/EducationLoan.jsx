@@ -211,10 +211,8 @@ const EducationLoan = () => {
           color="black"
           fontSize="fs-40"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized."
-          pera2={
-            "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized. Lorem ipsum can help  designers and developers visualize the layout, typography, and overall design of a project without being distracted by the actual  content."
-          }
+          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera2={""}
         />
       </section>
 
@@ -305,7 +303,7 @@ const EducationLoan = () => {
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Education loans at Samriddh Kendra are designed to cover a broad range of expenses to support your academic journey. Our education loans typically include:"
           pera2={""}
         />
 
@@ -317,19 +315,27 @@ const EducationLoan = () => {
                   1. Tuition and fees
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  At Samriddh Kendra, we provide education loans that cover the
+                  full cost of your tuition, ensuring you can focus on your
+                  studies without the financial burden. Whether you’re enrolling
+                  in a local university or a professional training program, our
+                  loans are designed to cater to the complete fee structure of
+                  your chosen institution.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Tuition and fees
+                  2. Accommodation
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  We understand that the cost of living can be a major concern
+                  for students. Our education loans include provisions for
+                  on-campus housing, so you can reside close to your institution
+                  without worrying about the expenses. By securing your living
+                  arrangements, we aim to make your academic experience smoother
+                  and more focused on learning.
                 </p>
               </div>
             </div>
@@ -375,7 +381,7 @@ const EducationLoan = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera="At Samriddh Kendra, purchasing financial products like loans and insurance is a simple and seamless process. Follow these easy steps to get started:"
                 pera2={""}
               />
 
@@ -450,8 +456,9 @@ const EducationLoan = () => {
                   Apply For Educational Loan
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
-                  Lorem ipsum is a placeholder text commonly used in the design
-                  and typesetting industry.{" "}
+                  Applying for an education loan at Samriddh Kendra is quick and
+                  hassle-free. Follow these simple steps to secure the financial
+                  support you need for your studies
                 </p>
 
                 <ApplyBtn
@@ -471,8 +478,9 @@ const EducationLoan = () => {
                   Apply For Educational Loan
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
-                  Lorem ipsum is a placeholder text commonly used in the design
-                  and typesetting industry.{" "}
+                  Applying for an education loan at Samriddh Kendra is quick and
+                  hassle-free. Follow these simple steps to secure the financial
+                  support you need for your studies
                 </p>
 
                 <ApplyBtn
@@ -772,7 +780,7 @@ const EducationLoan = () => {
                   color="white"
                   fontSize="fs-30"
                   ratings={false}
-                  pera="Lorem ipsum dolor sit amet. Rem quidem blanditis aut quia dolorem."
+                  pera="Invest in your future with an education loan from Samriddh Kendra. Whether you’re aiming for higher education our tailored loan solutions are designed to help you achieve your academic dreams without financial stress."
                   pera2={""}
                 />
 

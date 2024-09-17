@@ -239,10 +239,9 @@ const HealthInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. 
-It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+                pera="Health insurance is a protective financial tool that covers the cost of medical care, safeguarding you from the burden of high healthcare expenses. At Samriddh Kendra, our health insurance plans ensure that you and your family receive quality medical treatment without the stress of unexpected bills. "
                 pera2={
-                  "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning "
+                  "Health insurance offers peace of mind, allowing you to focus on your health and recovery while we take care of the financial side."
                 }
               />
             </div>
@@ -268,7 +267,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           color="white"
           fontSize="fs-40"
           ratings={false}
-          pera="Life insurance plans are characterized by the fact that they pay a benefit on death of the insured. The most popular plans have a fixed period of time for which the policy is in force, and death benefit will be paid."
+          pera="At Samriddh Kendra, we offer a range of health insurance plans tailored to fit your needs:"
           pera2={" "}
         />
 
@@ -357,8 +356,10 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
-          pera2={" "}
+          pera="Health insurance is essential to protect yourself and your family from the financial strain of unexpected medical expenses. With rising healthcare costs, a single hospital visit or major illness can lead to significant bills. Health insurance provides you with a safety net, covering expenses like hospitalization, surgeries, and medications, ensuring you receive the best care without depleting your savings. "
+          pera2={
+            "It also promotes preventive care by covering check-ups and early treatments, helping you stay healthy. At Samriddh Kendra, our health insurance plans offer peace of mind, so you can focus on your well-being without worrying about financial burdens. "
+          }
         />
 
         <div data-aos="fade-up" className="container">
@@ -522,7 +523,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera="At Samriddh Kendra, purchasing financial products like loans and insurance is a simple and seamless process. Follow these easy steps to get started"
                 pera2={""}
               />
 
@@ -592,7 +593,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="At Samriddh Kendra, we believe in providing health coverage that meets the unique needs of every individual and family. Our range of health insurance plans is designed to suit all age groups, life stages, and health requirements. Whether you're a young professional, a growing family, or a senior citizen, we have a plan that fits your lifestyle."
           pera2={""}
         />
 

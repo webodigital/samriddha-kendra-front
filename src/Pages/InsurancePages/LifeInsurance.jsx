@@ -31,9 +31,10 @@ const LifeInsurance = () => {
             Life Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Lorem ipsum is a placeholder text commonly used in the design and
-            typesetting industry. It consists of parts of Latin words with no
-            specific meaning.
+            Choose a life insurance plan from Samriddh Kendra to safeguard your
+            family's future, manage financial risks, and ensure that your loved
+            ones are well taken care of. Our expert team is here to help you
+            select the best plan to fit your needs and goals.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
@@ -213,10 +214,9 @@ const LifeInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. 
-It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+                pera="Life insurance is a financial product designed to provide security and peace of mind by ensuring that your loved ones are financially protected in the event of your death. By purchasing a life insurance policy, you agree to pay regular premiums to the insurance company. "
                 pera2={
-                  "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning "
+                  "In return, the insurer promises to pay a designated sum of money, known as the death benefit, to your beneficiaries upon your passing."
                 }
               />
             </div>
