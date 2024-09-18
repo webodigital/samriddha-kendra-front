@@ -10,6 +10,10 @@ const ApplyBtn = ({
   fs,
   fw,
 }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <button
       className={`btn apply-button rounded-4 text-center ${width}  ${

@@ -302,28 +302,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="flip-right" className="card text-center font-inter">
-              <div className="profile-container ">
-                <img
-                  src="./Yashwardhan Parwal.png"
-                  className="img-fluid profile"
-                  alt="..."
-                />
-              </div>
-              <div className="light-gray-bg mt-4">
-                <div className="card-body">
-                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
-                    Yashwardhan Parwal
-                  </h5>
-                  <p className="text-light-blue fs-26">
-                    Strategy and Product -head
-                  </p>
-                  <p className="card-text fs-18 text-light-gray">
-                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
+
             <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
@@ -385,7 +364,7 @@ const AboutUs = () => {
                     style={{ color: "#fff" }}
                     href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
                   >
-                    <button className="btn btn-outline-light p-4 fs-2 rounded-4">
+                    <button className="btn btn-outline-light w-100 p-4 fs-2 rounded-4">
                       Join
                     </button>
                   </a>
@@ -417,7 +396,7 @@ const AboutUs = () => {
                     style={{ color: "#fff" }}
                     href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
                   >
-                    <button className="btn btn-outline-light p-4 fs-2 rounded-4">
+                    <button className="btn btn-outline-light w-100 p-4 fs-2 rounded-4">
                       Join
                     </button>
                   </a>

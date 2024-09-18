@@ -18,6 +18,7 @@ const ContactUsForm = () => {
             <form className=" col-lg-5 col-md-12 col-12">
               <div className="mb-3">
                 <input
+                  required
                   type="text"
                   className="rounded-lg-2 rounded-md-3 rounded-sm-4 form-control fs-2 font-inter p-4"
                   id="exampleFormControlInput1"
@@ -26,6 +27,7 @@ const ContactUsForm = () => {
               </div>
               <div className="mb-3">
                 <input
+                  required
                   type="number"
                   className="rounded-lg-2 rounded-md-3 rounded-sm-4 form-control fs-2 font-inter p-4"
                   id="exampleFormControlInput1"
@@ -34,6 +36,7 @@ const ContactUsForm = () => {
               </div>
               <div className="mb-3">
                 <input
+                  required
                   type="email"
                   className="rounded-lg-2 rounded-md-3 rounded-sm-4 form-control fs-2 font-inter p-4"
                   id="exampleFormControlInput1"
