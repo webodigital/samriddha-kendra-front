@@ -31,9 +31,11 @@ const MotorInsurance = () => {
             Motor Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Lorem ipsum is a placeholder text commonly used in the design and
-            typesetting industry. It consists of parts of Latin words with no
-            specific meaning.
+            Motor insurance is a vital safeguard for vehicle owners, offering
+            financial protection against accidents, theft, or damage to your
+            vehicle. Whether you own a car, bike, or commercial vehicle, our
+            motor insurance solutions are designed to keep you and your vehicle
+            secure.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
@@ -193,10 +195,9 @@ const MotorInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. 
-It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+                pera="Motor insurance is a type of coverage that protects vehicle owners from financial losses caused by accidents, theft, or damage to their vehicle. It offers coverage for repair costs, medical expenses, and third-party liabilities in the event of an accident. "
                 pera2={
-                  "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning "
+                  "At Samriddh Kendra, our motor insurance policies are designed to safeguard both you and your vehicle, ensuring that you're financially protected in case of any mishaps on the road. Additionally, motor insurance is mandatory by law in many regions, making it essential for responsible vehicle ownership."
                 }
               />
             </div>
@@ -306,7 +307,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Motor insurance is essential for protecting yourself and your vehicle from unforeseen financial burdens. Accidents, theft, or damages can result in costly repairs and legal liabilities. With motor insurance from Samriddh Kendra, you’re covered against these risks, ensuring peace of mind on the road."
           pera2={" "}
         />
 
@@ -986,7 +987,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   color="white"
                   fontSize="fs-30"
                   ratings={false}
-                  pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning "
+                  pera="At Samriddh Kendra, we aim to make the motor insurance claim process quick and hassle-free and we ensure a smooth and transparent claim process to get you back on the road swiftly."
                   pera2={""}
                 />
 

@@ -22,7 +22,7 @@ const CropInsurance = () => {
 
   return (
     <div className="liftInsurance">
-      <section className=" liftInsuranceSection_1 px-lg-0 px-md-0 px-4 position-relative">
+      <section className="cropInsurancebg px-lg-0 px-md-0 px-4 position-relative">
         <div
           data-aos="flip-right"
           className="position-absolute textContainer p-2"
@@ -31,9 +31,13 @@ const CropInsurance = () => {
             Crop Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Lorem ipsum is a placeholder text commonly used in the design and
-            typesetting industry. It consists of parts of Latin words with no
-            specific meaning.
+            Crop insurance is a vital protection for farmers, helping safeguard
+            their livelihoods against unpredictable risks such as natural
+            disasters, pests, and diseases. At Samriddh Kendra, our crop
+            insurance plans are designed to cover losses resulting from events
+            like droughts, floods, storms, or pest infestations, ensuring that
+            farmers can recover from financial setbacks and continue their
+            agricultural operations.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">

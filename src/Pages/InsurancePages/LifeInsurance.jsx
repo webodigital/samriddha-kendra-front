@@ -327,7 +327,7 @@ const LifeInsurance = () => {
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Life insurance is essential for securing the financial future of your loved ones in the event of your untimely passing. It provides a safety net that ensures your family can cover daily living expenses, pay off debts, handle mortgage payments, and manage future costs like education or healthcare without financial strain. By offering financial security and peace of mind, life insurance allows you to protect your family's well-being and maintain their standard of living even when you're no longer around."
           pera2={" "}
         />
 
@@ -559,7 +559,7 @@ const LifeInsurance = () => {
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Anyone seeking financial protection for their family and loved ones can purchase a life insurance policy. At Samriddh Kendra, life insurance is available to individuals who meet the basic eligibility criteria, which typically includes being within a certain age range (usually between 18 and 65) and undergoing a health assessment. Whether you are a working professional, a parent, or someone planning for retirement, life insurance offers peace of mind by ensuring that your family is financially secure in the event of your passing."
           pera2={""}
         />
 
