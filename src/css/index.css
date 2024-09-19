@@ -2420,7 +2420,7 @@ li {
 }
 
 .liftInsuranceSection_1 {
-  height: 70rem;
+  height: 88rem;
   background-image: url("/lifeInsurance.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2652,7 +2652,7 @@ li {
 /***** HealthInsurance page Section *****/
 
 .HealthInsurance_section1 {
-  height: 75rem;
+  height: 88rem;
   background-image: url("/HealthInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2740,7 +2740,7 @@ li {
 /***** motorInsurance page Section *****/
 
 .motorInsurance_section1 {
-  height: 75rem;
+  height: 88rem;
   background-image: url("/MotorInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2771,7 +2771,7 @@ li {
 /***** ShopInsurance page Section *****/
 
 .shopInsurance_section1 {
-  height: 75rem;
+  height: 88rem;
   background-image: url("/shopInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2835,7 +2835,7 @@ li {
 /***** Crop Section *****/
 
 .cropInsurancebg {
-  height: 70rem;
+  height: 88rem;
   background-image: url("https://www.newindia.co.in/portal/RWBCIS/img/bg-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
