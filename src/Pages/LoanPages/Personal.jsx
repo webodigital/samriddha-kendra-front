@@ -131,7 +131,6 @@ const Personal = () => {
           </div>
         </div>
       </section>
-
       <section className="EducationLoanSection_3 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"What We Offer"}
@@ -303,7 +302,7 @@ const Personal = () => {
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Education loans at Samriddh Kendra are designed to cover a broad range of expenses to support your academic journey. Our education loans typically include:"
           pera2={""}
         />
 
@@ -373,7 +372,7 @@ const Personal = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera="At Samriddh Kendra, purchasing financial products like loans and insurance is a simple and seamless process. Follow these easy steps to get started"
                 pera2={""}
               />
 
@@ -448,8 +447,9 @@ const Personal = () => {
                   Apply For Educational Loan
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
-                  Lorem ipsum is a placeholder text commonly used in the design
-                  and typesetting industry.{" "}
+                  Applying for an education loan at Samriddh Kendra is quick and
+                  hassle-free. Follow these simple steps to secure the financial
+                  support you need for your studies{" "}
                 </p>
 
                 <ApplyBtn
@@ -469,8 +469,9 @@ const Personal = () => {
                   Apply For Educational Loan
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
-                  Lorem ipsum is a placeholder text commonly used in the design
-                  and typesetting industry.{" "}
+                  Applying for an education loan at Samriddh Kendra is quick and
+                  hassle-free. Follow these simple steps to secure the financial
+                  support you need for your studies{" "}
                 </p>
 
                 <ApplyBtn
@@ -770,7 +771,7 @@ const Personal = () => {
                   color="white"
                   fontSize="fs-30"
                   ratings={false}
-                  pera="Lorem ipsum dolor sit amet. Rem quidem blanditis aut quia dolorem."
+                  pera="Invest in your future with an education loan from Samriddh Kendra. Whether you’re aiming for higher education our tailored loan solutions are designed to help you achieve your academic dreams without financial stress."
                   pera2={""}
                 />
 

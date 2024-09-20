@@ -124,7 +124,7 @@ const Nav = () => {
                       className={({ isActive }) =>
                         isActive ? "Active dropdown-item" : "dropdown-item"
                       }
-                      to={"/products/insurance/health"}
+                      to={"/products/insurance/shop"}
                     >
                       Shop insurance
                     </NavLink>

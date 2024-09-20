@@ -31,9 +31,9 @@ const HealthInsurance = () => {
             Health Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Lorem ipsum is a placeholder text commonly used in the design and
-            typesetting industry. It consists of parts of Latin words with no
-            specific meaning.
+            Health insurance is a financial safety net that covers your medical
+            expenses, helping you access quality healthcare without worrying
+            about high costs.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
@@ -701,7 +701,7 @@ const HealthInsurance = () => {
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="What is covered in Life insurance"
+          pera="At Samriddh Kendra, we believe in providing health coverage that meets the unique needs of every individual and family. Our range of health insurance plans is designed to suit all age groups, life stages, and health requirements. Whether you're a young professional, a growing family, or a senior citizen, we have a plan that fits your lifestyle."
           pera2={""}
         />
 

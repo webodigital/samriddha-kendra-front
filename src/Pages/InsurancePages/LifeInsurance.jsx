@@ -488,7 +488,7 @@ const LifeInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera="At Samriddh Kendra, purchasing financial products like loans and insurance is a simple and seamless process. Follow these easy steps to get started"
                 pera2={""}
               />
 
