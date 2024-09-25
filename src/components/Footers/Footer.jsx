@@ -126,14 +126,7 @@ const Footer = () => {
                   <li className="mt-4">
                     <Link to={"/products/Calculate_EMI_Interest"}>
                       <a href="#" className="text-white">
-                        EMI Calculator
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="mt-4">
-                    <Link to={"/products/Calculate_EMI_Interest"}>
-                      <a href="#" className="text-white">
-                        Balance Transfer Calculator
+                        Loan Calculator
                       </a>
                     </Link>
                   </li>
