@@ -474,8 +474,8 @@ const EducationLoan = () => {
           <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-12">
             <div className="left py-8">
               <div className="leftBorder d-flex flex-column align-items-center text-center text-white">
-                <h1 className="fs-28 font-inter fw-bolder">
-                  Apply For Educational Loan
+                <h1 className="fs-28 font-inter fw-bolder text-capitalize">
+                  Want free consulting
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
                   Applying for an education loan at Samriddh Kendra is quick and
