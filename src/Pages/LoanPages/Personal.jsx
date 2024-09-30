@@ -286,7 +286,7 @@ const Personal = () => {
                 data-aos="flip-right"
                 className=" mt-lg-0 mt-md-5 mt-5 p-lg-0 p-md-4 p-5"
               >
-                <img src="/guy+cat 2.png" alt="" className="img-fluid" />
+                <img src="/pl.webp" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -418,7 +418,7 @@ const Personal = () => {
                     </div>
                   </div>
                 </div>{" "}
-                <div data-aos="fade-up" className="col-12">
+                <div className="col-12">
                   <div className="d-flex align-items-start">
                     <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
                       3
@@ -437,8 +437,12 @@ const Personal = () => {
               </div>
             </div>
             <div className="col-lg-7 col-md-6 col-12">
-              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
-                <img className="img-fluid" src="/How to Buy.png" alt="" />
+              <div className="mt-lg-0 mt-md-0 mt-6 text-center p-10">
+                <img
+                  className="img-fluid rounded-5"
+                  src="/buypersonalLoan.webp"
+                  alt=""
+                />
               </div>
             </div>
           </div>

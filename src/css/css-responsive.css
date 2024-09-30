@@ -31,6 +31,9 @@
 }
 
 @media screen and (width < 992px) {
+  .p-10 {
+    padding: 2rem;
+  }
   .navbar-toggler {
     display: block;
   }

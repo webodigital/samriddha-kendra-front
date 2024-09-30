@@ -57,16 +57,12 @@ const Home = () => {
                 <p className="fs-36">Loan</p>
                 <p className="font-inter fs-20">
                   At Samriddh Kendra, we understand that every financial need is
-                  unique, whether you're looking to fulfill personal dreams,
-                  grow your business, or secure a stable future. That’s why we
-                  offer a wide range of loan options tailored to fit your
-                  requirements. Choose from personal loans, home loans, business
-                  loans and more, with flexible terms and competitive interest
-                  rates. Our simplified online process ensures quick approvals,
-                  minimal paperwork, and hassle-free disbursals, making
-                  borrowing easier and faster. Whether you’re planning a new
-                  venture, buying a home, or consolidating debt, Samriddh Kendra
-                  is your trusted partner in financial growth.
+                  unique. We provide a platform that connects you with various
+                  loan options tailored to your needs, whether for personal
+                  goals, business growth, or securing your future. With a
+                  simplified online process, you can access the right financial
+                  solutions quickly and efficiently, ensuring a smooth
+                  experience in reaching your financial aspirations.
                 </p>
                 <div className="btn-container mt-5">
                   <Link to={"/products/loan/education_loan"}>
@@ -89,14 +85,13 @@ const Home = () => {
                 <p className="fs-36">Insurance</p>
                 <p className="font-inter fs-24">
                   Protect what matters most with Samriddh Kendra’s comprehensive
-                  insurance solutions. From safeguarding your family's health
-                  and financial future to securing your assets, we provide a
-                  range of insurance plans to meet all your protection needs.
-                  Choose from health, life, motor, shop and crop insurance plans
-                  designed to offer peace of mind and security against
-                  unforeseen events. With our trusted insurance partners, we
-                  ensure that you get the best coverage at competitive rates,
-                  along with easy claim processes and 24/7 support.
+                  insurance platform. Whether it’s securing your family’s
+                  health, financial future, or assets, we connect you with a
+                  variety of insurance plans to meet your protection needs.
+                  Through our trusted partners, you can choose from health,
+                  life, motor, shop, and crop insurance, ensuring peace of mind
+                  with competitive coverage, easy claim processes,
+                  and 24/7 support.
                 </p>
                 <div className="btn-container mt-5">
                   <Link to={"/products/insurance/life"}>

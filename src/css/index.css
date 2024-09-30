@@ -60,6 +60,10 @@ html {
   margin-top: 40rem !important;
 }
 
+.p-10 {
+  padding: 10rem;
+}
+
 .me-6 {
   margin-right: 6rem;
 }
