@@ -1335,6 +1335,86 @@ li {
     }
   }
 }
+
+.storyNav {
+  position: relative;
+
+  .nav-item {
+    border: 1px solid #dddddd8c;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    margin-top: 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.158) 4px 4px 8px;
+    position: relative;
+
+    a {
+      font-size: 1.8rem !important;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: -3.5rem;
+      top: 28%;
+      z-index: 1;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: #0025ac;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0.8rem;
+    height: 100%;
+    background: #ddddddab;
+    left: 0;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+  }
+
+  .active {
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    color: var(--btn-bg) !important;
+  }
+}
+
+.storybg {
+  background: url("/storybg.webp"), #9e9e9e50;
+  background-size: contain;
+  background-blend-mode: hard-light;
+  min-height: 27rem !important;
+  max-height: fit-content !important;
+  padding: 1.4rem;
+
+  img {
+    width: 9.7rem;
+  }
+  li {
+    list-style-type: disc;
+  }
+
+  .position-absolute {
+    top: -4rem;
+    right: 2rem;
+  }
+}
 /***** End About Page *****/
 
 /***** Product Page Section *****/

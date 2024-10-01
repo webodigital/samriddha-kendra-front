@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Title from "./../components/Titles/Title";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -9,6 +9,7 @@ import ContactUsForm from "../components/ContactForms/ContactUsForm";
 
 const AboutUs = () => {
   const { carouselOptions } = useContext(CreatingContext);
+  const [story, setStory] = useState("2018");
 
   return (
     <div className="aboutUs">
@@ -112,105 +113,157 @@ const AboutUs = () => {
       </div>
 
       <div data-aos="fade-down" className="about_section_3 container-fluid">
-        <Title first_text={""} span_text={"Our Story?"} last_text={""} />
+        <Title
+          first_text={"Samriddh Kendra:"}
+          span_text={"A Journey Towards Financial Inclusion"}
+          last_text={""}
+        />
 
         <div className="container">
-          <div className="box-container mt-lg-0 mt-md-5 mt-7">
-            <div data-aos="fade-down" className="box z-1">
-              <div className="title-content d-flex align-items-center justify-content-end me-6 gap-3">
-                <img
-                  className="img-fluid timelineIcon"
-                  src="./timelineIcon.png"
-                  alt=""
-                />
-                <p className="fs-3 font-inter fw-semibold">2018</p>
-              </div>
-              <p className="fw-bold font-inter fs-20 text-dark d-flex justify-content-end me-7">
-                Founded{" "}
-              </p>
+          <div className="row mt-5">
+            <div className="col-lg-3 col-md-4 col-12">
+              <ul class="storyNav h-100 ps-5 text-center nav d-flex flex-column flex-nowrap gap-3">
+                <li class="nav-item">
+                  <a
+                    class={`nav-link fw-bold font-inter ${
+                      story === "2018" && "active"
+                    }`}
+                    aria-current="page"
+                    onClick={() => setStory("2018")}
+                  >
+                    2018
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class={`nav-link fw-bold font-inter ${
+                      story === "2019-2022" && "active"
+                    }`}
+                    onClick={() => setStory("2019-2022")}
+                  >
+                    2019-2022
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class={`nav-link fw-bold font-inter ${
+                      story === "2023" && "active"
+                    }`}
+                    onClick={() => setStory("2023")}
+                  >
+                    2023
+                  </a>
+                </li>{" "}
+                <li class="nav-item">
+                  <a
+                    class={`nav-link fw-bold font-inter ${
+                      story === "2024" && "active"
+                    }`}
+                    onClick={() => setStory("2024")}
+                  >
+                    2024
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div data-aos="fade-down" className="box z-1">
-              <div className="title-content d-flex align-items-center gap-3">
-                <img
-                  className="img-fluid timelineIcon"
-                  src="./Collaboration.png"
-                  alt=""
-                />
-                <p className="fs-3 font-inter fw-semibold">2019-2022</p>
-              </div>
+            <div className="col-lg-9 col-md-8 col-12">
+              {story === "2018" ? (
+                <div className=" storybg mt-lg-0 mt-md-0 mt-7 d-flex justify-content-center align-items-center flex-column rounded-5">
+                  <img src="/timelineIcon.png" alt="" />
+                  <p className="fs-26 font-inter fw-medium">
+                    The Vision and Foundation
+                  </p>
+                </div>
+              ) : story === "2019-2022" ? (
+                <div className="storybg position-relative mt-lg-0 mt-md-0 mt-7 rounded-5">
+                  <img
+                    className="position-absolute"
+                    src="/Collaboration.png"
+                    alt=""
+                  />
+                  <h2 className="font-inter fw-bold fs-20 pt-3">
+                    Collaboration & Market Research
+                  </h2>
 
-              <p className="fw-bold font-inter fs-20 text-dark ms-10">
-                Collaboration{" "}
-              </p>
-              <div className="txt-content">
-                <ul className="fw-medium font-inter fs-18">
-                  <li>
-                    Worked with PhonePe, BharatPe, Amazon Pay, and Airtel on
-                    merchant and customer acquisition in Bihar, Jharkhand, West
-                    Bengal, Odisha, Uttar Pradesh, and NESA.
-                  </li>
-                  <li>On Boarded 21L merchants</li>
-                  <li>Market Research: Started for financial inclusion</li>
-                  <li>MVP Development: Began in October 2022</li>
-                </ul>
-              </div>
-            </div>
-            <div data-aos="fade-down" className="box z-1">
-              <div className="title-content d-flex align-items-center justify-content-end gap-3 me-6">
-                <img
-                  className="img-fluid timelineIcon"
-                  src="./Establishment.png"
-                  alt=""
-                />
-                <p className="fs-3 font-inter fw-semibold">2023</p>
-              </div>
-              <p className="fw-bold font-inter d-flex justify-content-end me-7 fs-20 text-dark ">
-                Establishment{" "}
-              </p>
-              <div className="txt-content">
-                <ul className="fw-medium font-inter  fs-18">
-                  <li>Company Registration: Completed in April</li>
-                  <li>MVP Launch: Rolled out in July - August </li>
-                  <li>
-                    Onboarding Samriddh Sathi: 1,600 onboarded across 400
-                    pincodes
-                  </li>
-                  <li>
-                    Customer Onboarding: 10,000 customers onboarded within 3
-                    months
-                  </li>
-                  <li>
-                    Pivoted to a DSA model to leverage the existing merchant
-                    base
-                  </li>
-                  <li>Disbursed loan amounting to INR 5Cr (3 months)</li>
-                </ul>
-              </div>
-            </div>
-            <div data-aos="fade-down" className="box z-1">
-              <div className="title-content d-flex align-items-center flex-wrap gap-3">
-                <img
-                  className="img-fluid timelineIcon"
-                  src="./Expansion.png"
-                  alt=""
-                />
-                <p className="fs-3 font-inter fw-semibold">2024</p>
-              </div>
-              <p className="fw-bold font-inter fs-20 text-dark ms-6">
-                Expansion{" "}
-              </p>
-              <div className="txt-content ">
-                <ul className="fw-medium font-inter fs-18">
-                  <li>
-                    Worked with PhonePe, BharatPe, Amazon Pay, and Airtel on
-                    merchant and customer acquisition in Bihar, Jharkhand, West
-                    Bengal, Odisha, Uttar Pradesh, and NESA.
-                  </li>
-                  <li>On Boarded 21L merchants</li>
-                  <li>Market Research: Started for financial inclusion</li>
-                  <li>MVP Development: Began in October 2022</li>
-                </ul>
-              </div>
+                  <ul className="fw-medium font-inter fs-18 mt-4">
+                    <li>
+                      Collaborated with PhonePe, BharatPe, Amazon Pay, and
+                      Airtel for merchant and customer acquisition in Bihar,
+                      Jharkhand, West Bengal, Odisha, Uttar Pradesh, and NESA.
+                    </li>
+                    <li>On Boarded 21 Lakh merchants</li>
+                    <li>
+                      Began market research for financial inclusion in rural and
+                      semi-urban areas.
+                    </li>
+                    <li>
+                      October 2022: Started developing the Minimum Viable
+                      Product (MVP).
+                    </li>
+                  </ul>
+                </div>
+              ) : story === "2023" ? (
+                <div className="storybg position-relative mt-lg-0 mt-md-0 mt-7 rounded-5">
+                  <img
+                    className="position-absolute"
+                    src="/Establishment.png"
+                    alt=""
+                  />
+                  <h2 className="font-inter fw-bold fs-20 pt-3">
+                    Establishment & Growth
+                  </h2>
+
+                  <ul className="fw-medium font-inter fs-18 mt-4">
+                    <li>
+                      April 2023: Official registration as Creditbucket
+                      Technologies Private Limited.
+                    </li>
+                    <li>May 2023: Recognized by Startup India.</li>
+                    <li>
+                      July-August 2023: MVP launched, onboarding 1,600 merchants
+                      (Samriddh Sathi) across 400 pincodes.
+                    </li>
+                    <li>
+                      July-September 2023: 10,000 customers onboarded; disbursed
+                      loans worth INR 5 crore in three months.
+                    </li>
+                  </ul>
+                </div>
+              ) : (
+                <div className="storybg position-relative mt-lg-0 mt-md-0 mt-7 rounded-5">
+                  <img
+                    className="position-absolute"
+                    src="/Expansion.png"
+                    alt=""
+                  />
+                  <h2 className="font-inter fw-bold fs-20 pt-3">
+                    Scaling & Expansion
+                  </h2>
+
+                  <ul className="fw-medium font-inter fs-18 mt-4">
+                    <li>
+                      April 2024: Recognized as a Startup by the Government of
+                      Bihar, received INR 10 lakh in funding.
+                    </li>
+                    <li>
+                      June 2024: Selected for STPI FinBlue Incubation and IIT
+                      Patna's Moonpreneur Cohort.
+                    </li>
+                    <li>
+                      July 2024: Chosen for Wadhwani Foundation’s Liftoff
+                      Program, received AWS credits for infrastructure.
+                    </li>
+                    <li>
+                      September 2024: Generated revenue; partnered with Bank of
+                      Baroda, Bajaj Finserv, Aditya Birla Finance, and others.
+                    </li>
+                    <li>
+                      Selected for global programs like Qatar FinTech Hub Wave 6
+                      and DAD Ki Startupshala.
+                    </li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
