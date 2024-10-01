@@ -3021,6 +3021,16 @@ li {
 
 /***** End Footer Section *****/
 
+/***** privacy Section *****/
+
+.privacy {
+  li {
+    list-style-type: disc;
+  }
+}
+
+/***** End privacy Section *****/
+
 /***** Custom Scroll Bar *****/
 
 ::-webkit-scrollbar {
