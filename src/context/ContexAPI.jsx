@@ -122,31 +122,50 @@ const faqData = [
     questionNum: "collapseOne",
     question: "Who we are?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      "Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is committed to enhancing financial literacy and inclusion in rural India. We are incubated at STPI Chennai and supported by the Government of Bihar. Our goal is to provide accessible financial services and education, empowering under served communities.",
   },
   {
     questionNum: "collapseTwo",
-    question: "Why we are?",
+    question: "Why do we exist?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " Our mission is to bridge the financial inclusion gap in rural India. By offering financial literacy, accessible services, and support to underserved communities, we aim to empower individuals to achieve financial independence and stability, driving socio-economic growth and creating a positive societal impact through innovative solutions and dedicated efforts.",
   },
   {
     questionNum: "collapseThree",
-    question: "What is the eligibility criteria to become a Samriddh Kendra?",
+    question:
+      "What is the eligibility criteria to become a SAMRIDDH KENDRA Merchant?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      "Anyone can become a SAMRIDDH KENDRA merchant. Whether you’re a woman, girl,housewife, student, retiree, or someone from a financial background, there are no limits. This opportunity is open to anyone looking to earn extra income without any investment.",
   },
   {
     questionNum: "collapseFour",
-    question: "What documents do I need to register on Samriddh Kendra?",
+    question: "What documents do I need to register on SAMRIDDH KENDRA?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " You will need minimal documentation, including: Aadhar Card, PAN Card, Cancelled Cheque, A Photograph",
   },
   {
     questionNum: "collapseFive",
     question: "How will I earn via Samriddh Kendra?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " Earnings are generated through lead conversion. Once you sell a financial product to your customer, the payout will be credited to your account promptly.",
+  },
+  {
+    questionNum: "collapseSix",
+    question: "How will I receive my earnings?",
+    answer: " The payout will be credited to your bank account.",
+  },
+  {
+    questionNum: "collapseSeven",
+    question:
+      "Are there any Registration & Other Charges for joining SAMRIDDH KENDRA?",
+    answer:
+      " Yes, there is a one-time registration charge of INR 999 + GST (18%).",
+  },
+  {
+    questionNum: "collapseEight",
+    question: "When can I start selling financial products?",
+    answer:
+      " After registering as a SAMRIDDH KENDRA Merchant, you can immediately start selling financial products to customers.",
   },
 ];
 

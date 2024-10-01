@@ -6,9 +6,10 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
 import ContactUsForm from "../components/ContactForms/ContactUsForm";
+import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
 
 const AboutUs = () => {
-  const { carouselOptions } = useContext(CreatingContext);
+  const { carouselOptions, faqData } = useContext(CreatingContext);
   const [story, setStory] = useState("2018");
 
   return (
@@ -125,7 +126,7 @@ const AboutUs = () => {
               <ul class="storyNav h-100 ps-5 text-center nav d-flex flex-column flex-nowrap gap-3">
                 <li class="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter ${
+                    class={`nav-link fw-bold font-inter  ${
                       story === "2018" && "active"
                     }`}
                     aria-current="page"
@@ -136,7 +137,7 @@ const AboutUs = () => {
                 </li>
                 <li class="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter ${
+                    class={`nav-link fw-bold font-inter  ${
                       story === "2019-2022" && "active"
                     }`}
                     onClick={() => setStory("2019-2022")}
@@ -146,7 +147,7 @@ const AboutUs = () => {
                 </li>
                 <li class="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter ${
+                    class={`nav-link fw-bold font-inter  ${
                       story === "2023" && "active"
                     }`}
                     onClick={() => setStory("2023")}
@@ -156,7 +157,7 @@ const AboutUs = () => {
                 </li>{" "}
                 <li class="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter ${
+                    class={`nav-link fw-bold font-inter  ${
                       story === "2024" && "active"
                     }`}
                     onClick={() => setStory("2024")}
@@ -381,6 +382,57 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      <section className="EducationLoanSection_9 px-lg-0 px-md-0 px-4">
+        <EducationLoanTitle
+          title={"Frequently Asked Questions"}
+          color="black"
+          fontSize="fs-32"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container">
+          <div className="faqContainer row ">
+            <div className="  col-12">
+              <div className="accordion" id="accordionExample">
+                {faqData.map((data, index) => {
+                  return (
+                    <div key={index} className="accordion-item mt-3 rounded-4">
+                      <h2 className="accordion-header ">
+                        <button
+                          className={`accordion-button
+                            collapsed
+                           fs-20 font-inter rounded-4`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target={`#${data.questionNum}`}
+                          aria-expanded="false"
+                          aria-controls={data.questionNum}
+                        >
+                          {data.question}
+                        </button>
+                      </h2>
+
+                      <div
+                        id={data.questionNum}
+                        className={`accordion-collapse collapse answerContainer my-lg-3 my-md-2 my-2`}
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body fs-20 font-inter p-5">
+                          <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                          {data.answer}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="about_section_6">
         <Title
