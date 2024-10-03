@@ -299,7 +299,7 @@ const Lap = () => {
         className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue"
       >
         <EducationLoanTitle
-          title={"What Education Loans Cover?"}
+          title={"What LAP Loans Cover?"}
           color="white"
           fontSize="fs-36"
           ratings={false}
