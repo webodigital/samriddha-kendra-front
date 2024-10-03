@@ -98,15 +98,8 @@ const Footer = () => {
                   </li>
                   <li className="mt-4">
                     <Link to={"/terms_of_use"}>
-                      <a href="" className="text-white">
-                        Terms of Use
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="mt-4">
-                    <Link to={"/refund_policy"}>
-                      <a href="" className="text-white">
-                        Refund Policy
+                      <a href="" className="text-white text-capitalize">
+                        Terms and Conditions
                       </a>
                     </Link>
                   </li>

@@ -60,7 +60,6 @@ export const router = createBrowserRouter(
       </Route>
       <Route path="contact" element={<ContactUs />} />
       <Route path="privacy_policy" element={<Privacy_policy />} />
-      <Route path="refund_policy" element={<RefundPolicy />} />
       <Route path="grievance_officer" element={<GrievanceOfficer />} />
       <Route path="terms_of_use" element={<TermsOfUse />} />
       <Route path="blogs" element={<Blogs />} />
