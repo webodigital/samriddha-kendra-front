@@ -27,7 +27,6 @@ import Personal from "../Pages/LoanPages/Personal";
 import Business from "../Pages/LoanPages/Business";
 import HomeLoan from "../Pages/LoanPages/HomeLoan";
 import Privacy_policy from "../Pages/Privacy_policy";
-import RefundPolicy from "../Pages/RefundPolicy";
 import GrievanceOfficer from "../Pages/GrievanceOfficer";
 import TermsOfUse from "./../Pages/TermsOfUse";
 import Blogs from "../Pages/Blogs";
