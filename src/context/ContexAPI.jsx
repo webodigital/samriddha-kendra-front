@@ -197,6 +197,39 @@ const educationLoan = [
   },
 ];
 
+const lapLoan = [
+  {
+    questionNum: "collapseOne",
+    question: "Is Samriddh Kendra a direct loan provider?",
+    answer:
+      "No, Samriddh Kendra is a platform that connects borrowers with lenders.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "What are the eligibility criteria for LAP loans?",
+    answer:
+      "Any individual or business owner with residential or commercial property can apply through our platform.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "How does Samriddh Kendra help in the loan process?",
+    answer:
+      " Samriddh Kendra acts as a bridge, simplifying the process by connecting you with lenders that match your needs.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "Are there any fees to use Samriddh Kendra’s platform?",
+    answer:
+      " Samriddh Kendra doesn’t charge users directly but partners with lenders who may have their fee structure.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "How long does it take to get a loan approved?",
+    answer:
+      " Loan approval takes 7-10 days after property valuation and document submission depending on the lender.",
+  },
+];
+
 /* End FAQ */
 
 export const ContextProvider = ({ children }) => {
@@ -235,6 +268,7 @@ export const ContextProvider = ({ children }) => {
         reviewCarouselOptions,
         loanPartnersCarouselOptions,
         partnersCarouselOptions,
+        lapLoan,
       }}
     >
       {children}
