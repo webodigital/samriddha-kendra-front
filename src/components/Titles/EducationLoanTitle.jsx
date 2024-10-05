@@ -29,7 +29,7 @@ const EducationLoanTitle = ({
         } gap-4 mt-3`}
       >
         <p
-          className={`fs-16 font-inter ${txtCenter} w-100  ${
+          className={`fs-18 font-inter ${txtCenter} w-100  ${
             color === "black" ? "text-dark" : "text-white"
           } fw-medium mt-3`}
         >

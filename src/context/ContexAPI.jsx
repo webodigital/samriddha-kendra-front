@@ -255,33 +255,32 @@ const lapLoan = [
 const personalLoan = [
   {
     questionNum: "collapseOne",
-    question: "Is Samriddh Kendra a direct loan provider?",
+    question: "What is the minimum loan amount available?",
     answer:
-      "No, Samriddh Kendra is a platform that connects borrowers with lenders.",
+      "Loan amounts vary by lender; the minimum amount typically starts at ₹5,000.",
   },
   {
     questionNum: "collapseTwo",
-    question: "What are the eligibility criteria for LAP loans?",
+    question: "What documents are needed for a personal loan?",
     answer:
-      "Any individual or business owner with residential or commercial property can apply through our platform.",
+      "Standard documents include identity proof, address proof, and income details.",
   },
   {
     questionNum: "collapseThree",
-    question: "How does Samriddh Kendra help in the loan process?",
+    question: "Can I apply for a personal loan if I have an existing loan?",
     answer:
-      " Samriddh Kendra acts as a bridge, simplifying the process by connecting you with lenders that match your needs.",
+      " Yes, many lenders allow you to take another loan, subject to your credit profile.",
   },
   {
     questionNum: "collapseFour",
-    question: "Are there any fees to use Samriddh Kendra’s platform?",
-    answer:
-      " Samriddh Kendra doesn’t charge users directly but partners with lenders who may have their fee structure.",
+    question: "How long does loan disbursal take?",
+    answer: "Loan disbursal usually takes 24 to 72 hours after approval.",
   },
   {
     questionNum: "collapseFive",
-    question: "How long does it take to get a loan approved?",
+    question: "Can I prepay my loan?",
     answer:
-      " Loan approval takes 7-10 days after property valuation and document submission depending on the lender.",
+      "Prepayment is generally allowed, but terms depend on the lender, so review your loan agreement.",
   },
 ];
 

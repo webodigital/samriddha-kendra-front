@@ -208,9 +208,9 @@ const Personal = () => {
         <EducationLoanTitle
           title={"Who is this for?"}
           color="black"
-          fontSize="fs-40"
+          fontSize="fs-50"
           ratings={false}
-          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera="Samriddh Kendra connects those looking for finance assistance towards personal, education, or family goals. If you are looking to generate funds in case of emergencies, weddings, or travel, we make the process easier by finding the right loan suited for you."
           pera2={""}
         />
       </section>
@@ -311,52 +311,24 @@ const Personal = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1. Tuition and fees
+                  1.Home Loan
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  At Samriddh Kendra, we provide education loans that cover the
-                  full cost of your tuition, ensuring you can focus on your
-                  studies without the financial burden. Whether you’re enrolling
-                  in a local university or a professional training program, our
-                  loans are designed to cater to the complete fee structure of
-                  your chosen institution.
+                  Easily finance the purchase of your home with quick approvals
+                  and no collateral required. Personal loans offer faster
+                  disbursement and flexibility for home-related expenses.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Accommodation
+                  2. Education
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  We understand that the cost of living can be a major concern
-                  for students. Our education loans include provisions for
-                  on-campus housing, so you can reside close to your institution
-                  without worrying about the expenses. By securing your living
-                  arrangements, we aim to make your academic experience smoother
-                  and more focused on learning.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6 col-12">
-              <div className="my-4">
-                <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Tuition and fees
-                </h2>
-                <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6 col-12">
-              <div className="my-4">
-                <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Tuition and fees
-                </h2>
-                <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  Covering the cost of education, including tuition fees, a
+                  personal loan provides easy access to funds with fewer
+                  restrictions and faster processing.
                 </p>
               </div>
             </div>
