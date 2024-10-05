@@ -10,7 +10,7 @@ const Personal = () => {
   const {
     loanType,
     handleLoanChange,
-    educationLoan,
+    personalLoan,
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
     partnersCarouselOptions,
@@ -512,7 +512,7 @@ const Personal = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {personalLoan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

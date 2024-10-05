@@ -525,9 +525,7 @@ const Lap = () => {
                     >
                       <h2 className="accordion-header ">
                         <button
-                          className={`accordion-button
-                            collapsed
-                           fs-20 font-inter rounded-4`}
+                          className={`accordion-button collapsed fs-20 font-inter rounded-4`}
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target={`#${data.questionNum}`}
@@ -545,7 +543,9 @@ const Lap = () => {
                       >
                         <div className="accordion-body fs-20 font-inter p-5">
                           <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                          {data.answer}
+                          <div
+                            dangerouslySetInnerHTML={{ __html: data.answer }}
+                          />
                         </div>
                       </div>
                     </div>
