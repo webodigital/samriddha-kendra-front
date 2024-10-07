@@ -340,28 +340,6 @@ const EducationLoan = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
-              <div className="my-4">
-                <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Tuition and fees
-                </h2>
-                <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6 col-12">
-              <div className="my-4">
-                <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Tuition and fees
-                </h2>
-                <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
-                </p>
-              </div>
-            </div>
           </div>
 
           <ApplyBtn
