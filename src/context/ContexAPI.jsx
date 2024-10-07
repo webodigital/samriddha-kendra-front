@@ -172,28 +172,33 @@ const faqData = [
 const educationLoan = [
   {
     questionNum: "collapseOne",
-    question:
-      "How does Samriddh differ from other financial assistance program or education?",
+    question: "Is Samriddh Kendra a loan provider?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " No, Samriddh Kendra acts as a mediator, connecting you with trusted financial institutions.",
   },
   {
     questionNum: "collapseTwo",
-    question: "What are the minimum eligibility requirements to apply?",
+    question: "What documents are required for an educational loan?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " You’ll typically need proof of admission, identity, income details, and educational cost breakdown.",
   },
   {
     questionNum: "collapseThree",
-    question: "What are the application requirements?",
+    question: "Can I apply for an educational loan if I’m studying abroad?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      "Yes, Samriddh Kendra’s platform connects you with loans to connect you with lenders or Banks / NBFC.",
   },
   {
     questionNum: "collapseFour",
-    question: "When do I start repayment?",
+    question: "Are there options for flexible repayment?",
     answer:
-      " Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+      " Yes, many of our partners offer flexible repayment plans, including grace periods during your studies.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "How long does it take to get loan approval?",
+    answer:
+      "The approval timeline varies, but our platform ensures a fast, efficient process with quick responses.",
   },
 ];
 

@@ -211,7 +211,7 @@ const EducationLoan = () => {
           color="black"
           fontSize="fs-40"
           ratings={false}
-          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're exploring loan options or insurance coverage, our platform connects you with services tailored to your unique needs. Samriddh Kendra is ideal for those who value transparency, convenience, and expert guidance in finding the right financial products."
           pera2={""}
         />
       </section>
@@ -315,12 +315,12 @@ const EducationLoan = () => {
                   1. Tuition and fees
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  At Samriddh Kendra, we provide education loans that cover the
-                  full cost of your tuition, ensuring you can focus on your
-                  studies without the financial burden. Whether you’re enrolling
-                  in a local university or a professional training program, our
-                  loans are designed to cater to the complete fee structure of
-                  your chosen institution.
+                  At Samriddh Kendra, we connect you with education loan options
+                  that cover the full cost of your tuition, allowing you to
+                  focus on your studies without financial stress. Whether you’re
+                  enrolling in a local university or a professional training
+                  program, our platform helps you find loans that cater to the
+                  complete fee structure of your chosen institution.
                 </p>
               </div>
             </div>
@@ -331,11 +331,12 @@ const EducationLoan = () => {
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
                   We understand that the cost of living can be a major concern
-                  for students. Our education loans include provisions for
-                  on-campus housing, so you can reside close to your institution
-                  without worrying about the expenses. By securing your living
-                  arrangements, we aim to make your academic experience smoother
-                  and more focused on learning.
+                  for students. Through our platform, you can access education
+                  loans that include provisions for on-campus housing, ensuring
+                  you can reside near your institution without financial stress.
+                  By connecting you with the right solutions, we aim to make
+                  your academic experience smoother and more focused on
+                  learning.
                 </p>
               </div>
             </div>
