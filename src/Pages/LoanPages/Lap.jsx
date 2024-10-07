@@ -397,13 +397,13 @@ const Lap = () => {
                     </p>
                     <div className="txt">
                       <h2 className="fw-medium fs-20 font-inter">
-                        Tell us about yourself
+                        Submit Basic Information:
                       </h2>
                       <p className="fs-16 font-inter">
-                        We'll need some basic information from you (and your
-                        cosigner if you're applying with one) like your name,
-                        address, and date of birth, along with some details
-                        about your school.
+                        Using Samriddh Kendra’s user-friendly online platform,
+                        fill in your property and financial details. This helps
+                        us connect you with suitable loan options from our
+                        network of lenders.
                       </p>
                     </div>
                   </div>
@@ -415,11 +415,14 @@ const Lap = () => {
                     </p>
                     <div className="txt">
                       <h2 className="fw-medium fs-20 font-inter">
-                        Choose your loan option(s)
+                        Property Valuation:
                       </h2>
                       <p className="fs-16 font-inter">
-                        Choose the best Plan and Add-ons for you, and confirm
-                        your details.
+                        After submission, our partnered lenders will evaluate
+                        your property to determine your loan eligibility.
+                        Samriddh Kendra ensures the valuation is quick and
+                        accurate so you get an optimal loan offer based on your
+                        property’s value.
                       </p>
                     </div>
                   </div>
@@ -431,11 +434,32 @@ const Lap = () => {
                     </p>
                     <div className="txt">
                       <h2 className="fw-medium fs-20 font-inter">
-                        Document upload & Get the policy
+                        Loan Offers:
                       </h2>
                       <p className="fs-16 font-inter">
-                        Fill in your details, add your Nominee details and
-                        complete your KYC so that we can issue the policy.
+                        Once evaluated, Samriddh Kendra will present you with
+                        multiple loan offers from different lenders. Each offer
+                        is customized based on the property’s value so you can
+                        compare interest rates, loan amount, and repayment terms
+                        before you decide.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      4
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Approval and Disbursal:
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Once you accept an offer, Samriddh Kendra will take care
+                        of the rest with the selected lender. We ensure approval
+                        and disbursal are fast so you get the funds
+                        without any delay
                       </p>
                     </div>
                   </div>
