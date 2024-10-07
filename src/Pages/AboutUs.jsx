@@ -276,12 +276,13 @@ const AboutUs = () => {
         </div>
 
         <div className="coreValue container-fluid">
-          <div className="d-flex h-100 font-inter align-items-center justify-content-center p-5">
-            <p className="fw-semibold fs-28 text-medium-gray">
-              <span>S</span>ustainale <span>A</span>ccess to <span>M</span>arket
-              and <span>R</span>ural <span>I</span>nitiatives for <span>D</span>
+          <div className="d-flex h-100 mx-auto text-center font-inter align-items-center justify-content-center p-5">
+            <div className="fw-semibold fs-28 text-medium-gray w-100 mx-auto">
+              <span>S</span>ustainable <span>A</span>ccess to <span>M</span>
+              arket and <span>R</span>ural <span>I</span>nitiatives for{" "}
+              <span>D</span>
               riving <span>D</span>evelopment and <span>H</span>olistic growth
-            </p>
+            </div>
           </div>
         </div>
       </div>

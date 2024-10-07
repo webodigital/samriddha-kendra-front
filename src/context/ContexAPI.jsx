@@ -228,28 +228,6 @@ const lapLoan = [
     answer:
       "Loan approval takes 7-10 days after property valuation and document submission depending on the lender.",
   },
-  {
-    questionNum: "panelsStayOpen-collapseSix",
-    question: "Who is this for?",
-    answer:
-      "LAP loans are for those who want to use their residential or commercial property to meet big financial needs. Whether it’s for business expansion, personal milestones, or debt consolidation, LAP loans are a secure, low-interest option.",
-  },
-  {
-    questionNum: "panelsStayOpen-collapseSeven",
-    question: "What does LAP Loans cover?",
-    answer: ` Business Expansion: Samriddh Kendra helps you get loans from trusted lenders that provide the funds to expand your business. | 
-              Debt Consolidation: If you have multiple high-interest debts, Samriddh Kendra connects you with loan providers who offer LAP loans for debt consolidation. | 
-              Higher Education: Samriddh Kendra helps you find lenders who offer LAP loans to fund tuition and related expenses. | 
-              Medical Emergencies: Samriddh Kendra connects you with loan providers who offer LAP loans to fund urgent medical treatments and expenses.`,
-  },
-  {
-    questionNum: "panelsStayOpen-collapseEight",
-    question: "How to apply for LAP Loan with Samriddh Kendra?",
-    answer: ` Submit Basic Information: Use Samriddh Kendra's platform to fill in your property and financial details. | 
-              Property Valuation: Our partnered lenders will evaluate your property to determine loan eligibility. | 
-              Loan Offers: Samriddh Kendra presents multiple loan offers customized based on your property’s value. |
-              Approval and Disbursal: Once you accept an offer, Samriddh Kendra ensures fast approval and fund disbursal.`,
-  },
 ];
 
 const personalLoan = [

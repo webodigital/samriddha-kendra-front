@@ -211,7 +211,8 @@ const Lap = () => {
           color="black"
           fontSize="fs-40"
           ratings={false}
-          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera="LAP loans are for those who want to use their residential or commercial property to meet big financial needs. Whether it’s for business expansion, personal milestones, or debt consolidation, LAP loans are a secure, low-interest option.
+"
           pera2={""}
         />
       </section>
@@ -312,52 +313,55 @@ const Lap = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1. Tuition and fees
+                  1. Business Expansion
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  At Samriddh Kendra, we provide education loans that cover the
-                  full cost of your tuition, ensuring you can focus on your
-                  studies without the financial burden. Whether you’re enrolling
-                  in a local university or a professional training program, our
-                  loans are designed to cater to the complete fee structure of
-                  your chosen institution.
+                  Samriddh Kendra helps you get loans from trusted lenders that
+                  provide the funds to expand your business. Whether you need to
+                  invest in equipment, new locations, or additional staff, LAP
+                  loans give you the capital to grow without bringing in
+                  external investors.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Accommodation
+                  2. Debt Consolidation
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  We understand that the cost of living can be a major concern
-                  for students. Our education loans include provisions for
-                  on-campus housing, so you can reside close to your institution
-                  without worrying about the expenses. By securing your living
-                  arrangements, we aim to make your academic experience smoother
-                  and more focused on learning.
+                  If you have multiple high-interest debts, Samriddh Kendra
+                  connects you with loan providers who offer LAP loans for debt
+                  consolidation. Simplify your finances by consolidating all
+                  debts into one manageable payment and reduce overall interest
+                  and stress.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Tuition and fees
+                  3. Higher Education
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  Funding education can be overwhelming but Samriddh Kendra
+                  helps you find lenders who offer LAP loans to fund tuition and
+                  related expenses. From domestic to international education,
+                  these loans are a viable option without dipping into your
+                  savings.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Tuition and fees
+                  4. Medical Emergencies
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  In medical emergencies, quick funding is key. Samriddh Kendra
+                  connects you with loan providers who offer LAP loans to fund
+                  urgent medical treatments and expenses so you can be
+                  stress-free during tough times.
                 </p>
               </div>
             </div>
