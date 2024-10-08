@@ -10,7 +10,7 @@ const HomeLoan = () => {
   const {
     loanType,
     handleLoanChange,
-    educationLoan,
+    homeLoan,
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
     partnersCarouselOptions,
@@ -312,52 +312,77 @@ const HomeLoan = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1. Tuition and fees
+                  1. Property Purchase
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  At Samriddh Kendra, we provide education loans that cover the
-                  full cost of your tuition, ensuring you can focus on your
-                  studies without the financial burden. Whether you’re enrolling
-                  in a local university or a professional training program, our
-                  loans are designed to cater to the complete fee structure of
-                  your chosen institution.
+                  A home loan primarily finances the purchase of a residential
+                  property. Whether you’re buying an apartment, villa, or land
+                  to build your dream home, Samriddh Kendra helps you connect
+                  with lenders offering loans specifically for property
+                  acquisition, ensuring you can afford your ideal living space.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Accommodation
+                  2. Home Renovations and Improvements
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  We understand that the cost of living can be a major concern
-                  for students. Our education loans include provisions for
-                  on-campus housing, so you can reside close to your institution
-                  without worrying about the expenses. By securing your living
-                  arrangements, we aim to make your academic experience smoother
-                  and more focused on learning.
+                  In addition to purchasing a home, many borrowers use home
+                  loans for renovations or improvements. Whether upgrading your
+                  kitchen, adding a room, or enhancing curb appeal, Samriddh
+                  Kendra links you with loan options that can help you invest in
+                  your property’s value and comfort.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Tuition and fees
+                  3. Land Acquisition
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  If you're looking to buy land for future development or
+                  construction, our platform facilitates access to loans
+                  tailored for land acquisition. We connect you with lenders who
+                  offer flexible terms, allowing you to secure a prime location
+                  for your future home or investment.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Tuition and fees
+                  4. Balance Transfer Loans
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  Samriddh Kendra offers a Home Loan Balance Transfer service,
+                  allowing you to transfer your existing home loan from another
+                  lender to benefit from lower interest rates and better
+                  repayment terms. By switching to us, you can reduce your
+                  monthly EMIs, save on interest costs, and enjoy flexible
+                  repayment options. Our balance transfer process is simple and
+                  designed to ease your financial burden while helping you
+                  manage your home loan more efficiently.
+                </p>
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  5. Home Loans for New Home Construction
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  At Samriddh Kendra, we provide Home Loans in tranches for new
+                  home construction, ensuring you receive funds as and when
+                  required during different stages of the building process. This
+                  flexible disbursement option helps you manage construction
+                  expenses effectively while only paying interest on the amount
+                  disbursed. Whether you're building your dream home or
+                  constructing a new property, our home loans offer competitive
+                  rates and tailored repayment options to support your financial
+                  needs throughout the construction journey.
                 </p>
               </div>
             </div>
@@ -514,7 +539,7 @@ const HomeLoan = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {homeLoan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

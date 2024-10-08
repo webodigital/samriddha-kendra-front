@@ -202,6 +202,39 @@ const educationLoan = [
   },
 ];
 
+const homeLoan = [
+  {
+    questionNum: "collapseOne",
+    question: "What is a home loan?",
+    answer:
+      "A home loan is a financial product that allows you to borrow money to purchase or renovate a residential property.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "How do I apply for a home loan?",
+    answer:
+      " You can apply for a home loan through Samriddh Kendra by completing our online application on our platform.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "What documents are required?",
+    answer:
+      "Typically, you will need to provide identification, income proof, property documents, and financial statements.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "Can I get a home loan if I have bad credit?",
+    answer:
+      " While it may be more challenging, some lenders may offer options for borrowers with less-than-perfect credit through Samriddh Kendra.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "What are the typical repayment terms?",
+    answer:
+      "Home loans usually have repayment terms ranging from 10 to 30 years, depending on the lender and loan amount.",
+  },
+];
+
 const lapLoan = [
   {
     questionNum: "panelsStayOpen-collapseOne",
@@ -307,6 +340,7 @@ export const ContextProvider = ({ children }) => {
         partnersCarouselOptions,
         lapLoan,
         personalLoan,
+        homeLoan,
       }}
     >
       {children}

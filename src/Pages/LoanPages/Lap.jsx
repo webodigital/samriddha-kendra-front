@@ -304,7 +304,7 @@ const Lap = () => {
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="Education loans at Samriddh Kendra are designed to cover a broad range of expenses to support your academic journey. Our education loans typically include:"
+          pera="At Samriddh Kendra, we offer a wide range of Loan Against Property (LAP) options to help you unlock the potential of your property and meet your financial needs. Whether you're looking to fund a personal project, manage business expenses, or consolidate debts, our LAP loans provide a flexible and convenient solution. Here’s what we cover:"
           pera2={""}
         />
 
@@ -313,55 +313,64 @@ const Lap = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1. Business Expansion
+                  1. Residential Property Loans
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Samriddh Kendra helps you get loans from trusted lenders that
-                  provide the funds to expand your business. Whether you need to
-                  invest in equipment, new locations, or additional staff, LAP
-                  loans give you the capital to grow without bringing in
-                  external investors.
+                  We offer loans against your residential property, allowing you
+                  to leverage your home’s value while continuing to own and
+                  reside in it. You can use the funds for various purposes,
+                  including higher education, medical expenses, or personal
+                  needs.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Debt Consolidation
+                  2. Commercial Property Loans
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  If you have multiple high-interest debts, Samriddh Kendra
-                  connects you with loan providers who offer LAP loans for debt
-                  consolidation. Simplify your finances by consolidating all
-                  debts into one manageable payment and reduce overall interest
-                  and stress.
+                  If you own commercial property, such as an office or a shop,
+                  you can avail of a loan against it to raise funds for business
+                  expansion, working capital needs, or other investments.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Higher Education
+                  3. Self-Occupied and Rented Property Loans
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Funding education can be overwhelming but Samriddh Kendra
-                  helps you find lenders who offer LAP loans to fund tuition and
-                  related expenses. From domestic to international education,
-                  these loans are a viable option without dipping into your
-                  savings.
+                  Whether your property is self-occupied or rented out, you can
+                  still benefit from our LAP loans. We provide competitive rates
+                  and flexible repayment options for both.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Medical Emergencies
+                  4. Loan for Multiple Purposes
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  In medical emergencies, quick funding is key. Samriddh Kendra
-                  connects you with loan providers who offer LAP loans to fund
-                  urgent medical treatments and expenses so you can be
-                  stress-free during tough times.
+                  Our LAP loans can be used for a variety of purposes, such as
+                  funding weddings, vacations, or business projects.
+                  Additionally, you can use the funds to repay existing
+                  high-interest debts or manage emergency situations.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  5. Flexible Repayment Terms
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  We offer repayment tenures of up to 15–20 years, giving you
+                  the flexibility to manage your finances efficiently. You can
+                  also benefit from low interest rates and large loan amounts
+                  based on the property’s value.
                 </p>
               </div>
             </div>
