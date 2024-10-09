@@ -49,6 +49,9 @@ const Business = () => {
               text="Apply Now"
               arrow={true}
               arrowDark={false}
+              url={
+                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+              }
             />
           </div>
         </div>
@@ -362,12 +365,17 @@ const Business = () => {
             </div>
           </div>
 
-          <ApplyBtn
-            textColor="text-dark"
-            bgColor={"bg-white"}
-            text="Apply Now"
-            arrow={false}
-          />
+          <div className="col-2">
+            <ApplyBtn
+              textColor="text-dark"
+              bgColor={"bg-white"}
+              text="Apply Now"
+              arrow={false}
+              url={
+                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+              }
+            />
+          </div>
         </div>
       </section>
 
@@ -470,6 +478,9 @@ const Business = () => {
                   text="Apply Now"
                   arrow={false}
                   arrowDark={false}
+                  url={
+                    "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  }
                 />
               </div>
             </div>
@@ -492,6 +503,9 @@ const Business = () => {
                   text="Apply Now"
                   arrow={false}
                   arrowDark={false}
+                  url={
+                    "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  }
                 />
               </div>
             </div>

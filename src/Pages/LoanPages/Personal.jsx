@@ -49,6 +49,9 @@ const Personal = () => {
               text="Apply Now"
               arrow={true}
               arrowDark={false}
+              url={
+                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+              }
             />
           </div>
         </div>
@@ -334,12 +337,17 @@ const Personal = () => {
             </div>
           </div>
 
-          <ApplyBtn
-            textColor="text-dark"
-            bgColor={"bg-white"}
-            text="Apply Now"
-            arrow={false}
-          />
+          <div className="col-2">
+            <ApplyBtn
+              textColor="text-dark"
+              bgColor={"bg-white"}
+              text="Apply Now"
+              arrow={false}
+              url={
+                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+              }
+            />
+          </div>
         </div>
       </section>
       <section className="EducationLoanSection_7 px-lg-0 px-md-0 px-4 py-6">
@@ -441,6 +449,9 @@ const Personal = () => {
                   text="Apply Now"
                   arrow={false}
                   arrowDark={false}
+                  url={
+                    "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  }
                 />
               </div>
             </div>
@@ -463,6 +474,9 @@ const Personal = () => {
                   text="Apply Now"
                   arrow={false}
                   arrowDark={false}
+                  url={
+                    "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                  }
                 />
               </div>
             </div>

@@ -9,13 +9,15 @@ const ApplyBtn = ({
   width,
   fs,
   fw,
+  url,
 }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
   return (
-    <button
+    <a
+      href={url}
       className={`btn apply-button rounded-4 text-center ${width}  ${
         fs ? fs : "fs-18"
       } ${
@@ -32,7 +34,7 @@ const ApplyBtn = ({
       ) : (
         ""
       )}
-    </button>
+    </a>
   );
 };
 
