@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row flex-column gap-8 text-md-center order-lg-first order-md-first mt-lg-5 mt-5 order-sm-last order-last">
               <div className="pera fs-18  text-light-gray text-lg-start mt-sm-5">
                 <span className="fw-bold text-white">SAMRIDDH KENDRA</span> is
-                an early stage Fi Tech player working in the field of Finance
+                an early stage Fin Tech player working in the field of Finance
                 and technology to bridge the gap between rural customers and
                 Finance Institutions
               </div>
