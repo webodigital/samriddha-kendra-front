@@ -214,6 +214,10 @@ html {
 
 /***** Global Css *****/
 
+.GrievanceOfficer {
+  height: 38vh;
+}
+
 [data-headlessui-focus-visible] {
   outline: none !important;
   border: none !important;
