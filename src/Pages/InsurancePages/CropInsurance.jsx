@@ -1206,11 +1206,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img
-                    src="/Health Insurance img.webp"
-                    className="p-4 img-fluid"
-                    alt=""
-                  />
+                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
