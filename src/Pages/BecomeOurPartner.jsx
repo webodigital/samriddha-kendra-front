@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useLayoutEffect } from "react";
 import Button from "../components/Buttons/Button";
 import Title from "../components/Titles/Title";
 import OwlCarousel from "react-owl-carousel";
@@ -12,16 +12,14 @@ const BecomeOurPartner = () => {
     useContext(CreatingContext);
   const location = useLocation();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (location.hash) {
-      // Find the element by its ID (excluding the hash symbol)
       const element = document.getElementById(location.hash.substring(1));
       if (element) {
-        // Scroll to the element smoothly
         element.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [location]);
+  }, []);
 
   return (
     <div className="BecomeOurPartner">
