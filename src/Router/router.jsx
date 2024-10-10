@@ -31,6 +31,8 @@ import GrievanceOfficer from "../Pages/GrievanceOfficer";
 import TermsOfUse from "./../Pages/TermsOfUse";
 import Blogs from "../Pages/Blogs";
 import CropInsurance from "../Pages/InsurancePages/CropInsurance";
+import Property_purchase_loan from "../Pages/LoanPages/Property_purchase_loan";
+import Morgatge_loan from "../Pages/LoanPages/Morgatge_loan";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -51,6 +53,11 @@ export const router = createBrowserRouter(
           <Route path="personal" element={<Personal />} />
           <Route path="business" element={<Business />} />
           <Route path="home" element={<HomeLoan />} />
+          <Route
+            path="Property_purchase_loan"
+            element={<Property_purchase_loan />}
+          />
+          <Route path="morgatge_loan" element={<Morgatge_loan />} />
         </Route>
         <Route
           path="Calculate_EMI_Interest"

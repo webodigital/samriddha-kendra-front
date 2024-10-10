@@ -92,6 +92,26 @@ const Nav = () => {
                       Business Loan
                     </NavLink>
                   </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? "Active dropdown-item" : "dropdown-item"
+                      }
+                      to={"/products/loan/morgatge_loan"}
+                    >
+                      Morgatge Loan
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? "Active dropdown-item" : "dropdown-item"
+                      }
+                      to={"/products/loan/property_purchase_loan"}
+                    >
+                      Property Purchase Loan
+                    </NavLink>
+                  </li>
                 </ul>
                 <ul>
                   <li>
@@ -297,6 +317,26 @@ const Nav = () => {
                           to={"/products/loan/business"}
                         >
                           Business Loan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/morgatge_loan"}
+                        >
+                          Morgatge Loan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "Active dropdown-item" : "dropdown-item"
+                          }
+                          to={"/products/loan/property_purchase_loan"}
+                        >
+                          Property Purchase Loan
                         </NavLink>
                       </li>
                     </ul>
