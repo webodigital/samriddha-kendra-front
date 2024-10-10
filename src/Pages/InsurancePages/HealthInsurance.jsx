@@ -152,7 +152,7 @@ const HealthInsurance = () => {
         </div>
       </section>
 
-      <section className=" liftInsuranceSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
+      {/*  <section className=" liftInsuranceSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
         <div className="container py-5">
           <div className="aspirationsSlider ">
             <OwlCarousel
@@ -228,7 +228,7 @@ const HealthInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className=" lifeInsuranceSection_3 px-lg-0 px-md-0 px-4 my-5">
         <div className="container">

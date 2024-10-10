@@ -139,17 +139,6 @@ const Nav = () => {
                       Motor insurance
                     </NavLink>
                   </li>{" "}
-                  <li>
-                    {" "}
-                    <NavLink
-                      className={({ isActive }) =>
-                        isActive ? "Active dropdown-item" : "dropdown-item"
-                      }
-                      to={"/products/insurance/crop"}
-                    >
-                      Crop insurance
-                    </NavLink>
-                  </li>
                 </ul>
               </ul>
             </li>

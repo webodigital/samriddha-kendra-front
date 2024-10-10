@@ -54,7 +54,7 @@ const HomeLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
+      {/*  <section className="EducationLoanSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
         <div className="container py-5">
           <div className="aspirationsSlider ">
             <OwlCarousel
@@ -130,7 +130,7 @@ const HomeLoan = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="EducationLoanSection_3 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle

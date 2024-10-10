@@ -1,15 +1,27 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Button from "../components/Buttons/Button";
 import Title from "../components/Titles/Title";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
-import { color } from "chart.js/helpers";
+import { useLocation } from "react-router-dom";
 
 const BecomeOurPartner = () => {
   const { carouselOptions, productsCarouselOptions, faqData } =
     useContext(CreatingContext);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      // Find the element by its ID (excluding the hash symbol)
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        // Scroll to the element smoothly
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   return (
     <div className="BecomeOurPartner">

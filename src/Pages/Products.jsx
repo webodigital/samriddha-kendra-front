@@ -146,30 +146,6 @@ const Products = () => {
                   />
                 </div>
               </div>
-              <div className="row mb-4  justify-content-center align-items-center">
-                <div
-                  data-aos="flip-right"
-                  className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
-                >
-                  <ProductCard
-                    image="./Crop insurance.png"
-                    cardTitle="Crop insurance"
-                    btnContent="Apply for loan"
-                    path={"/insurance/crop"}
-                  />
-                </div>
-                <div
-                  data-aos="flip-left"
-                  className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
-                >
-                  <ProductCard
-                    image="./Crop insurance2.png"
-                    cardTitle="Crop insurance"
-                    btnContent="Apply for loan"
-                    path={"/insurance/crop"}
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </>

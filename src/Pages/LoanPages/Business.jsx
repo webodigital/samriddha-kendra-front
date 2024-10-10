@@ -57,7 +57,7 @@ const Business = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
+      {/*  <section className="EducationLoanSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
         <div className="container py-5">
           <div className="aspirationsSlider ">
             <OwlCarousel
@@ -133,7 +133,7 @@ const Business = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="EducationLoanSection_3 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"What We Offer"}
@@ -691,7 +691,7 @@ const Business = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_11 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+      {/*      <section className="EducationLoanSection_11 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
           <EducationLoanTitle
             title={"Articles & Blogs"}
@@ -776,7 +776,7 @@ const Business = () => {
           </div>
         </div>
       </section>
-
+ */}
       <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">
           <div className="row">

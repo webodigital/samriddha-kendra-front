@@ -41,16 +41,12 @@ const Footer = () => {
                   </li>
                   <li className="mt-4">
                     <Link to={"/about"}>
-                      <a href="#faq" className="text-white">
-                        How it Works
-                      </a>
+                      <a className="text-white">How it Works</a>
                     </Link>
                   </li>
                   <li className="mt-4">
-                    <Link to={"/become_our_partner"}>
-                      <a href="#" className="text-white">
-                        FAQ
-                      </a>
+                    <Link to={"/become_our_partner#faq"} className="text-white">
+                      FAQ
                     </Link>
                   </li>
                 </ul>
