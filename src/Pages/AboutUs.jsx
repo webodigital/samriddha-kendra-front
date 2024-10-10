@@ -15,10 +15,10 @@ const AboutUs = () => {
   return (
     <div className="aboutUs">
       <div data-aos="zoom-in" className={`about_section_1`}>
-        <div className="image-container text-center">
+        <div className="image-container text-center mt-7">
           <img
             className="img-fluid about-hero-img"
-            src="./aboutUsImg1.png"
+            src="/aboutUsImg1.webp"
             alt=""
           />
         </div>
@@ -123,10 +123,10 @@ const AboutUs = () => {
         <div className="container">
           <div className="row mt-5">
             <div className="col-lg-3 col-md-4 col-12">
-              <ul class="storyNav h-100 ps-5 text-center nav d-flex flex-column flex-nowrap gap-3">
-                <li class="nav-item">
+              <ul className="storyNav h-100 ps-5 text-center nav d-flex flex-column flex-nowrap gap-3">
+                <li className="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter  ${
+                    className={`nav-link fw-bold font-inter  ${
                       story === "2018" && "active"
                     }`}
                     aria-current="page"
@@ -135,9 +135,9 @@ const AboutUs = () => {
                     2018
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter  ${
+                    className={`nav-link fw-bold font-inter  ${
                       story === "2019-2022" && "active"
                     }`}
                     onClick={() => setStory("2019-2022")}
@@ -145,9 +145,9 @@ const AboutUs = () => {
                     2019-2022
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter  ${
+                    className={`nav-link fw-bold font-inter  ${
                       story === "2023" && "active"
                     }`}
                     onClick={() => setStory("2023")}
@@ -155,9 +155,9 @@ const AboutUs = () => {
                     2023
                   </a>
                 </li>{" "}
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class={`nav-link fw-bold font-inter  ${
+                    className={`nav-link fw-bold font-inter  ${
                       story === "2024" && "active"
                     }`}
                     onClick={() => setStory("2024")}
