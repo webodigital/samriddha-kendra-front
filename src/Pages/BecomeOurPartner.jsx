@@ -12,6 +12,19 @@ const BecomeOurPartner = () => {
     useContext(CreatingContext);
   const location = useLocation();
 
+  useEffect(() => {
+    if (location.hash) {
+      // Use setTimeout to allow for a small delay
+      setTimeout(() => {
+        const element = document.getElementById(location.hash.substring(1));
+        if (element) {
+          // Scroll to the element smoothly
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 300); // Delay of 0 ms (executes after the event loop tick)
+    }
+  }, [location]);
+
   useLayoutEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
