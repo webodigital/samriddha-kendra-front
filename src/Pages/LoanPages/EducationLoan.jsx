@@ -342,12 +342,14 @@ const EducationLoan = () => {
             </div>
           </div>
 
-          <ApplyBtn
-            textColor="text-dark"
-            bgColor={"bg-white"}
-            text="Apply Now"
-            arrow={false}
-          />
+          <div className="col-2">
+            <ApplyBtn
+              textColor="text-dark"
+              bgColor={"bg-white"}
+              text="Apply Now"
+              arrow={false}
+            />
+          </div>
         </div>
       </section>
 
@@ -657,7 +659,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_11 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+      {/*    <section className="EducationLoanSection_11 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
           <EducationLoanTitle
             title={"Articles & Blogs"}
@@ -741,7 +743,7 @@ const EducationLoan = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">

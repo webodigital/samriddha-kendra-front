@@ -99,7 +99,7 @@ const Nav = () => {
                       }
                       to={"/products/loan/morgatge_loan"}
                     >
-                      Morgatge Loan
+                      Mortgage Loan
                     </NavLink>
                   </li>
                   <li>

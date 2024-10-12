@@ -1098,7 +1098,7 @@ const HealthInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+      {/*   <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
           <EducationLoanTitle
             title={"Articles & Blogs"}
@@ -1194,7 +1194,7 @@ const HealthInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="lifeInsuranceSection_14">
         <EducationLoanTitle

@@ -791,7 +791,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+      {/*     <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
           <EducationLoanTitle
             title={"Articles & Blogs"}
@@ -887,7 +887,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4  mb-15">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">

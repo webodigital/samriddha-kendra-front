@@ -871,7 +871,7 @@ const MotorInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+      {/*   <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
           <EducationLoanTitle
             title={"Articles & Blogs"}
@@ -968,7 +968,7 @@ const MotorInsurance = () => {
           </div>
         </div>
       </section>
-
+ */}
       <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4 ">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">
           <div className="row">
