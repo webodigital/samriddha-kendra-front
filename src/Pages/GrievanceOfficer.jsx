@@ -42,7 +42,7 @@ const GrievanceOfficer = () => {
               <td>{contactInfo.support.mobile}</td>
             </tr>
             <tr>
-              <td>Grievance</td>
+              <td>Grievance Officer</td>
               <td>{contactInfo.grievance.email}</td>
               <td>{contactInfo.grievance.mobile}</td>
             </tr>
