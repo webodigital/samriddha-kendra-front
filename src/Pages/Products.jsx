@@ -62,6 +62,28 @@ const Products = () => {
                     path={"/loan/lap"}
                   />
                 </div>
+                <div
+                  data-aos="flip-left"
+                  className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+                >
+                  <ProductCard
+                    image="/mort.webp"
+                    cardTitle="Mortgage Loan"
+                    btnContent="Apply for loan"
+                    path={""}
+                  />
+                </div>
+                <div
+                  data-aos="flip-left"
+                  className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+                >
+                  <ProductCard
+                    image="/property.webp"
+                    cardTitle="Property Loan"
+                    btnContent="Apply for loan"
+                    path={""}
+                  />
+                </div>
               </div>
 
               <div className="row  justify-content-center align-items-center">
@@ -89,6 +111,17 @@ const Products = () => {
                     applyLink={
                       "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
                     }
+                  />
+                </div>
+                <div
+                  data-aos="flip-left"
+                  className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+                >
+                  <ProductCard
+                    image="./lapLoan.png"
+                    cardTitle="Education Loan"
+                    btnContent="Apply for loan"
+                    path={"/loan/education_loan"}
                   />
                 </div>
               </div>

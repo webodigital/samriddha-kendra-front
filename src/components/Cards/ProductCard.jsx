@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ image, cardTitle, btnContent, path, applyLink }) => {
   return (
     <div className="productCards rounded-5 my-2">
-      <div className="w-50">
-        <div className="img-container me-xl-0 me-lg-5">
-          <img className="img-fluid" src={image} alt="" />
+      <div className="w-50 mx-auto">
+        <div className="img-container mx-auto w-100 me-xl-0 me-lg-5">
+          <img className="w-75" src={image} alt="" />
         </div>
       </div>
       <div className="w-50">

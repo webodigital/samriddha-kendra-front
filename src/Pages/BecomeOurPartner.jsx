@@ -157,7 +157,10 @@ const BecomeOurPartner = () => {
                   </p>
                   <p className="steps fw-semibold font-zilla">1</p>
                 </div>
-                <div data-aos="fade-down" className={`startEarningCard step2`}>
+                <div
+                  data-aos="fade-down"
+                  className={`startEarningCard active step2`}
+                >
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Complete KYC{" "}
                   </h2>
@@ -166,7 +169,10 @@ const BecomeOurPartner = () => {
                   </p>
                   <p className="steps fw-semibold font-zilla">2</p>
                 </div>
-                <div data-aos="fade-down" className={`startEarningCard step3`}>
+                <div
+                  data-aos="fade-down"
+                  className={`startEarningCard active step3`}
+                >
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Complete Your product training{" "}
                   </h2>
@@ -175,7 +181,10 @@ const BecomeOurPartner = () => {
                   </p>
                   <p className="steps fw-semibold font-zilla">3</p>
                 </div>
-                <div data-aos="fade-up" className={`startEarningCard step4`}>
+                <div
+                  data-aos="fade-up"
+                  className={`startEarningCard active step4`}
+                >
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Start selling & earning
                   </h2>
