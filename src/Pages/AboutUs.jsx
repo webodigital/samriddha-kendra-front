@@ -311,8 +311,8 @@ const AboutUs = () => {
                   <p className="text-light-blue fs-26">Founder and CEO</p>
 
                   <div className="d-flex gap-4">
-                    <img className="img-fluid" src="/linkd.svg" alt="" />
-                    <img className="img-fluid" src="/eml.svg" alt="" />
+                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    <img className="img-fluid ico" src="/eml.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -332,8 +332,8 @@ const AboutUs = () => {
                   </h5>
                   <p className="text-light-blue fs-26 w-100">Founder and CE</p>
                   <div className="d-flex gap-4 w-100 justify-content-center align-items-center">
-                    <img className="img-fluid" src="/linkd.svg" alt="" />
-                    <img className="img-fluid" src="/eml.svg" alt="" />
+                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    <img className="img-fluid ico" src="/eml.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -356,8 +356,8 @@ const AboutUs = () => {
                   </p>
 
                   <div className="d-flex gap-4">
-                    <img className="img-fluid" src="/linkd.svg" alt="" />
-                    <img className="img-fluid" src="/eml.svg" alt="" />
+                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    <img className="img-fluid ico" src="/eml.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -380,8 +380,8 @@ const AboutUs = () => {
                     Strategy and Product -head
                   </p>
                   <div className="d-flex gap-4">
-                    <img className="img-fluid" src="/linkd.svg" alt="" />
-                    <img className="img-fluid" src="/eml.svg" alt="" />
+                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    <img className="img-fluid ico" src="/eml.svg" alt="" />
                   </div>
                 </div>
               </div>
