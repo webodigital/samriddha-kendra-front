@@ -379,6 +379,12 @@ li {
   }
 }
 
+.hideScrollBar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .btn-containers {
   background: #cccc;
   padding: 0 0.4rem 0.4rem 0;
