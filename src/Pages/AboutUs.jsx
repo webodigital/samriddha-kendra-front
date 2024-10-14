@@ -303,15 +303,17 @@ const AboutUs = () => {
                   alt="..."
                 />
               </div>
-              <div className="light-gray-bg mt-4">
+              <div className="light-gray-bg w-100 mt-4">
                 <div className="card-body">
                   <h5 className="card-title fs-26 fw-semibold text-dark-blue">
                     Suman Saurav
                   </h5>
                   <p className="text-light-blue fs-26">Founder and CEO</p>
-                  <p className="card-text fs-18 text-light-gray">
-                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                  </p>
+
+                  <div className="d-flex gap-4">
+                    <img className="img-fluid" src="/linkd.svg" alt="" />
+                    <img className="img-fluid" src="/eml.svg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -323,15 +325,16 @@ const AboutUs = () => {
                   alt="..."
                 />
               </div>
-              <div className="light-gray-bg mt-4">
-                <div className="card-body">
+              <div className="light-gray-bg w-100  mt-4">
+                <div className="card-body w-100">
                   <h5 className="card-title fs-26 fw-semibold text-dark-blue">
                     Bipul Kumar
                   </h5>
-                  <p className="text-light-blue fs-26">Founder and CE</p>
-                  <p className="card-text fs-18 text-light-gray">
-                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                  </p>
+                  <p className="text-light-blue fs-26 w-100">Founder and CE</p>
+                  <div className="d-flex gap-4 w-100 justify-content-center align-items-center">
+                    <img className="img-fluid" src="/linkd.svg" alt="" />
+                    <img className="img-fluid" src="/eml.svg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -343,7 +346,7 @@ const AboutUs = () => {
                   alt="..."
                 />
               </div>
-              <div className="light-gray-bg mt-4">
+              <div className="light-gray-bg w-100 mt-4">
                 <div className="card-body">
                   <h5 className="card-title fs-26 fw-semibold text-dark-blue">
                     Rajesh Mishra
@@ -351,9 +354,11 @@ const AboutUs = () => {
                   <p className="text-light-blue fs-26">
                     CBO- Distribution Head
                   </p>
-                  <p className="card-text fs-18 text-light-gray">
-                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                  </p>
+
+                  <div className="d-flex gap-4">
+                    <img className="img-fluid" src="/linkd.svg" alt="" />
+                    <img className="img-fluid" src="/eml.svg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -366,7 +371,7 @@ const AboutUs = () => {
                   alt="..."
                 />
               </div>
-              <div className="light-gray-bg mt-4">
+              <div className="light-gray-bg w-100 mt-4">
                 <div className="card-body">
                   <h5 className="card-title fs-26 fw-semibold text-dark-blue">
                     Vishal Chopra
@@ -374,9 +379,10 @@ const AboutUs = () => {
                   <p className="text-light-blue fs-26">
                     Strategy and Product -head
                   </p>
-                  <p className="card-text fs-18 text-light-gray">
-                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                  </p>
+                  <div className="d-flex gap-4">
+                    <img className="img-fluid" src="/linkd.svg" alt="" />
+                    <img className="img-fluid" src="/eml.svg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
