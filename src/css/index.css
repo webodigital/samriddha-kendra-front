@@ -2404,6 +2404,33 @@ li {
 
 /***** End personalLoan Section *****/
 
+/***** morgatge Section *****/
+
+.morgatge {
+  height: 51rem;
+  background-image: url("/morgatge.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End morgatge Section *****/
+
 /***** businessLoan Section *****/
 
 .businessLoan {
