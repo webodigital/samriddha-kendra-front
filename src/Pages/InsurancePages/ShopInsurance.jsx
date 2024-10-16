@@ -9,7 +9,7 @@ import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 const ShopInsurance = () => {
   const {
     aspirationsSliderCarouselOptions,
-    educationLoan,
+    shopLoan,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -31,9 +31,12 @@ const ShopInsurance = () => {
             Shop Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Lorem ipsum is a placeholder text commonly used in the design and
-            typesetting industry. It consists of parts of Latin words with no
-            specific meaning.
+            Shop Insurance is an added financial safety net for your business
+            premises, stock, and equipment. It protects your shop from surprise
+            events such as theft, fire, or natural disasters. This is the
+            insurance Samriddh Kendra connects you with, whose solution is
+            tailor-made for your shop, offering you peace of mind through their
+            network of trusted partners.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
@@ -168,11 +171,9 @@ const ShopInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. 
-It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
-                pera2={
-                  "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning "
-                }
+                pera="Shop Insurance is an added financial safety net for your business premises, stock, and equipment. It protects your shop from surprise events such as theft, fire, or natural disasters. This is the insurance Samriddh Kendra connects you with, whose solution is tailor-made for your shop, offering you peace of mind through their network of trusted partners.
+"
+                pera2={" "}
               />
             </div>
             <div className="col-lg-5 col-md-6 col-12">
@@ -193,7 +194,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
 
       <section className=" lifeInsuranceSection_4 py-1 px-lg-0 px-md-0 px-4 ">
         <EducationLoanTitle
-          title={"Why Do I Need Health Insurance?"}
+          title={"Why Do I Need Shop Insurance?"}
           color="black"
           fontSize="fs-36"
           ratings={false}
@@ -213,11 +214,13 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Complete Protection
+                    Protection Against Losses
                   </h3>
                   <p className="fs-18 font-inter">
-                    From natural calamities like floods, earthquakes and fire;
-                    our shop insurance comes is a complete package.
+                    There is also the risk of fire, theft, or even vandalism
+                    which can create enormous financial damage. Shop Insurance
+                    covers such unpredictable costs that may leave you losing
+                    any business resources and activities.
                   </p>
                 </div>
               </div>
@@ -231,10 +234,14 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-bold font-inter">Sum Insured</h3>
+                  <h3 className="fs-20 fw-bold font-inter">
+                    Business Continuity
+                  </h3>
                   <p className="fs-18 font-inter">
-                    We give you the option to customize your sum insured based
-                    on the nature and size of your business!
+                    Shop Insurance protects against losses or lost income due to
+                    weather-related disasters, accidents, or even catastrophes.
+                    This ensures your business recovers quickly with minimal
+                    setbacks.
                   </p>
                 </div>
               </div>
@@ -249,10 +256,13 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Convenient Online Option
+                    Liability Coverage
                   </h3>
                   <p className="fs-18 font-inter">
-                    You can buy a term policy online too at your convenience.
+                    Accidents may happen in and around your shop, and if one of
+                    your customers gets hurt, you might be held responsible.
+                    Liability claims against Shop Insurance shields you from
+                    litigation and compensation billings.
                   </p>
                 </div>
               </div>
@@ -266,12 +276,13 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-bold font-inter">
-                    Covers all Business Categories
-                  </h3>
+                  <h3 className="fs-20 fw-bold font-inter">Peace of Mind</h3>
                   <p className="fs-18 font-inter">
-                    Whether you have a small general store or a large
-                    manufacturing mill.
+                    The insurance of your shop for various kinds of risks aids
+                    you in focusing on the running of the business without
+                    worrying about potential risks looming at every moment in
+                    your mind. It's an investment in the future security of your
+                    shop.
                   </p>
                 </div>
               </div>
@@ -292,9 +303,9 @@ It consists of parts of Latin words with no specific meaning and is used as temp
 
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
-                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                className="card cust-card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
               >
                 <div className="mt-3">
@@ -303,20 +314,22 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Home repair Services
+                      Retail Stores
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      The very first kind of business that is covered under shop
-                      insurance online is home repair services.
+                      From apparel shops to electronic stores, you get full
+                      coverage of stocks, inventory, and property damage that
+                      ensures your business bounces back in case of any
+                      disruption.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
-                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                className="card cust-card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
               >
                 <div className="mt-3">
@@ -325,20 +338,22 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Mobile and Gadgets Shops
+                      Restaurants and Cafes
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Mobile phones and other electronic gadgets should consider
-                      investing in business insurance like fire.
+                      Food places are more vulnerable to specific risks like
+                      appliance breakdown or liability claims. Shop Insurance
+                      through specialized coverage will ensure that your
+                      restaurant or café is geared up against these challenges.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
-                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                className="card cust-card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
               >
                 <div className="mt-3">
@@ -347,21 +362,23 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      General and Grocery Stores
+                      Service-Based Businesses
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Businesses that sell general or grocery items are also
-                      covered under shop insurance.
+                      Salons, repair shops, and other service-oriented
+                      businesses can acquire coverage for their tools,
+                      equipment, and premises which would protect you in case of
+                      thefts, damages, and other unforeseen incidents.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
-                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                className="card cust-card d-flex my-4 flex-row gap-3 rounded-5"
                 data-aos="flip-left"
               >
                 <div className="mt-3">
@@ -370,12 +387,14 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Food and Eatery Shop
+                      Small Home-Based Shops
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Food and eateries spaces such as cafes, restaurants, are
-                      also covered under the shop insurance.
+                      Even if you're working from your place, your inventory and
+                      equipment can be covered under Shop Insurance. It will
+                      provide you with coverage that exactly suits home-based
+                      businesses.
                     </p>
                   </div>
                 </div>
@@ -492,11 +511,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Fire
+                      Fire and Explosion
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      cover damage to fire because of own fermentation, heating.
+                      It covers damages due to accidental fires and explosions.
                     </p>
                   </div>
                 </div>
@@ -513,11 +532,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Theft
+                      Theft and Burglary
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Theft reported within 7 days from the insured premises.
+                      It protects your shop's assets from theft and burglary.
                     </p>
                   </div>
                 </div>
@@ -534,12 +553,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Terrorism
+                      Natural Disasters
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Damage to property due to strikes, riots, an act of
-                      terror.
+                      It covers flood, earthquake, and storm damage.
                     </p>
                   </div>
                 </div>
@@ -557,53 +575,12 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Explosion or Implosion
+                      Third-Party Liability
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Damage caused to the office premises due to an explosion.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="card rounded-5 my-4 d-flex flex-row gap-3"
-                data-aos="flip-right"
-              >
-                <div className="mt-3">
-                  <img src="/check.png" width={35} alt="" />
-                </div>
-                <div className="card-body d-flex flex-column justify-content-between">
-                  <div className="">
-                    <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Natural Calamities
-                    </h5>
-
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Coverage for property because of storm, earthquakes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="card rounded-5 my-4 d-flex flex-row gap-3"
-                data-aos="flip-left"
-              >
-                <div className="mt-3">
-                  <img src="/check.png" width={35} alt="" />
-                </div>
-                <div className="card-body d-flex flex-column justify-content-between">
-                  <div className="">
-                    <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Other Coverages
-                    </h5>
-
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Damage to property because of bursting of water tanks.
+                      It pays third-party claims as a result of an injury to
+                      someone within your shop.
                     </p>
                   </div>
                 </div>
@@ -627,7 +604,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {shopLoan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

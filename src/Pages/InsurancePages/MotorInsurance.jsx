@@ -9,7 +9,7 @@ import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 const MotorInsurance = () => {
   const {
     aspirationsSliderCarouselOptions,
-    educationLoan,
+    moterLoan,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -31,11 +31,11 @@ const MotorInsurance = () => {
             Motor Insurance
           </h1>
           <p className="fs-18 font-inter text-white mt-4  w-75">
-            Motor insurance is a vital safeguard for vehicle owners, offering
-            financial protection against accidents, theft, or damage to your
-            vehicle. Whether you own a car, bike, or commercial vehicle, our
-            motor insurance solutions are designed to keep you and your vehicle
-            secure.
+            At Samriddh Kendra, we introduce you to the right motor insurance
+            plan through our network partners. Keep your vehicle safe and worry
+            no more with coverage plans that best suit you. From third-party to
+            fully comprehensive plans, here on our site we have curated a list
+            of the most effective solutions for stress-free driving.
           </p>
 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
@@ -195,10 +195,10 @@ const MotorInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Motor insurance is a type of coverage that protects vehicle owners from financial losses caused by accidents, theft, or damage to their vehicle. It offers coverage for repair costs, medical expenses, and third-party liabilities in the event of an accident. "
-                pera2={
-                  "At Samriddh Kendra, our motor insurance policies are designed to safeguard both you and your vehicle, ensuring that you're financially protected in case of any mishaps on the road. Additionally, motor insurance is mandatory by law in many regions, making it essential for responsible vehicle ownership."
-                }
+                pera="Motor insurance protects one from incurring costs for damages to his vehicle, or costs required to compensate for damages to a third party arising from an accident, theft, or a natural disaster. By checking at Samriddh Kendra, it becomes very simple to select the right motor insurance solutions that assist in safeguarding your car while on the road.
+
+"
+                pera2={""}
               />
             </div>
             <div className="col-lg-5 col-md-6 col-12">
@@ -318,12 +318,13 @@ const MotorInsurance = () => {
                 <img className="img-fluid" src="/Security.png" alt="" />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Security Against Theft
+                    Legal Requirement
                   </h3>
                   <p className="fs-18 font-inter">
-                    But with a vehicle insurance policy, you are protected
-                    against theft, vandalism, and all man-made harmful
-                    activities.
+                    Motor vehicle insurance is compulsory in most countries to
+                    protect the public and individuals from losses. This makes
+                    you obey the law and simultaneously avoid incurring costs
+                    when you cause an accident to others.
                   </p>
                 </div>
               </div>
@@ -332,10 +333,14 @@ const MotorInsurance = () => {
               <div className="d-flex align-items-center gap-5 my-5">
                 <img className="img-fluid" src="/saveMoney.png" alt="" />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-bold font-inter">Helps save money</h3>
+                  <h3 className="fs-20 fw-bold font-inter">
+                    Third-Party Liability Protection
+                  </h3>
                   <p className="fs-18 font-inter">
-                    Cover most of your damage repair expenses on your vehicles,
-                    from minor scratches, and engine repairs.
+                    It involves compensation for loss of or damage to another
+                    person’s car or other asset in an accident. If you are
+                    uninsured, there is an extremely high chance that
+                    compensation expenses will be owed directly.
                   </p>
                 </div>
               </div>
@@ -349,10 +354,12 @@ const MotorInsurance = () => {
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Convenient Online Option
+                    Personal Accident Coverage
                   </h3>
                   <p className="fs-18 font-inter">
-                    You can buy a term policy online too at your convenience.
+                    Medical expenses for injuries suffered during an accident
+                    are also compensated by motor insurance whether involving
+                    the driver only or other passengers.
                   </p>
                 </div>
               </div>
@@ -366,11 +373,14 @@ const MotorInsurance = () => {
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Third-party Damage Coverage
+                    Vehicle Damage Protection
                   </h3>
                   <p className="fs-18 font-inter">
-                    With sufficient coverage, you can pay for the damages that
-                    occurred after a collision with a third-party. 
+                    There are high chances that your car will meet with an
+                    accident or be stolen, or get caught in a fire outbreak, or
+                    even in a natural disaster. It means that a detailed motor
+                    insurance policy guarantees coverage of repair or
+                    replacement of damaged parts.
                   </p>
                 </div>
               </div>
@@ -573,11 +583,12 @@ const MotorInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Hospitalization expenses
+                      Accidental Damage
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Covers serious injuries that need overnight stays.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Finally, where coverage is provided, damage by accidents
+                      is what is covered.
                     </p>
                   </div>
                 </div>
@@ -594,11 +605,11 @@ const MotorInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Organ donor expenses
+                      Theft
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Covers up to a set amount for organ transplants.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Provides security on cars in case of theft.
                     </p>
                   </div>
                 </div>
@@ -615,11 +626,12 @@ const MotorInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Pre-existing diseases
+                      Third-Party Liability
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover after a 2 to 4-year waiting period.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Pays for damages to other people’s property or their
+                      automobile.
                     </p>
                   </div>
                 </div>
@@ -637,11 +649,11 @@ const MotorInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Pre- and post-hospitalisation
+                      Fire Damage
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover for a specific number of days.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Saving from vehicle damages associated with fire.
                     </p>
                   </div>
                 </div>
@@ -658,11 +670,12 @@ const MotorInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Room rent
+                      Natural Calamities
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover up to a set sub-limit.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Also compensates for loss occasioned by floods, storms, or
+                      earthquakes.
                     </p>
                   </div>
                 </div>
@@ -679,11 +692,12 @@ const MotorInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Ambulance charges
+                      Personal Accident
                     </h5>
 
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Covers up to a certain limit for hospital transportation.
+                    <p className="card-text fs-18 font-inter mt-2">
+                      Health insurance for accidents to those inside the
+                      automobile.
                     </p>
                   </div>
                 </div>
@@ -707,7 +721,7 @@ const MotorInsurance = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {moterLoan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

@@ -265,6 +265,69 @@ const homeLoan = [
   },
 ];
 
+const moterLoan = [
+  {
+    questionNum: "collapseOne",
+    question: "What is motor insurance?",
+    answer:
+      "Motor insurance covers financial losses due to accidents or vehicle damage.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "Is motor insurance mandatory?",
+    answer: "Yes, third-party insurance is legally required in most countries.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "What documents are needed for a claim?",
+    answer:
+      "You’ll need a claim form, driving licence, vehicle registration, and policy details.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "How long does it take to process a claim?",
+    answer: " Depending on the damage, it may take a few days to a week.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Can I switch insurance providers?",
+    answer: "Yes, you can switch insurers upon policy renewal.",
+  },
+];
+
+const shopLoan = [
+  {
+    questionNum: "collapseOne",
+    question: "What types of businesses are covered?",
+    answer:
+      "Retail stores, restaurants, service-based businesses, and home-based shops.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "Can I insure my shop against natural disasters?",
+    answer:
+      "Yes, coverage includes natural disasters like floods and earthquakes.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "How do I file a claim?",
+    answer:
+      "Submit your claim through the Samriddh Kendra platform, and we’ll guide you from there.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "What is third-party liability coverage?",
+    answer:
+      " It protects you from legal claims if a customer is injured in your shop.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Does Shop Insurance cover equipment breakdowns?",
+    answer:
+      "Yes, it includes coverage for repairs or replacements of essential equipment.",
+  },
+];
+
 const lapLoan = [
   {
     questionNum: "panelsStayOpen-collapseOne",
@@ -372,6 +435,8 @@ export const ContextProvider = ({ children }) => {
         personalLoan,
         homeLoan,
         businessLoan,
+        moterLoan,
+        shopLoan,
       }}
     >
       {children}
