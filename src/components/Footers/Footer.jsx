@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row justify-content-md-center align-items-center justify-content-between">
           <div className=" col-xl-3 col-lg-3 col-md-8 col-12">
             <div className="row flex-column gap-8 text-md-center order-lg-first order-md-first mt-lg-5 mt-5 order-sm-last order-last">
-              <div className="pera fs-18  text-light-gray text-lg-start mt-sm-5">
+              <div className="pera fs-18  text-lighter-gray text-lg-start mt-sm-5">
                 <span className="fw-bold text-white">SAMRIDDH KENDRA</span> is
                 an early stage Fin Tech player working in the field of Finance
                 and technology to bridge the gap between rural customers and

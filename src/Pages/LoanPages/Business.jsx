@@ -10,7 +10,7 @@ const Business = () => {
   const {
     loanType,
     handleLoanChange,
-    educationLoan,
+    businessLoan,
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
     partnersCarouselOptions,
@@ -221,7 +221,7 @@ const Business = () => {
           color="black"
           fontSize="fs-40"
           ratings={false}
-          pera="Samriddh Kendra is designed for individuals and businesses seeking reliable financial solutions. Whether you're looking for personal loans, business loans, or insurance coverage, Samriddh Kendra offers tailored services to meet your unique needs. "
+          pera="Samriddh Kendra's portal connects every business of every size to suitable loan options. Whether it's an owner of a small business, a startup that needs to scale up its business, or even an established organization in search of capital, our portal ensures that you receive a business loan best suited to your growth needs and objectives."
           pera2={""}
         />
       </section>
@@ -235,7 +235,7 @@ const Business = () => {
                 color="black"
                 fontSize="fs-28"
                 ratings={false}
-                pera="We are making it fast and easy for you to pay for school with our graduate student loans. Samriddh with the unique benefits it offers:"
+                pera="Get the best benefits of Business Loans with the help of Samriddh Kendra: "
                 pera2={""}
               />
 
@@ -244,10 +244,14 @@ const Business = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="covered.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">100% covered</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Loan Options Personalized-
+                      </h2>
                       <p className="fs-16 font-inter">
-                        Covers all school-certified costs. That’s right—we’re
-                        got you covered.
+                        Samriddh Kendra liaises with various lenders to ensure
+                        you have an adequate loan package that matches the
+                        requirements of your business - whether it is expansion,
+                        working capital, or equipment purchases.
                       </p>
                     </div>
                   </div>
@@ -256,9 +260,14 @@ const Business = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="Zero Fees.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">Zero Fees</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Easy Application Process-
+                      </h2>
                       <p className="fs-16 font-inter">
-                        That means no application, origination, or late fees.
+                        With an online interface that is easy to navigate,
+                        applying for a loan is quick and headache-free. You can
+                        fill out your details, compare offers, and get approved
+                        in a few steps.
                       </p>
                     </div>
                   </div>
@@ -268,11 +277,12 @@ const Business = () => {
                     <img src="Easy Repayment Options.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Easy Repayment Options
+                        Competitive Interest Rates-
                       </h2>
                       <p className="fs-16 font-inter">
-                        Choose from in-school or deferred repayment options, and
-                        there is never a penalty for prepayment.
+                        Our lenders for trust assume competitive interest rates
+                        to have your repayment plan as manageable as possible
+                        without creating undue financial stress in your part.
                       </p>
                     </div>
                   </div>
@@ -282,10 +292,12 @@ const Business = () => {
                     <img src="Cosign with confidence.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Cosign with confidence
+                        Flexible Repayment Terms-
                       </h2>
                       <p className="fs-16 font-inter">
-                        We pride ourselves on providing unbiased loan reviews.
+                        Select from several terms that can be adjusted based on
+                        your business cash flow, giving you the flexibility to
+                        deal with prepaid amounts easily.
                       </p>
                     </div>
                   </div>
@@ -322,52 +334,49 @@ const Business = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1. Tuition and fees
+                  1. Working Capital
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  At Samriddh Kendra, we provide education loans that cover the
-                  full cost of your tuition, ensuring you can focus on your
-                  studies without the financial burden. Whether you’re enrolling
-                  in a local university or a professional training program, our
-                  loans are designed to cater to the complete fee structure of
-                  your chosen institution.
+                  All business operations will be done with ease so that nothing
+                  is overdue with loans to pay suppliers, employees, and other
+                  operational overheads of the business.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Accommodation
+                  2. Equipment Finance
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  We understand that the cost of living can be a major concern
-                  for students. Our education loans include provisions for
-                  on-campus housing, so you can reside close to your institution
-                  without worrying about the expenses. By securing your living
-                  arrangements, we aim to make your academic experience smoother
-                  and more focused on learning.
+                  Avail business loans at Samriddh Kendra to buy or upgrade new
+                  machinery or technology for the business for all your
+                  necessary equipment purchases for business growth.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Tuition and fees
+                  3. Business expansion
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  Expand into new markets, open new locations, expand your
+                  product range, and reach even greater peaks in business
+                  success through the loan acquired amount by meeting the
+                  requirements of your business.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  4. Tuition and fees
+                  4. Debt Consolidation
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  This includes the cost of the course, exam fees, lab fees, and
-                  other academic-related expenses.
+                  With one loan for the entire business, you will be able to
+                  ease your finances and reduce the stress in your life, staying
+                  focused on your growth strategies.
                 </p>
               </div>
             </div>
@@ -535,7 +544,7 @@ const Business = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {businessLoan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

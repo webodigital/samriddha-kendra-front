@@ -202,6 +202,36 @@ const educationLoan = [
   },
 ];
 
+const businessLoan = [
+  {
+    questionNum: "collapseOne",
+    question: "How long does the application process take?",
+    answer: "The process is quick, and often completed within a few days.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "What documents are required for a business loan?",
+    answer:
+      "Basic documents include financial statements, tax records, and business licenses.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "Can I choose from multiple loan offers?",
+    answer:
+      "Yes, Samriddh Kendra lets you compare various offers before deciding.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "Do I need collateral for the loan?",
+    answer: " Collateral requirements depend on the lender and loan type.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Is Samriddh Kendra a direct lender?",
+    answer: "No, we act as a platform connecting you with the right lenders.",
+  },
+];
+
 const homeLoan = [
   {
     questionNum: "collapseOne",
@@ -341,6 +371,7 @@ export const ContextProvider = ({ children }) => {
         lapLoan,
         personalLoan,
         homeLoan,
+        businessLoan,
       }}
     >
       {children}
