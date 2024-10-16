@@ -154,8 +154,8 @@ const Personal = () => {
                   alt=""
                 />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">
-                  Undergraduate Loans
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Tailored Loan Options
                 </p>
               </div>
             </div>
@@ -163,7 +163,9 @@ const Personal = () => {
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="/Graduate Loans.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">Graduate Loans</p>
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Simplified Online Process
+                </p>
               </div>
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
@@ -174,8 +176,8 @@ const Personal = () => {
                   alt=""
                 />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">
-                  Coaching Institute Loans
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Comprehensive Insurance Plans
                 </p>
               </div>
             </div>
@@ -183,21 +185,27 @@ const Personal = () => {
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="/Parent Loans.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">Parent Loans</p>
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Trusted Financial Partners
+                </p>
               </div>
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="/MBA Loans.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">MBA Loans</p>
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Competitive Coverage Rates
+                </p>
               </div>
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="/Dental Loan.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">Dental Loan</p>
+                <p className=" fs-18 fw-bold font-inter mt-4">
+                  Easy Claim Processing
+                </p>
               </div>
             </div>
           </div>
