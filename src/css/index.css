@@ -2431,6 +2431,33 @@ li {
 
 /***** End morgatge Section *****/
 
+/***** property Section *****/
+
+.property {
+  height: 51rem;
+  background-image: url("/propertybg.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End property Section *****/
+
 /***** businessLoan Section *****/
 
 .businessLoan {

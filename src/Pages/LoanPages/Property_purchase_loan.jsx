@@ -17,7 +17,7 @@ const Property_purchase_loan = () => {
 
   return (
     <div className="EducationLoan">
-      <section className="morgatge position-relative">
+      <section className="property position-relative">
         <div data-aos="flip-right" className="position-absolute textContainer">
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
             Property Purchase Loan
