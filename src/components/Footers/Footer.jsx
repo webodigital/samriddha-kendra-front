@@ -15,10 +15,18 @@ const Footer = () => {
                 Finance Institutions
               </div>
               <div className="social-media-icons d-flex align-items-center  gap-5  justify-content-sm-center justify-content-center">
-                <img src="./instagram.webp" className="img-fluid" alt="" />
-                <img src="./linkedin.webp" className="img-fluid" alt="" />
-                <img src="./telephone.webp" className="img-fluid" alt="" />
-                <img src="./mail.webp" className="img-fluid" alt="" />
+                <a>
+                  <img src="./instagram.webp" className="img-fluid" alt="" />
+                </a>
+                <a href="https://www.linkedin.com/company/samriddh-kendra/">
+                  <img src="./linkedin.webp" className="img-fluid" alt="" />
+                </a>
+                <a>
+                  <img src="./telephone.webp" className="img-fluid" alt="" />
+                </a>
+                <a>
+                  <img src="./mail.webp" className="img-fluid" alt="" />
+                </a>
               </div>
             </div>
           </div>
