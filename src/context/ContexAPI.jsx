@@ -202,6 +202,39 @@ const educationLoan = [
   },
 ];
 
+const healthInsurance = [
+  {
+    questionNum: "collapseOne",
+    question: "Who can buy health insurance?",
+    answer:
+      "Anyone over 18 years old can apply for a health insurance policy via Samriddh Kendra.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "Is there an age limit for health insurance?",
+    answer:
+      "Yes, most policies cover individuals until the age of 65, but this varies.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "How do I know which plan suits me?",
+    answer:
+      "Samriddh Kendra helps match your health needs with the most suitable insurance plans.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "How long does it take to claim insurance?",
+    answer:
+      "The process varies, but claims are usually processed within 7-15 days, depending on the insurer.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Is maternity covered in all plans?",
+    answer:
+      "No, maternity coverage is only available under certain health insurance plans.",
+  },
+];
+
 const businessLoan = [
   {
     questionNum: "collapseOne",
@@ -393,6 +426,39 @@ const personalLoan = [
   },
 ];
 
+const lifeInsurance = [
+  {
+    questionNum: "collapseOne",
+    question: "What is the waiting period for life insurance claims?",
+    answer:
+      "Typically, life insurance claims are processed after 30 to 90 days, depending on the policy.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "Can I buy multiple life insurance policies?",
+    answer:
+      "Yes, you can purchase multiple policies to meet different financial needs.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "Does life insurance cover pre-existing conditions?",
+    answer:
+      "Some policies may cover pre-existing conditions after a waiting period; check the terms.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "Can I change my life insurance beneficiaries?",
+    answer:
+      "Yes, you can update beneficiaries at any time through your insurer’s platform.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Are the premiums tax-deductible?",
+    answer:
+      "Yes, life insurance premiums often qualify for tax deductions under various laws.",
+  },
+];
+
 /* End FAQ */
 
 export const ContextProvider = ({ children }) => {
@@ -437,6 +503,8 @@ export const ContextProvider = ({ children }) => {
         businessLoan,
         moterLoan,
         shopLoan,
+        healthInsurance,
+        lifeInsurance,
       }}
     >
       {children}

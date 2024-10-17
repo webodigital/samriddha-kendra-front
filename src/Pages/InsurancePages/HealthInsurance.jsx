@@ -9,7 +9,7 @@ import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 const HealthInsurance = () => {
   const {
     aspirationsSliderCarouselOptions,
-    educationLoan,
+    healthInsurance,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -239,10 +239,8 @@ const HealthInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Health insurance is a protective financial tool that covers the cost of medical care, safeguarding you from the burden of high healthcare expenses. At Samriddh Kendra, our health insurance plans ensure that you and your family receive quality medical treatment without the stress of unexpected bills. "
-                pera2={
-                  "Health insurance offers peace of mind, allowing you to focus on your health and recovery while we take care of the financial side."
-                }
+                pera="Health insurance provides financial protection for medical expenses arising from illnesses, accidents, or surgeries. Samriddh Kendra helps connect you with trusted health insurance plans that cover hospitalization, treatments, and more. Through our platform, you can choose a plan that suits your needs, offering a safety net for unexpected health-related costs."
+                pera2={""}
               />
             </div>
             <div className="col-lg-5 col-md-6 col-12">
@@ -374,11 +372,14 @@ const HealthInsurance = () => {
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Sum insured restoration
+                    Financial Security
                   </h3>
                   <p className="fs-18 font-inter">
-                    Option to recharge up to 100% of sum insured for another
-                    hospitalisation in the same year.
+                    Medical expenses can be overwhelming. Health insurance
+                    ensures you’re not burdened by unexpected costs. Samriddh
+                    Kendra connects you to policies that provide coverage for
+                    treatments, hospitalization, and emergency care, protecting
+                    your savings.
                   </p>
                 </div>
               </div>
@@ -393,10 +394,14 @@ const HealthInsurance = () => {
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Daycare treatment
+                    Comprehensive Coverage
                   </h3>
                   <p className="fs-18 font-inter">
-                    Plans that cover treatments and procedures under 24 hours.
+                    Health insurance offers more than just hospitalization.
+                    Through Samriddh Kendra, find plans that cover doctor
+                    consultations, diagnostic tests, and preventative care,
+                    ensuring you have access to the full spectrum of medical
+                    services when needed.
                   </p>
                 </div>
               </div>
@@ -411,10 +416,13 @@ const HealthInsurance = () => {
                 />
                 <div className="d-flex flex-column gap-2">
                   <h3 className="fs-20 fw-bold font-inter">
-                    Cashless medical treatment
+                    Access to Quality Healthcare
                   </h3>
                   <p className="fs-18 font-inter">
-                    Plans that offer cashless claims at network hospitals.
+                    Insurance often comes with a network of trusted hospitals
+                    and healthcare providers. By using Samriddh Kendra’s
+                    platform, you can ensure access to top medical facilities
+                    and professionals through the insurance plans you choose.
                   </p>
                 </div>
               </div>
@@ -428,9 +436,7 @@ const HealthInsurance = () => {
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-bold font-inter">
-                    In-patient hospitalisation
-                  </h3>
+                  <h3 className="fs-20 fw-bold font-inter">Tax Benefits</h3>
                   <p className="fs-18 font-inter">
                     Covers hospital stays of 24 hours or longer, including room,
                     doctor, boarding, nursing, and more.
@@ -599,7 +605,7 @@ const HealthInsurance = () => {
 
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-5 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -622,7 +628,7 @@ const HealthInsurance = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-5 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -645,7 +651,7 @@ const HealthInsurance = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-5 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -668,7 +674,7 @@ const HealthInsurance = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-5 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -701,7 +707,8 @@ const HealthInsurance = () => {
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="At Samriddh Kendra, we believe in providing health coverage that meets the unique needs of every individual and family. Our range of health insurance plans is designed to suit all age groups, life stages, and health requirements. Whether you're a young professional, a growing family, or a senior citizen, we have a plan that fits your lifestyle."
+          pera="At Samriddh Kendra, we serve as a platform connecting individuals and families to health insurance solutions tailored to their unique needs. Our diverse range of health insurance plans is designed to cater to all age groups, life stages, and health requirements. Whether you're a young professional, part of a growing family, or a senior citizen, we help you find the coverage that fits your lifestyle.
+"
           pera2={""}
         />
 
@@ -731,7 +738,7 @@ const HealthInsurance = () => {
           </ul>
 
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -742,17 +749,20 @@ const HealthInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Hospitalization expenses
+                      Chronic Illnesses
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Covers serious injuries that need overnight stays.
+                      Health insurance typically covers long-term conditions
+                      like diabetes, hypertension, and asthma. Samriddh Kendra
+                      helps you find policies that manage these illnesses
+                      efficiently, covering routine checkups and treatments.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
                 className="card rounded-5 my-4 d-flex flex-row gap-3"
                 data-aos="flip-right"
@@ -763,17 +773,20 @@ const HealthInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Organ donor expenses
+                      Accidents and Injuries
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Covers up to a set amount for organ transplants.
+                      Accidents can happen anytime. With Samriddh Kendra, find
+                      policies that ensure coverage for emergency treatments,
+                      surgeries, and recovery costs following accidents or major
+                      injuries.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
                 className="card rounded-5 my-4 d-flex flex-row gap-3"
                 data-aos="flip-left"
@@ -784,18 +797,21 @@ const HealthInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Pre-existing diseases
+                      Critical Illnesses
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover after a 2 to 4-year waiting period.
+                      Diseases like cancer, heart attacks, and kidney failure
+                      often come with high medical bills. Samriddh Kendra
+                      connects you to plans offering coverage for critical
+                      illness treatments, making healthcare more affordable.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
                 data-aos="flip-left"
@@ -806,53 +822,14 @@ const HealthInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Pre- and post-hospitalisation
+                      Maternity and Newborn Care
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover for a specific number of days.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="card rounded-5 my-4 d-flex flex-row gap-3"
-                data-aos="flip-right"
-              >
-                <div className="mt-3">
-                  <img src="/check.png" width={35} alt="" />
-                </div>
-                <div className="card-body d-flex flex-column justify-content-between">
-                  <div className="">
-                    <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Room rent
-                    </h5>
-
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover up to a set sub-limit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="card rounded-5 my-4 d-flex flex-row gap-3"
-                data-aos="flip-left"
-              >
-                <div className="mt-3">
-                  <img src="/check.png" width={35} alt="" />
-                </div>
-                <div className="card-body d-flex flex-column justify-content-between">
-                  <div className="">
-                    <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Ambulance charges
-                    </h5>
-
-                    <p className="card-text fs-18 font-inter mt-4">
-                      Covers up to a certain limit for hospital transportation.
+                      Some health insurance policies also cover maternity
+                      expenses. Samriddh Kendra helps you choose plans that
+                      provide financial assistance during pregnancy and newborn
+                      care, ensuring mother and baby’s health is well-protected.
                     </p>
                   </div>
                 </div>
@@ -934,7 +911,7 @@ const HealthInsurance = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {healthInsurance.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

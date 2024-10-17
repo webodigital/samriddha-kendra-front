@@ -2688,8 +2688,14 @@ li {
   }
 
   .card {
-    height: 12rem;
+    height: 23rem;
     padding: 2rem 2rem 13rem 2rem;
+  }
+
+  .cus-h {
+    .card {
+      height: 15rem;
+    }
   }
 }
 

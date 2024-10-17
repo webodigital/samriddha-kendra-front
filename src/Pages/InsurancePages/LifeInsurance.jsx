@@ -9,7 +9,7 @@ import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 const LifeInsurance = () => {
   const {
     aspirationsSliderCarouselOptions,
-    educationLoan,
+    lifeInsurance,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -214,10 +214,9 @@ const LifeInsurance = () => {
                 color="black"
                 fontSize="fs-40"
                 ratings={false}
-                pera="Life insurance is a financial product designed to provide security and peace of mind by ensuring that your loved ones are financially protected in the event of your death. By purchasing a life insurance policy, you agree to pay regular premiums to the insurance company. "
-                pera2={
-                  "In return, the insurer promises to pay a designated sum of money, known as the death benefit, to your beneficiaries upon your passing."
-                }
+                pera="Life insurance is a vital tool that ensures financial security for your loved ones in the event of your untimely passing. At Samriddh Kendra, we connect you with the right life insurance plans to offer peace of mind, knowing your family's future is protected. Choose from comprehensive policies that cater to your individual needs.
+ "
+                pera2={""}
               />
             </div>
             <div className="col-lg-5 col-md-6 col-12">
@@ -342,11 +341,11 @@ const LifeInsurance = () => {
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-medium">Comprehensive Coverage</h3>
+                  <h3 className="fs-20 fw-medium">Financial Protection</h3>
                   <p className="fs-18 font-inter">
-                    Diverse plans, ensuring that there's a solution for every
-                    need, whether it's pure protection, wealth accumulation,
-                    retirement planning.
+                    Life insurance provides a safety net, ensuring your family
+                    can maintain their standard of living and cover expenses
+                    like education or daily needs without financial strain.
                   </p>
                 </div>
               </div>
@@ -360,10 +359,11 @@ const LifeInsurance = () => {
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-medium">Long-Term Coverage</h3>
+                  <h3 className="fs-20 fw-medium">Debt Coverage</h3>
                   <p className="fs-18 font-inter">
-                    You can choose the tenure of your term insurance based on
-                    your long-term financial planning.
+                    If you have existing debts like home loans or credit card
+                    payments, life insurance ensures they won’t burden your
+                    loved ones after you're gone.
                   </p>
                 </div>
               </div>
@@ -377,9 +377,11 @@ const LifeInsurance = () => {
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-medium">Convenient Online Option</h3>
+                  <h3 className="fs-20 fw-medium">Long-Term Savings</h3>
                   <p className="fs-18 font-inter">
-                    You can buy a term policy online too at your convenience.
+                    Certain life insurance plans offer a dual benefit of
+                    protection and savings, allowing your policy to build cash
+                    value over time, which can be used for future goals.
                   </p>
                 </div>
               </div>
@@ -393,12 +395,11 @@ const LifeInsurance = () => {
                   alt=""
                 />
                 <div className="d-flex flex-column gap-2">
-                  <h3 className="fs-20 fw-medium">
-                    Easy Premium Payment Options
-                  </h3>
+                  <h3 className="fs-20 fw-medium">Estate Planning</h3>
                   <p className="fs-18 font-inter">
-                    You may pay for the plan through several modes online or
-                    offline, based on your payment cycle.
+                    Life insurance assists in estate planning, providing your
+                    beneficiaries with a lump sum payout, covering any estate
+                    taxes, and ensuring your assets are passed on smoothly.
                   </p>
                 </div>
               </div>
@@ -626,7 +627,7 @@ const LifeInsurance = () => {
             </li>
           </ul>
 
-          <div className="row">
+          <div className="row cus-h">
             <div className="col-lg-4 col-md-6 col-12">
               <div
                 className="card d-flex my-4 flex-row gap-3 rounded-5 "
@@ -638,12 +639,11 @@ const LifeInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Suicide
+                      Death Benefit
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Death occurs by suicide with in a certain period of
-                      policy.
+                      Provides financial support in case of death.
                     </p>
                   </div>
                 </div>
@@ -660,11 +660,11 @@ const LifeInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Death due to drug or alcohol
+                      Accidental Coverage
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Dies due to any kind of substance abuse.
+                      Includes accidental death and injury coverage.
                     </p>
                   </div>
                 </div>
@@ -681,11 +681,11 @@ const LifeInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Pre-existing diseases
+                      Critical Illness
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Plans that cover after a 2 to 4-year waiting period.
+                      Covers serious diseases for early payouts.
                     </p>
                   </div>
                 </div>
@@ -703,12 +703,11 @@ const LifeInsurance = () => {
                 <div className="card-body">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Criminal act
+                      Disability Coverage
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      If the insured’s death occurs through any criminal
-                      activities.
+                      Financial security if disability occurs.
                     </p>
                   </div>
                 </div>
@@ -725,12 +724,11 @@ const LifeInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      War
+                      Maturity Benefits
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      If the insured dies due to war or any war-related
-                      activity.
+                      Offers savings or lump sum at policy end.
                     </p>
                   </div>
                 </div>
@@ -747,11 +745,11 @@ const LifeInsurance = () => {
                 <div className="card-body d-flex flex-column justify-content-between">
                   <div className="">
                     <h5 className="card-title fs-20 font-inter fw-semibold">
-                      Life-threatening activity
+                      Tax Benefits
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Death caused by any high-risk activities like racing.
+                      Save on taxes through eligible premium payments.
                     </p>
                   </div>
                 </div>
@@ -922,7 +920,7 @@ const LifeInsurance = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {educationLoan.map((data, index) => {
+                {lifeInsurance.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (
