@@ -298,7 +298,7 @@ const AboutUs = () => {
             <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
-                  src="./Suman Saurav.png"
+                  src="./Suman Saurav.webp"
                   className="img-fluid profile"
                   alt="..."
                 />
@@ -320,7 +320,7 @@ const AboutUs = () => {
             <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
-                  src="./Bipul Kumar.png"
+                  src="./Bipul Kumar.webp"
                   className="img-fluid profile"
                   alt="..."
                 />
@@ -341,7 +341,7 @@ const AboutUs = () => {
             <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
-                  src="./Rajesh Mishra.png"
+                  src="./Rajesh Mishra.webp"
                   className="img-fluid profile"
                   alt="..."
                 />
@@ -363,10 +363,10 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div data-aos="flip-right" className="card text-center font-inter">
+            {/* <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
-                  src="./Vishal Chopra.png"
+                  src="./Vishal Chopra.webp"
                   className="img-fluid profile"
                   alt="..."
                 />
@@ -385,7 +385,7 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

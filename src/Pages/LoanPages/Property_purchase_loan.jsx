@@ -10,7 +10,7 @@ const Property_purchase_loan = () => {
   const {
     loanType,
     handleLoanChange,
-    personalLoan,
+    Property_purchase_loan,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -33,13 +33,14 @@ const Property_purchase_loan = () => {
                 className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
               >
                 <option value="Mortgage Loan">Property Purchase Loan</option>
-                <option value="Graduate Loan">Graduate Loan</option>
+                <option value="Graduate Loan">Tailored Loan Options</option>
                 <option value="Coaching Institute Loans">
-                  Coaching Institute Loans
+                  Comprehensive Insurance Plans
                 </option>
-                <option value="Parent Loans">Parent Loans</option>
-                <option value="MBA Loans ">MBA Loans </option>
-                <option value="Dental Loan">Dental Loan</option>
+                <option value="Parent Loans">Simplified Online Process</option>
+                <option value="MBA Loans ">Trusted Financial Partners </option>
+                <option value="Dental Loan">Competitive Coverage Rates</option>
+                <option value="MBA Loans ">Easy Claim Processing</option>
               </select>
             </div>
             <ApplyBtn
@@ -220,7 +221,8 @@ const Property_purchase_loan = () => {
           color="black"
           fontSize="fs-50"
           ratings={false}
-          pera="Samriddh Kendra connects those looking for finance assistance towards personal, education, or family goals. If you are looking to generate funds in case of emergencies, weddings, or travel, we make the process easier by finding the right loan suited for you."
+          pera="This loan is meant for people purchasing residential or commercial real estate, be it for use or investment. Our platform puts you in contact with loan providers with flexible options tailored for most financial backgrounds and needs-from first-time buyers to seasoned investors. Samriddh Kendra helps ensure you'll find a solution that suits your property aspirations.
+"
           pera2={""}
         />
       </section>
@@ -234,7 +236,8 @@ const Property_purchase_loan = () => {
                 color="black"
                 fontSize="fs-28"
                 ratings={false}
-                pera="We are making it fast and easy for you to pay for school with our graduate student loans. Samriddh with the unique benefits it offers:"
+                pera="Get the best benefits of Home Loans with the help of Samriddh Kendra - 
+"
                 pera2={""}
               />
 
@@ -243,10 +246,12 @@ const Property_purchase_loan = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="covered.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">100% covered</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Personalized Financial Solutions
+                      </h2>
                       <p className="fs-16 font-inter">
-                        Covers all school-certified costs. That’s right—we’re
-                        got you covered.
+                        We connect you with tailored loans and insurance plans
+                        to fit your unique needs.
                       </p>
                     </div>
                   </div>
@@ -255,9 +260,12 @@ const Property_purchase_loan = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="Zero Fees.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">Zero Fees</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Quick and Easy Access
+                      </h2>
                       <p className="fs-16 font-inter">
-                        That means no application, origination, or late fees.
+                        Our simplified platform ensures a seamless, hassle-free
+                        process for financial services.
                       </p>
                     </div>
                   </div>
@@ -267,11 +275,11 @@ const Property_purchase_loan = () => {
                     <img src="Easy Repayment Options.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Easy Repayment Options
+                        Reliable Partnerships
                       </h2>
                       <p className="fs-16 font-inter">
-                        Choose from in-school or deferred repayment options, and
-                        there is never a penalty for prepayment.
+                        We work with trusted lenders and insurers, providing
+                        secure and dependable options.
                       </p>
                     </div>
                   </div>
@@ -281,10 +289,11 @@ const Property_purchase_loan = () => {
                     <img src="Cosign with confidence.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Cosign with confidence
+                        Comprehensive Support
                       </h2>
                       <p className="fs-16 font-inter">
-                        We pride ourselves on providing unbiased loan reviews.
+                        Enjoy 24/7 customer assistance and smooth claim
+                        processes for a worry-free experience.
                       </p>
                     </div>
                   </div>
@@ -308,7 +317,7 @@ const Property_purchase_loan = () => {
         className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue"
       >
         <EducationLoanTitle
-          title={"What Personal Loans Cover?"}
+          title={"What Property Purchase Loan Covers"}
           color="white"
           fontSize="fs-36"
           ratings={false}
@@ -318,27 +327,56 @@ const Property_purchase_loan = () => {
 
         <div className="container pb-7">
           <div className="row mb-5 ">
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1.Home Loan
+                  1.New Home Purchase
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Easily finance the purchase of your home with quick approvals
-                  and no collateral required. Personal loans offer faster
-                  disbursement and flexibility for home-related expenses.
+                  If you’re looking to buy a new home, Samriddh Kendra connects
+                  you with lenders offering loans that cover up to 80-90% of the
+                  property’s value. This allows you to make the dream of
+                  homeownership a reality, with minimal upfront investment.
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
+            <div className="col-lg-6 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Education
+                  2. Vacant Plot Financing
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Covering the cost of education, including tuition fees, a
-                  personal loan provides easy access to funds with fewer
-                  restrictions and faster processing.
+                  Our platform provides access to loans for vacant plot
+                  purchases, whether you plan to build a home or hold the land
+                  as an investment. These loans are tailored to help you finance
+                  undeveloped land, with flexible terms for future construction.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  3. Flat/Apartment Purchase
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  Samriddh Kendra assists you in securing loans for purchasing
+                  flats or apartments in approved housing projects. Our partners
+                  offer loans that cover a significant portion of the cost,
+                  helping you achieve your goal of buying a flat in the desired
+                  location.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  4. Property Refinancing
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  Looking to refinance your existing home loan? Samriddh Kendra
+                  connects you with refinancing options that can help lower your
+                  interest rates or adjust repayment terms, giving you financial
+                  relief and better control over your mortgage.
                 </p>
               </div>
             </div>
@@ -505,7 +543,7 @@ const Property_purchase_loan = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {personalLoan.map((data, index) => {
+                {Property_purchase_loan.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (

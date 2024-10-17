@@ -426,6 +426,71 @@ const personalLoan = [
   },
 ];
 
+const Property_purchase_loan = [
+  {
+    questionNum: "collapseOne",
+    question: "What is the eligibility for a property purchase loan?",
+    answer:
+      "Eligibility varies by lender but generally requires proof of income, property details, and a credit history review.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "Can I apply for a loan for commercial property?",
+    answer:
+      "Yes, our platform connects you with lenders offering loans for both residential and commercial property purchases.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "How long does it take for loan approval?",
+    answer:
+      "Loan approval times vary, but through Samriddh Kendra’s platform, the process is typically faster and more streamlined.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "What is the maximum loan tenure available?",
+    answer:
+      "Loan tenures vary depending on the lender, but generally range from 5 to 20 years, based on your financial profile.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "Are there any hidden charges?",
+    answer:
+      "Any additional charges, such as processing fees or administrative costs, will be disclosed by the lender during the application process.",
+  },
+];
+
+const mortgageLoanFAQs = [
+  {
+    questionNum: "collapseOne",
+    question: "What is a mortgage loan?",
+    answer:
+      "A mortgage loan is used to finance the purchase or refinancing of real estate.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "How does Samriddh Kendra help?",
+    answer:
+      "We connect you with lenders offering mortgage solutions tailored to your needs.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "What documents are required?",
+    answer:
+      "Standard documents include ID proof, income verification, and property details.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "Can I refinance an existing loan?",
+    answer: "Yes, we help you find refinancing options with better terms.",
+  },
+  {
+    questionNum: "collapseFive",
+    question: "How long is the process?",
+    answer:
+      "The timeline varies, but our platform helps streamline the process for faster approval.",
+  },
+];
+
 const lifeInsurance = [
   {
     questionNum: "collapseOne",
@@ -505,6 +570,8 @@ export const ContextProvider = ({ children }) => {
         shopLoan,
         healthInsurance,
         lifeInsurance,
+        Property_purchase_loan,
+        mortgageLoanFAQs,
       }}
     >
       {children}

@@ -10,7 +10,7 @@ const Morgatge_loan = () => {
   const {
     loanType,
     handleLoanChange,
-    personalLoan,
+    mortgageLoanFAQs,
     reviewCarouselOptions,
     partnersCarouselOptions,
   } = useContext(CreatingContext);
@@ -220,7 +220,9 @@ const Morgatge_loan = () => {
           color="black"
           fontSize="fs-50"
           ratings={false}
-          pera="Samriddh Kendra connects those looking for finance assistance towards personal, education, or family goals. If you are looking to generate funds in case of emergencies, weddings, or travel, we make the process easier by finding the right loan suited for you."
+          pera="Samriddh Kendra is the right choice for those who want to finance the purchase of their properties, expand operations, or even consolidate debts. Our platform connects you with mortgage loan options tailored to your unique financial situation, whether you're a first-time homebuyer, a real estate investor, or seeking to refinance. We ensure a seamless process to match your goals.
+
+"
           pera2={""}
         />
       </section>
@@ -230,11 +232,12 @@ const Morgatge_loan = () => {
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-12 col-12">
               <EducationLoanTitle
-                title={"We’ve got you even more exclusive benefits."}
+                title={"Unique Benefits of Choosing Samriddh Kendra"}
                 color="black"
                 fontSize="fs-28"
                 ratings={false}
-                pera="We are making it fast and easy for you to pay for school with our graduate student loans. Samriddh with the unique benefits it offers:"
+                pera="Get the best benefits of Home Loans with the help of Samriddh Kendra - 
+"
                 pera2={""}
               />
 
@@ -243,10 +246,12 @@ const Morgatge_loan = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="covered.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">100% covered</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Personalized Financial Solutions
+                      </h2>
                       <p className="fs-16 font-inter">
-                        Covers all school-certified costs. That’s right—we’re
-                        got you covered.
+                        We connect you with tailored loans and insurance plans
+                        to fit your unique needs.
                       </p>
                     </div>
                   </div>
@@ -255,9 +260,12 @@ const Morgatge_loan = () => {
                   <div className="d-flex m-3 align-items-center gap-4">
                     <img src="Zero Fees.png" alt="" />
                     <div className="txt">
-                      <h2 className="fw-bold fs-20 font-inter">Zero Fees</h2>
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Quick and Easy Access
+                      </h2>
                       <p className="fs-16 font-inter">
-                        That means no application, origination, or late fees.
+                        Our simplified platform ensures a seamless, hassle-free
+                        process for financial services.
                       </p>
                     </div>
                   </div>
@@ -267,11 +275,11 @@ const Morgatge_loan = () => {
                     <img src="Easy Repayment Options.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Easy Repayment Options
+                        Reliable Partnerships
                       </h2>
                       <p className="fs-16 font-inter">
-                        Choose from in-school or deferred repayment options, and
-                        there is never a penalty for prepayment.
+                        We work with trusted lenders and insurers, providing
+                        secure and dependable options.
                       </p>
                     </div>
                   </div>
@@ -281,10 +289,11 @@ const Morgatge_loan = () => {
                     <img src="Cosign with confidence.png" alt="" />
                     <div className="txt">
                       <h2 className="fw-bold fs-20 font-inter">
-                        Cosign with confidence
+                        Comprehensive Support
                       </h2>
                       <p className="fs-16 font-inter">
-                        We pride ourselves on providing unbiased loan reviews.
+                        Enjoy 24/7 customer assistance and smooth claim
+                        processes for a worry-free experience.
                       </p>
                     </div>
                   </div>
@@ -308,11 +317,12 @@ const Morgatge_loan = () => {
         className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue"
       >
         <EducationLoanTitle
-          title={"What Personal Loans Cover?"}
+          title={"What Mortgage Loans Can Cover?"}
           color="white"
           fontSize="fs-36"
           ratings={false}
-          pera="Education loans at Samriddh Kendra are designed to cover a broad range of expenses to support your academic journey. Our education loans typically include:"
+          pera="Secure a loan for properties still under construction. Samriddh Kendra connects you with lenders who offer financial solutions for projects in progress, allowing you to lock in your investment early and manage payments easily while your property is being built.
+"
           pera2={""}
         />
 
@@ -321,24 +331,41 @@ const Morgatge_loan = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  1.Home Loan
+                  1.Under Construction Property
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Easily finance the purchase of your home with quick approvals
-                  and no collateral required. Personal loans offer faster
-                  disbursement and flexibility for home-related expenses.
+                  Secure a loan for properties still under construction.
+                  Samriddh Kendra connects you with lenders who offer financial
+                  solutions for projects in progress, allowing you to lock in
+                  your investment early and manage payments easily while your
+                  property is being built.
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
-                  2. Education
+                  2. Fully Constructed Property
                 </h2>
                 <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  Covering the cost of education, including tuition fees, a
-                  personal loan provides easy access to funds with fewer
-                  restrictions and faster processing.
+                  Get financing for already completed residential or commercial
+                  properties. Samriddh Kendra’s platform connects you with
+                  options tailored for individuals or businesses seeking
+                  ready-to-move-in properties, ensuring a fast and reliable
+                  process for securing the funds.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  3. Freehold Residential and Commercial Property
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  We help you secure mortgage loans for freehold residential and
+                  commercial properties. Whether it’s your dream home or a
+                  business investment, Samriddh Kendra ensures you get access to
+                  the right financial partners for long-term, flexible funding.
                 </p>
               </div>
             </div>
@@ -505,7 +532,7 @@ const Morgatge_loan = () => {
           <div className="faqContainer row ">
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
-                {personalLoan.map((data, index) => {
+                {mortgageLoanFAQs.map((data, index) => {
                   const fadeDirection =
                     index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (
