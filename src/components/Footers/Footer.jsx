@@ -21,10 +21,10 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/company/samriddh-kendra/">
                   <img src="./linkedin.webp" className="img-fluid" alt="" />
                 </a>
-                <a>
+                <a href="tel:+918758493204">
                   <img src="./telephone.webp" className="img-fluid" alt="" />
                 </a>
-                <a>
+                <a href="mailto:support@samriddhkedra.in">
                   <img src="./mail.webp" className="img-fluid" alt="" />
                 </a>
               </div>

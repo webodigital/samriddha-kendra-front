@@ -17,8 +17,11 @@ const Privacy_policy = () => {
 
         <ul className="my-5">
           <li>
-            Visit our website at https://www.samriddhkendra.in, or any website
-            of ours that links to this Privacy Notice
+            Visit our website at{" "}
+            <a href="https://www.samriddhkendra.in">
+              https://www.samriddhkendra.in
+            </a>
+            , or any website of ours that links to this Privacy Notice
           </li>
           <li>
             Use Samriddh Kendra - to connect rural customer with reliable
@@ -29,9 +32,12 @@ const Privacy_policy = () => {
             explains how we collect, use, process, disclose, and safeguard your
             information when you access and use our Services through our website
             and mobile app. respectively (collectively referred to as the
-            “Platform”) located at: https://www.Samriddhkendra.in/ which shall
-            be incorporated into and subject to the Terms of Service of the
-            Platform and shall be read harmoniously and in conjunction.
+            “Platform”) located at:{" "}
+            <a href="https://www.samriddhkendra.in">
+              https://www.samriddhkendra.in
+            </a>{" "}
+            which shall be incorporated into and subject to the Terms of Service
+            of the Platform and shall be read harmoniously and in conjunction.
           </li>
           <li>
             Engage with us in other related ways, including any sales,
@@ -46,9 +52,9 @@ const Privacy_policy = () => {
           you do not agree with our policies and practices, please do not use
           our Services. If you still have any questions or concerns, please
           contact us at{" "}
-          <span className="fw-bold text-info px-2">
+          <a href="mailto:support@samriddhkedra.in" className=" px-2">
             Support@samriddhkendra.in
-          </span>
+          </a>
           This Privacy Policy outlines how we collect, use, and protect your
           personal information in compliance with applicable laws and
           regulations, including the Information Technology Act, 2000, the
@@ -416,9 +422,9 @@ const Privacy_policy = () => {
           by individuals above the age of eighteen (18) only. <br /> If you have
           any questions regarding this Privacy Policy, please send us an email
           at{" "}
-          <span className="fw-bold text-info px-2">
+          <a href="mailto:support@samriddhkedra.in" className=" px-2">
             Support@samriddhkendra.in
-          </span>
+          </a>
         </p>
 
         <div className="container mt-5">
@@ -642,9 +648,9 @@ const Privacy_policy = () => {
           measures to promptly delete such data from our records. If you become
           aware of any data we may have collected from children under age 18,
           please contact us at{" "}
-          <span className="fw-bold text-info px-2">
+          <a href="mailto:grievance.samriddh@gmail.com" className=" px-2">
             grievance.samriddh@gmail.com
-          </span>
+          </a>
         </p>
         <h2 className="mt-5">12. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
         <p>

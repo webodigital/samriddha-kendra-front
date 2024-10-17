@@ -79,9 +79,12 @@ const ContactUsForm = () => {
                   <div className="d-flex flex-wrap justify-content-center gap-5">
                     <div className="d-flex align-items-center gap-3">
                       <img style={{ width: "20px" }} src="/mail.svg" alt="" />
-                      <p className="text-white mt-3 fw-semibold fs-20 font-inter">
+                      <a
+                        href="mailto:support@samriddhkedra.in"
+                        className="text-white mt-3 fw-semibold fs-20 font-inter"
+                      >
                         support@samriddhkedra.in
-                      </p>
+                      </a>
                     </div>
                     <div className="d-flex align-items-center gap-3">
                       <img
@@ -89,9 +92,12 @@ const ContactUsForm = () => {
                         src="./callIcon.png"
                         alt=""
                       />
-                      <p className="text-white fw-semibold fs-20 font-inter">
+                      <a
+                        href="tel:+918758493204"
+                        className="text-white fw-semibold fs-20 font-inter"
+                      >
                         +91 8758493204
-                      </p>
+                      </a>
                     </div>
                   </div>
                 </div>

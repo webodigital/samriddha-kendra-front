@@ -345,20 +345,7 @@ const HomeLoan = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12">
-              <div className="my-4">
-                <h2 className="fw-bold fs-20 font-inter text-white">
-                  3. Land Acquisition
-                </h2>
-                <p className="fs-16 ms-4 fw-light font-inter text-white">
-                  If you're looking to buy land for future development or
-                  construction, our platform facilitates access to loans
-                  tailored for land acquisition. We connect you with lenders who
-                  offer flexible terms, allowing you to secure a prime location
-                  for your future home or investment.
-                </p>
-              </div>
-            </div>
+
             <div className="col-lg-5 col-md-6 col-12">
               <div className="my-4">
                 <h2 className="fw-bold fs-20 font-inter text-white">
