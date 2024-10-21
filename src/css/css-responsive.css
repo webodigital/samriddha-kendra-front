@@ -374,15 +374,6 @@
       }
     }
   }
-
-  .section_8 {
-    & .partners-Customers {
-      & .review-card {
-        height: 60rem;
-      }
-    }
-  }
-
   .loan_container {
     & .image_container {
       & .loan2 {

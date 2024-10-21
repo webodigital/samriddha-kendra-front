@@ -37,7 +37,7 @@ const BecomeOurPartner = () => {
   return (
     <div className="BecomeOurPartner">
       <section className="container-fluid mt-15 BecomeOurPartner_section_1">
-        <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
+        <div className="row align-items-start justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
           <div
             data-aos="fade-down"
             className="col-xl-7 col-lg-6 col-md-6 col-12"
@@ -57,8 +57,8 @@ const BecomeOurPartner = () => {
               financial product to earn up to Rs 1.5 lac per months
             </p>
 
-            <div className="btn-container mt-7">
-              <Button content={"Download application"} />
+            <div className="btn-container mt-6">
+              <Button content={"Contact Us"} />
             </div>
           </div>
         </div>
@@ -271,7 +271,7 @@ const BecomeOurPartner = () => {
                         <img className="img-fluid" src="./EV LOAN.png" alt="" />
                       </div>
                       <p className="font-inter fs-18 fw-medium text-white">
-                        EV LOAN
+                        MOTOR LOAN
                       </p>
                     </div>
                   </div>
@@ -280,7 +280,21 @@ const BecomeOurPartner = () => {
                       <div className="img-container">
                         <img
                           className="img-fluid"
-                          src="./BUSINESS LOAN2.png"
+                          src="./loanHome.png"
+                          alt=""
+                        />
+                      </div>
+                      <p className="font-inter fs-18 fw-medium text-white">
+                        HOME LOAN
+                      </p>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="productCard text-center">
+                      <div className="img-container">
+                        <img
+                          className="img-fluid"
+                          src="./Business Loan.png"
                           alt=""
                         />
                       </div>
@@ -294,12 +308,12 @@ const BecomeOurPartner = () => {
                       <div className="img-container">
                         <img
                           className="img-fluid"
-                          src="./MICRO LOAN AGAINST PROPERTY.png"
+                          src="./loanAvatar.png"
                           alt=""
                         />
                       </div>
                       <p className="font-inter fs-18 fw-medium text-white">
-                        MICRO LOAN AGAINST PROPERTY
+                        PERSONAL LOAN
                       </p>
                     </div>
                   </div>
@@ -308,12 +322,22 @@ const BecomeOurPartner = () => {
                       <div className="img-container">
                         <img
                           className="img-fluid"
-                          src="./LOAN AGAINST SECURITY.png"
+                          src="./property.webp"
                           alt=""
                         />
                       </div>
                       <p className="font-inter fs-18 fw-medium text-white">
-                        LOAN AGAINST SECURITY
+                        PROPERTY PURCHASE LOAN
+                      </p>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="productCard text-center">
+                      <div className="img-container">
+                        <img className="img-fluid" src="./mort.webp" alt="" />
+                      </div>
+                      <p className="font-inter fs-18 fw-medium text-white">
+                        MORTGAGE LOAN
                       </p>
                     </div>
                   </div>

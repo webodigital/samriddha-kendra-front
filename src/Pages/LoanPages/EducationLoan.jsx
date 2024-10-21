@@ -40,7 +40,6 @@ const EducationLoan = () => {
                 </option>
                 <option value="Parent Loans">Parent Loans</option>
                 <option value="MBA Loans ">MBA Loans </option>
-                <option value="Dental Loan">Dental Loan</option>
               </select>
             </div>
             <ApplyBtn

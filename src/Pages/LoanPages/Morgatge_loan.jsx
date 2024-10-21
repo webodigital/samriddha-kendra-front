@@ -22,8 +22,8 @@ const Morgatge_loan = () => {
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
             Mortgage Loan
           </h1>
-          <div className=" mt-5 bg-white rounded-4 py-4 px-5 d-flex flex-column align-items-start">
-            <div className="d-flex gap-3 mb-5 mt-3">
+          <div className=" rounded-4 py-4 px-5 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
               <label className="loan-label fs-18 font-inter me-3 mt-3">
                 I am applying for
               </label>
@@ -41,7 +41,7 @@ const Morgatge_loan = () => {
                 <option value="MBA Loans ">MBA Loans </option>
                 <option value="Dental Loan">Dental Loan</option>
               </select>
-            </div>
+            </div> */}
             <ApplyBtn
               textColor="text-white"
               bgColor={"bg-dark-blue"}

@@ -44,8 +44,8 @@ const Calculate_EMI_Interest = () => {
                 How To Use EMI Calculator Video
               </h2>
 
-              <div className="video-container mt-5">
-                <iframe
+              <div className="video-container mt-4 w-100 h-100 rounded-5">
+                {/* <iframe
                   className="img-fluid rounded-5"
                   src="https://www.youtube.com/embed/z6XAZve99xY?si=Rk0HIQ4rwdc31FAF"
                   title="YouTube video player"
@@ -53,7 +53,13 @@ const Calculate_EMI_Interest = () => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
-                ></iframe>
+                ></iframe> */}
+
+                <img
+                  src="/Coming Soon.webp"
+                  className="img-fluid  border w-100 rounded-5 object-fit-contain"
+                  alt=""
+                />
               </div>
             </div>
           </div>

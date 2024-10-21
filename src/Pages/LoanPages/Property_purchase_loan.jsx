@@ -22,8 +22,8 @@ const Property_purchase_loan = () => {
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
             Property Purchase Loan
           </h1>
-          <div className=" mt-5 bg-white rounded-4 py-4 px-5 d-flex flex-column align-items-start">
-            <div className="d-flex gap-3 mb-5 mt-3">
+          <div className=" rounded-4 py-4 px-5 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
               <label className="loan-label fs-18 font-inter me-3 mt-3">
                 I am applying for
               </label>
@@ -42,7 +42,7 @@ const Property_purchase_loan = () => {
                 <option value="Dental Loan">Competitive Coverage Rates</option>
                 <option value="MBA Loans ">Easy Claim Processing</option>
               </select>
-            </div>
+            </div> */}
             <ApplyBtn
               textColor="text-white"
               bgColor={"bg-dark-blue"}

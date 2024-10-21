@@ -142,7 +142,8 @@ const Career = () => {
                     <option selected>Select department</option>
                     <option value="1">Associate Growth Manager</option>
                     <option value="2">HR</option>
-                    <option value="3">Developer</option>
+                    <option value="3">Relationship Manager</option>
+                    <option value="3">Recruiters </option>
                   </select>
                 </div>
                 <div className="col-md-6">
