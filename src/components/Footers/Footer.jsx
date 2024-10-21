@@ -194,7 +194,7 @@ const Footer = () => {
           </div>
           <div className="col-3">
             <li className="mt-2 text-center">
-              <Link to={"/terms_of_use"}>
+              <Link to={"/terms_Conditions"}>
                 <a href="" className="text-white text-capitalize">
                   Terms and Conditions
                 </a>

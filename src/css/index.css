@@ -572,6 +572,25 @@ li {
 
   box-shadow: var(--btn-bg) 3px 3px 0px -1px;
 }
+
+.btn-outline-dark {
+  border-radius: 1rem !important;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
+  color: var(--dark-blue) !important;
+
+  &:hover {
+    background: var(--dark-blue) !important;
+    color: var(--white) !important;
+    border-radius: 3rem !important;
+    -webkit-border-radius: 3rem !important;
+    -moz-border-radius: 3rem !important;
+    -ms-border-radius: 3rem !important;
+    -o-border-radius: 3rem !important;
+  }
+}
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -589,7 +608,7 @@ li {
 }
 
 .slider {
-  width: 38rem !important;
+  width: 45rem !important;
 }
 
 .button-container {
