@@ -693,7 +693,7 @@ const Morgatge_loan = () => {
         <header className="container mb-5">
           <Title
             first_text="What does "
-            span_text="Partners & Customers"
+            span_text="  Customers"
             last_text="say about us?"
           />
         </header>
