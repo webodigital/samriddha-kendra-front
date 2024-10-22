@@ -2669,7 +2669,6 @@ li {
     margin-bottom: 10rem;
 
     .card {
-      height: 23rem;
       margin: 1rem;
 
       .card-body {
@@ -2903,7 +2902,7 @@ li {
 
 .healthInsuranceSection_7 {
   .card {
-    height: 18rem !important;
+    height: 19.6rem !important;
     display: flex;
     justify-content: center;
     align-items: start;

@@ -19,6 +19,9 @@ const ApplyBtn = ({
   return (
     <Link
       to={url}
+      onClick={() => {
+        !url && alert("Coming Soon");
+      }}
       className={`btn apply-button rounded-4 text-center ${width}  ${
         fs ? fs : "fs-18"
       } ${

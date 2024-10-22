@@ -58,7 +58,7 @@ const BecomeOurPartner = () => {
             </p>
 
             <div className="btn-container mt-6">
-              <Button content={"Contact Us"} />
+              <Button url={"/contact"} content={"Contact Us"} />
             </div>
           </div>
         </div>
@@ -530,7 +530,7 @@ const BecomeOurPartner = () => {
         <header className="container mb-5">
           <Title
             first_text="What our"
-            span_text="Partners"
+            span_text="Customers"
             last_text="say about us?"
           />
         </header>
@@ -549,7 +549,7 @@ const BecomeOurPartner = () => {
                   </div>
                   <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
                     <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins">
-                      Our Partners
+                      Our Customers
                     </p>
 
                     <div className=" ratings">
@@ -682,9 +682,7 @@ const BecomeOurPartner = () => {
                             <p className="fs-20 font-poppins fw-semibold ">
                               Amit Singh
                             </p>
-                            <p className="fs-16 font-poppins">
-                               Merchant Owner
-                            </p>
+                            <p className="fs-16 font-poppins"> Engineer</p>
                           </div>
                         </div>
                       </div>

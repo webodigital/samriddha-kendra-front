@@ -24,9 +24,7 @@ const ProductCard = ({ image, cardTitle, btnContent, path, applyLink }) => {
           </div>
 
           <div className="btn-container">
-            <a href={applyLink}>
-              <Button content={btnContent} />
-            </a>
+            <Button url={applyLink} content={btnContent} />
           </div>
         </div>
       </div>

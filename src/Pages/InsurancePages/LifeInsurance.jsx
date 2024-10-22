@@ -37,7 +37,7 @@ const LifeInsurance = () => {
             select the best plan to fit your needs and goals.
           </p>
 
-          <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
+          {/*  <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
             <div className="container">
               <div className="row">
                 <div className="col-6">
@@ -123,6 +123,35 @@ const LifeInsurance = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className=" rounded-4 py-4 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
+              <label className="loan-label fs-18 font-inter me-3 mt-3">
+                I am applying for
+              </label>
+              <select
+                value={loanType}
+                onChange={handleLoanChange}
+                className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
+              >
+                <option value="Mortgage Loan">Mortgage Loan</option>
+                <option value="Graduate Loan">Graduate Loan</option>
+                <option value="Coaching Institute Loans">
+                  Coaching Institute Loans
+                </option>
+                <option value="Parent Loans">Parent Loans</option>
+                <option value="MBA Loans ">MBA Loans </option>
+                <option value="Dental Loan">Dental Loan</option>
+              </select>
+            </div> */}
+            <ApplyBtn
+              textColor="text-white"
+              bgColor={"bg-dark-blue"}
+              text="Apply Now"
+              arrow={true}
+              arrowDark={false}
+            />
           </div>
         </div>
       </section>
@@ -257,14 +286,14 @@ const LifeInsurance = () => {
                       years.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/*  <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -281,14 +310,14 @@ const LifeInsurance = () => {
                       policyholder.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/*  <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -305,14 +334,14 @@ const LifeInsurance = () => {
                       by offering a regular income.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/*  <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -603,7 +632,7 @@ const LifeInsurance = () => {
         />
 
         <div className="container">
-          <ul className="nav gap-5 nav-underline">
+          {/*  <ul className="nav gap-5 nav-underline">
             <li className="nav-item">
               <a
                 className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
@@ -625,7 +654,7 @@ const LifeInsurance = () => {
                 Exclusions
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="row cus-h">
             <div className="col-lg-4 col-md-6 col-12">
@@ -963,7 +992,7 @@ const LifeInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
+      {/*    <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
           color="black"
@@ -1082,7 +1111,7 @@ const LifeInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*   <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">

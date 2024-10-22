@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 const Button = ({ content, url }) => {
   return (
     <Link to={url}>
-      <button className="btn fs-3 fw-bold text-dark cus-btn font-poppins rounded-0">
+      <button
+        onClick={() => {
+          !url && alert("Coming soon");
+        }}
+        className="btn fs-3 fw-bold text-dark cus-btn font-poppins rounded-0"
+      >
         {content}
         <span className="mx-3 ">
           <img

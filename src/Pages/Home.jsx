@@ -6,7 +6,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const { carouselOptions } = useContext(CreatingContext);
@@ -65,7 +64,7 @@ const Home = () => {
                   experience in reaching your financial aspirations.
                 </p>
                 <div className="btn-container mt-5">
-                  <Button url={"/products"} content={"Apply for loan"} />
+                  <Button url={"/products"} content={"Click to know more"} />
                 </div>
               </div>
             </div>
@@ -122,7 +121,7 @@ const Home = () => {
                     url={
                       "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
                     }
-                    content={"Click to know more"}
+                    content={"Join Our Family"}
                   />
                 </div>
               </div>
@@ -365,7 +364,7 @@ const Home = () => {
                   </div>
                   <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
                     <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
-                      Our Partners
+                      Our Customers
                     </p>
 
                     <div className=" ratings mb-5">
@@ -467,7 +466,7 @@ const Home = () => {
                             <p className="fs-20 font-poppins fw-semibold ">
                               Neha Sharma
                             </p>
-                            <p className="fs-16 font-poppins">  Freelancer</p>
+                            <p className="fs-16 font-poppins">Teacher</p>
                           </div>
                         </div>
                       </div>
@@ -498,9 +497,7 @@ const Home = () => {
                             <p className="fs-20 font-poppins fw-semibold ">
                               Amit Singh
                             </p>
-                            <p className="fs-16 font-poppins">
-                               Merchant Owner
-                            </p>
+                            <p className="fs-16 font-poppins">Engineer</p>
                           </div>
                         </div>
                       </div>
@@ -513,7 +510,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section data-aos="zoom-in" className="section_8  mt-3">
+      {/*   <section data-aos="zoom-in" className="section_8  mt-3">
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5 position-relative positions2">
             <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
@@ -674,11 +671,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ----------------------------------------------------- */}
 
-      <section data-aos="zoom-in" className="section_9">
+      {/*   <section data-aos="zoom-in" className="section_9">
         <Title first_text="" span_text="Why Trust US?" last_text="" />
 
         <div className="container">
@@ -686,7 +683,7 @@ const Home = () => {
             ________ In the press ? _________
           </h2>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
