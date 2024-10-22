@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ApplyBtn = ({
   textColor,
@@ -16,8 +17,8 @@ const ApplyBtn = ({
   };
 
   return (
-    <a
-      href={url}
+    <Link
+      to={url}
       className={`btn apply-button rounded-4 text-center ${width}  ${
         fs ? fs : "fs-18"
       } ${
@@ -34,7 +35,7 @@ const ApplyBtn = ({
       ) : (
         ""
       )}
-    </a>
+    </Link>
   );
 };
 

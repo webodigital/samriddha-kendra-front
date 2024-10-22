@@ -91,7 +91,7 @@ const ContactUsForm = () => {
                         support@samriddhkedra.in
                       </a>
                     </div>
-                    <div className="d-flex align-items-center gap-3">
+                    <div className="d-flex align-items-center gap-3 mt-3">
                       <img
                         style={{ width: "20px" }}
                         src="./callIcon.png"

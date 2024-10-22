@@ -962,7 +962,11 @@ const MotorInsurance = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
+                  <img
+                    src="/puml.jpg"
+                    className="p-4 img-fluid prodimg"
+                    alt=""
+                  />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
@@ -978,6 +982,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/life"}
                     />
                   </div>
                 </div>
@@ -986,7 +991,7 @@ const MotorInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Motor Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1004,6 +1009,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/health"}
                     />
                   </div>
                 </div>
@@ -1012,7 +1018,7 @@ const MotorInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Shop Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1030,6 +1036,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/shop"}
                     />
                   </div>
                 </div>

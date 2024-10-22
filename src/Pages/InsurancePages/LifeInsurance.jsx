@@ -547,14 +547,14 @@ const LifeInsurance = () => {
               </div>
             </div>
             <div data-aos="fade-up" className="col-lg-7 col-md-6 col-12">
-              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
-                <img className="img-fluid" src="/How to Buy2.webp" alt="" />
+              <div className="mt-lg-0 w-100 h-100 mt-md-0 mt-6 text-center">
+                <img className="w-75 h-75" src="/bl.webp" alt="" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="lifeInsuranceSection_7 px-lg-0 px-md-0 px-4 py-6">
+      <section className="lifeInsuranceSection_7 px-lg-0 px-md-0 px-4 py-2">
         <EducationLoanTitle
           title={"Who can purchase a Life Insurance Policy?"}
           color="black"
@@ -564,7 +564,7 @@ const LifeInsurance = () => {
           pera2={""}
         />
 
-        <div className="container mt-4">
+        {/*  <div className="container mt-4">
           <div className="col-12">
             <div className="border rounded-5 overflow-hidden ">
               <div className="border-bottom  d-flex">
@@ -589,7 +589,7 @@ const LifeInsurance = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section className="lifeInsuranceSection_8 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue">
@@ -819,7 +819,7 @@ const LifeInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_10 my-10 py-6 px-lg-0 px-md-0 px-4 bg-dark-blue">
+      {/*  <section className="lifeInsuranceSection_10 my-10 py-6 px-lg-0 px-md-0 px-4 bg-dark-blue">
         <EducationLoanTitle
           title={"Calculator"}
           color="white"
@@ -905,7 +905,7 @@ const LifeInsurance = () => {
           </div>
         </div>
       </section>
-
+ */}
       <section className="lifeInsuranceSection_11 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"Frequently Asked Questions"}
@@ -1200,7 +1200,11 @@ const LifeInsurance = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
+                  <img
+                    src="/puml.jpg"
+                    className="p-4 img-fluid prodimg"
+                    alt=""
+                  />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
@@ -1216,6 +1220,7 @@ const LifeInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/health"}
                     />
                   </div>
                 </div>
@@ -1224,7 +1229,7 @@ const LifeInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Motor Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1242,6 +1247,7 @@ const LifeInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/motor"}
                     />
                   </div>
                 </div>
@@ -1250,7 +1256,7 @@ const LifeInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Shop Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1268,6 +1274,7 @@ const LifeInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/shop"}
                     />
                   </div>
                 </div>

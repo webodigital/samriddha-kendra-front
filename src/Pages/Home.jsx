@@ -65,9 +65,7 @@ const Home = () => {
                   experience in reaching your financial aspirations.
                 </p>
                 <div className="btn-container mt-5">
-                  <Link to={"/products/loan/education_loan"}>
-                    <Button content={"Apply for loan"} />
-                  </Link>
+                  <Button url={"/products"} content={"Apply for loan"} />
                 </div>
               </div>
             </div>
@@ -94,9 +92,7 @@ const Home = () => {
                   and 24/7 support.
                 </p>
                 <div className="btn-container mt-5">
-                  <Link to={"/products/insurance/life"}>
-                    <Button content={"Click to know more"} />
-                  </Link>
+                  <Button url={"/products"} content={"Click to know more"} />
                 </div>
               </div>
             </div>
@@ -122,7 +118,12 @@ const Home = () => {
                   products
                 </p>
                 <div className="btn-container mt-3">
-                  <Button content={"Click to know more"} />
+                  <Button
+                    url={
+                      "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    }
+                    content={"Click to know more"}
+                  />
                 </div>
               </div>
             </div>
@@ -425,11 +426,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Ravi Kumar
                             </p>
@@ -458,11 +459,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Neha Sharma
                             </p>
@@ -489,11 +490,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Amit Singh
                             </p>
@@ -541,11 +542,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Ravi Kumar
                             </p>
@@ -574,11 +575,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Neha Sharma
                             </p>
@@ -605,11 +606,11 @@ const Home = () => {
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
+                            className="img-fluid avatar p-3 mr-4"
                             src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
                               Amit Singh
                             </p>

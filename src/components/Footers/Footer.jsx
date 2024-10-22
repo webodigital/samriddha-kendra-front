@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-md-center align-items-center justify-content-between">
           <div className=" col-xl-3 col-lg-3 col-md-8 col-12">
-            <div className="row flex-column gap-4 text-md-center order-lg-first order-md-first mt-lg-5 mt-5 order-sm-last order-last">
+            <div className="row flex-column  me-4 gap-4 mx-auto text-md-center order-lg-first order-md-first mt-lg-5 mt-5 order-sm-last order-last">
               <div className="d-flex justify-content-lg-start justify-content-center">
                 <img
                   className="img-fluid "
@@ -21,9 +21,9 @@ const Footer = () => {
                 and technology to bridge the gap between rural customers and
                 Finance Institutions
               </div>
-              <div className="social-media-icons w-75 mx-auto d-flex align-items-center  gap-4 justify-content-lg-start  justify-content-sm-center justify-content-center">
-                <a>
-                  <img src="./instagram.webp" className="img-fluid" alt="" />
+              <div className="social-media-icons w-75  mx-lg-1 mx-md-auto mx-auto d-flex align-items-center  gap-4 justify-content-lg-start  justify-content-sm-center justify-content-center">
+                <a href="https://www.facebook.com/Samridhkendra">
+                  <img src="./facebook.svg" className="img-fluid" alt="" />
                 </a>
                 <a href="https://www.linkedin.com/company/samriddh-kendra/">
                   <img src="./linkedin.webp" className="img-fluid" alt="" />
@@ -37,23 +37,19 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className=" col-md-12 col-lg-9 col-12 order-lg-last  order-sm-first order-first ">
+          <div className="col-xl-9 col-lg-9 col-md-12 col-12 order-lg-last  order-sm-first order-first ">
             <div className="d-flex flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5  gap-3">
-              <div className="col-lg-2 col-md-3 col-sm-3 col-5">
+              <div className="col-lg-3 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading mb-3">Platform</h1>
                 <ul className="list-unstyled">
                   <li className="mt-2">
-                    <Link to={"/"}>
-                      <a href="/" className="text-white">
-                        Home
-                      </a>
+                    <Link to={"/"} className="text-white">
+                      Home
                     </Link>
                   </li>
                   <li className="mt-2">
-                    <Link to={"about"}>
-                      <a href="#" className="text-white">
-                        About Us
-                      </a>
+                    <Link to={"about"} className="text-white">
+                      About Us
                     </Link>
                   </li>
                   <li className="mt-2">
@@ -77,7 +73,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-3 col-5 ">
+              <div className="col-lg-3 col-md-3 col-sm-3 col-5 ">
                 <h1 className="footer-heading mb-3">Loan</h1>
                 <ul className="list-unstyled">
                   <li className="mt-2">
@@ -136,7 +132,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-3 col-5">
+              <div className="col-lg-3 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading mb-3">Insurance</h1>
                 <ul className="list-unstyled">
                   <li className="d-flex flex-column gap-2">
@@ -164,12 +160,12 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className=" col-lg-2 col-md-3 col-sm-3 col-5">
-                <h1 className="footer-heading mb-3">Tools</h1>
-                <ul className="list-unstyled">
+              <div className=" col-lg-1 col-md-3 col-sm-3 col-5">
+                <h1 className="footer-heading mb-3 text-center">Tools</h1>
+                <ul className="list-unstyled w-100 text-center">
                   <li className="mt-2">
                     <Link to={"/products/Calculate_EMI_Interest"}>
-                      <a href="#" className="text-white">
+                      <a href="#" className="text-white w-100">
                         Loan Calculator
                       </a>
                     </Link>
