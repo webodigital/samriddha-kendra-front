@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="d-flex justify-content-lg-start justify-content-center">
                 <img
                   className="img-fluid "
-                  src="Samriddh Kendra Logo.svg"
+                  src="/Samriddh Kendra Logo.svg"
                   alt=""
                 />
               </div>
@@ -23,16 +23,16 @@ const Footer = () => {
               </div>
               <div className="social-media-icons w-75  mx-lg-1 mx-md-auto mx-auto d-flex align-items-center  gap-4 justify-content-lg-start  justify-content-sm-center justify-content-center">
                 <a href="https://www.facebook.com/Samridhkendra">
-                  <img src="./facebook.svg" className="img-fluid" alt="" />
+                  <img src="/facebook.svg" className="img-fluid" alt="" />
                 </a>
                 <a href="https://www.linkedin.com/company/samriddh-kendra/">
-                  <img src="./linkedin.webp" className="img-fluid" alt="" />
+                  <img src="/linkedin.webp" className="img-fluid" alt="" />
                 </a>
                 <a href="tel:+918758493204">
-                  <img src="./telephone.webp" className="img-fluid" alt="" />
+                  <img src="/telephone.webp" className="img-fluid" alt="" />
                 </a>
                 <a href="mailto:support@samriddhkedra.in">
-                  <img src="./mail.webp" className="img-fluid" alt="" />
+                  <img src="/mail.webp" className="img-fluid" alt="" />
                 </a>
               </div>
             </div>
