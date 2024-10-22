@@ -147,11 +147,7 @@ const EducationLoan = () => {
           <div className="row justify-content-center">
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard bg-white border-none b-shadow">
-                <img
-                  className="img-fluid"
-                  src="/Undergraduate Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="/l1.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Tailored Loan Options
@@ -160,7 +156,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Graduate Loans.png" alt="" />
+                <img className="img-fluid" src="/l2.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Simplified Online Process
@@ -169,11 +165,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img
-                  className="img-fluid"
-                  src="/Coaching Institute Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="/l3.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Comprehensive Insurance Plans
@@ -182,7 +174,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Parent Loans.png" alt="" />
+                <img className="img-fluid" src="/l4.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Trusted Financial Partners
@@ -191,7 +183,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/MBA Loans.png" alt="" />
+                <img className="img-fluid" src="/l5.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Competitive Coverage Rates
@@ -200,7 +192,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Dental Loan.png" alt="" />
+                <img className="img-fluid" src="/l6.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Easy Claim Processing
