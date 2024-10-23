@@ -740,9 +740,8 @@ const Privacy_policy = () => {
         </p>
         <p>
           Building No./Flat No.: C/o- Chandan Kumar Singh <br />
-          Road/Street: Jaimangal Garh <br />
-          Locality/Sub Locality: Cheria Bariyarpur <br />
-          City/Town/Village: Manjhaul <br />
+          Road: Jaimangal Garh <br />
+          Town: Manjhaul <br />
           District: Begusarai <br />
           State: Bihar <br />
           PIN Code: 851127
