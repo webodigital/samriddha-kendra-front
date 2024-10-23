@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import ProductsTitles from "../components/Titles/ProductsTitles";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link, Outlet, useLocation, useParams } from "react-router-dom";
+import CreatingContext from "../context/ContexAPI";
 
 const Career = () => {
   const location = useLocation();
+  const jobId = useParams();
+  const { jobDescriptions } = useContext(CreatingContext);
+  const [searchTerm, setSearchTerm] = useState("");
 
-  const isBaseRoute = location.pathname === "/career/apply";
+  const isBaseRoute = location.pathname === `/career/apply/${jobId.id}`;
+
+  const filteredJobs = jobDescriptions.filter(
+    (job) =>
+      searchTerm === "" ||
+      job.jobTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.jobOverview.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="career">
@@ -126,6 +139,8 @@ const Career = () => {
                     type="text"
                     className="border-none w-100 fs-20 font-inter px-4"
                     placeholder="Search"
+                    spellCheck="false"
+                    onChange={(e) => setSearchTerm(e.target.value)}
                   />
                 </div>
               </div>
@@ -163,114 +178,37 @@ const Career = () => {
               </form> */}
 
               <div className="outputContainer d-flex flex-column gap-4 mt-5">
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
-                    </h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
+                {filteredJobs.map((jobs, i) => (
+                  <div
+                    key={i}
+                    className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5"
+                  >
+                    <div className="">
+                      <h2 className="fs-26 fw-medium font-inter">
+                        {jobs.jobTitle}
+                      </h2>
+                      <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                        <p className="fs-18 fw-medium font-inter text-light-gray">
+                          Location: {jobs.location}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="">
+                      <ApplyBtn
+                        textColor={"text-white"}
+                        bgColor="bg-dark-blue"
+                        text="View Details"
+                        arrow={false}
+                        arrowDark={false}
+                        width=""
+                        url={`/career/apply/${jobs.jobTitle.replaceAll(
+                          " ",
+                          "_"
+                        )}`}
+                      />
                     </div>
                   </div>
-                  <div className="">
-                    <ApplyBtn
-                      textColor={"text-white"}
-                      bgColor="bg-dark-blue"
-                      text="View Details"
-                      arrow={false}
-                      arrowDark={false}
-                      width=""
-                    />
-                  </div>
-                </div>
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Relationship Manager
-                    </h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
-                    </div>
-                  </div>
-                  <div className="">
-                    <ApplyBtn
-                      textColor={"text-white"}
-                      bgColor="bg-dark-blue"
-                      text="View Details"
-                      arrow={false}
-                      arrowDark={false}
-                      width=""
-                    />
-                  </div>
-                </div>
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">HR</h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
-                    </div>
-                  </div>
-                  <div className="">
-                    <ApplyBtn
-                      textColor={"text-white"}
-                      bgColor="bg-dark-blue"
-                      text="View Details"
-                      arrow={false}
-                      arrowDark={false}
-                      width=""
-                    />
-                  </div>
-                </div>
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">Recruiters</h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
-                    </div>
-                  </div>
-                  <div className="">
-                    <ApplyBtn
-                      textColor={"text-white"}
-                      bgColor="bg-dark-blue"
-                      text="View Details"
-                      arrow={false}
-                      arrowDark={false}
-                      width=""
-                    />
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </section>

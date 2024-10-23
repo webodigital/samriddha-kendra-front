@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+import jobDescriptions from "../Data/JobDescription.json";
 
 const CreatingContext = createContext();
 
@@ -572,6 +573,7 @@ export const ContextProvider = ({ children }) => {
         lifeInsurance,
         Property_purchase_loan,
         mortgageLoanFAQs,
+        jobDescriptions,
       }}
     >
       {children}

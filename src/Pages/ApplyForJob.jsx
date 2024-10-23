@@ -1,40 +1,43 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
+import { useParams } from "react-router-dom";
+import CreatingContext from "../context/ContexAPI";
 
 const ApplyForJob = () => {
+  const jobPosition = useParams();
+  const jobTitle = jobPosition.id.replaceAll("_", " ");
+  const { jobDescriptions } = useContext(CreatingContext);
+
+  const filterJobs = jobDescriptions.filter(
+    (job) => job.jobTitle.toLowerCase() === jobTitle.toLowerCase()
+  );
+
   return (
     <div className="applyForJob">
       <section className="applyForJob_section1 mt-7 bg-dark-blue">
         <div className="container mx-3">
           <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
             <div className="">
-              <h2 className="fs-26 fw-medium font-inter">
-                Associate Growth Manager
+              <h2 className="fs-26 fw-medium font-inter text-capitalize">
+                {filterJobs[0].jobTitle}
               </h2>
               <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
                 <p className="fs-18 fw-medium font-inter text-light-gray">
-                  Growth and Strategy
+                  {filterJobs[0].company}
                 </p>
                 <p className="fs-18 fw-medium font-inter text-light-gray">
-                  • Bengaluru, India
-                </p>
-                <p className="fs-18 fw-medium font-inter text-light-gray">
-                  • 1-3 years
+                  • {filterJobs[0].location}
                 </p>
               </div>
             </div>
             <div className="">
-              <Link to="/apply">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="Apply"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
-              </Link>
+              <ApplyBtn
+                textColor={"text-white"}
+                bgColor="bg-dark-blue"
+                text="Apply Now"
+                arrow={false}
+                arrowDark={false}
+              />
             </div>
           </div>
         </div>
@@ -45,88 +48,27 @@ const ApplyForJob = () => {
           <div className="row flex-column gap-5">
             <div className="aboutUs">
               <h2 className="font-inter fw-medium fs-24">About Us</h2>
-              <p className="fs-20 font-inter mt-5">
-                The Jar app is a habit-building micro-savings platform that
-                helps users save fixed amounts from as little as ₹10 in 24K
-                digital gold. Our users also have the option to convert these
-                savings to cash or physical gold at their convenience. Jar also
-                effortlessly facilitates investments by enabling users to save
-                while they spend, utilizing our round-off method, like a digital
-                piggy bank.
-              </p>
-              <p className="fs-20 font-inter mt-5">
-                Founded by Misbah Ashraf, former founder of community-focused
-                e-commerce platform Marsplay, and Nishchay AG, former director
-                and founding member at mobility start-up Bounce, Jar's
-                unwavering mission is to shatter psychological barriers to
-                saving and investing, thus spearheading the Financial Fitness
-                revolution for Bharat.
-              </p>
-              <p className="fs-20 font-inter mt-5">
-                At Jar, we believe that savings are just the beginning for our
-                customers. We want to walk alongside them through every step of
-                their financial journey, which is why we have now expanded our
-                offerings to meet those needs.
-              </p>
+              <p className="fs-20 font-inter mt-4">{filterJobs[0].aboutUs}</p>
             </div>
 
             <div className="role">
               <h2 className="font-inter fw-medium fs-24">About the role</h2>
 
-              <ul className="mt-5">
-                <li className="fs-20 font-inter">
-                  You will model data in order to create reporting
-                  infrastructure/dashboards for business process management
-                </li>
-                <li className="fs-20 font-inter">
-                  You will be closely working with the business/product teams to
-                  enable data-driven decision-making.
-                </li>
-                <li className="fs-20 font-inter">
-                  You will drive data-driven decision-making through the
-                  stakeholders
-                </li>
-              </ul>
+              <p className="fs-20 font-inter mt-4">
+                {filterJobs[0].jobOverview}
+              </p>
             </div>
             <div className="role">
               <h2 className="font-inter fw-medium fs-24">
                 Roles and Responsibilities
               </h2>
 
-              <ul className="mt-5">
-                <li className="fs-20 font-inter">
-                  You will model data in order to create reporting
-                  infrastructure/dashboards for business process management
-                </li>
-                <li className="fs-20 font-inter">
-                  You will be closely working with the business/product teams to
-                  enable data-driven decision-making.
-                </li>
-                <li className="fs-20 font-inter">
-                  You will drive data-driven decision-making through the
-                  stakeholders
-                </li>
-                <li className="fs-20 font-inter">
-                  You will drive the team to adopt new and innovative ways of
-                  solving business problems
-                </li>
-                <li className="fs-20 font-inter">
-                  Drive product strategy and execute the prioritized roadmap for
-                  your stream
-                </li>
-                <li className="fs-20 font-inter">
-                  Lead a cross-functional team, partnering with engineering,
-                  data, design, and other teams to ship major features and
-                  product improvements driving efficiency
-                </li>
-                <li className="fs-20 font-inter">
-                  You will influence new opportunities for business based on
-                  internal/external data
-                </li>
-                <li className="fs-20 font-inter">
-                  Define, track, and report on the key product, business, and
-                  customer metrics
-                </li>
+              <ul className="mt-4">
+                {filterJobs[0].keyResponsibilities.map((res, i) => (
+                  <li key={i} className="fs-20 font-inter">
+                    {res}
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -135,68 +77,41 @@ const ApplyForJob = () => {
                 Experience and Qualifications
               </h2>
 
-              <ul className="mt-5">
-                <li className="fs-20 font-inter">
-                  You will model data in order to create reporting
-                  infrastructure/dashboards for business process management
-                </li>
-                <li className="fs-20 font-inter">
-                  You will be closely working with the business/product teams to
-                  enable data-driven decision-making.
-                </li>
-                <li className="fs-20 font-inter">
-                  You will drive data-driven decision-making through the
-                  stakeholders
-                </li>
-                <li className="fs-20 font-inter">
-                  You will drive the team to adopt new and innovative ways of
-                  solving business problems
-                </li>
-                <li className="fs-20 font-inter">
-                  Drive product strategy and execute the prioritized roadmap for
-                  your stream
-                </li>
-                <li className="fs-20 font-inter">
-                  Lead a cross-functional team, partnering with engineering,
-                  data, design, and other teams to ship major features and
-                  product improvements driving efficiency
-                </li>
-                <li className="fs-20 font-inter">
-                  You will influence new opportunities for business based on
-                  internal/external data
-                </li>
-                <li className="fs-20 font-inter">
-                  Define, track, and report on the key product, business, and
-                  customer metrics
-                </li>
+              <ul className="mt-4">
+                {filterJobs[0].qualifications.map((qul, i) => (
+                  <li key={i} className="fs-20 font-inter">
+                    {qul}
+                  </li>
+                ))}
               </ul>
             </div>
 
             <div className="aboutUs">
-              <h2 className="font-inter fw-medium fs-24">
-                Additional Information
-              </h2>
-              <p className="fs-20 font-inter mt-5">
-                Jar is a diverse and inclusive workplace that embraces the ideas
-                and perspectives of all employees, and recognises their efforts
-                and contributions regardless of ethnicity. Our workspace also
-                boasts a great blend of youth and experience, which helps us
-                maintain a transparent culture with no micromanagement. We also
-                have flexible working hours, and provide medical insurance to
-                all employees.
-              </p>
+              <h2 className="font-inter fw-medium fs-24">Why Join Us</h2>
+              <ul className="mt-4">
+                {filterJobs[0].whyJoinUs.map((qul, i) => (
+                  <li key={i} className="fs-20 font-inter">
+                    {qul}
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <div className="button mt-7">
+            <div className="button d-flex gap-4 align-items-center my-3">
               <ApplyBtn
                 textColor={"text-white"}
                 bgColor="bg-dark-blue"
-                text="Apply"
+                text="Apply Now"
                 arrow={false}
                 arrowDark={false}
-                fs={"fs-24"}
-                width="w-15"
-                fw={"fs-medium"}
+              />
+              <ApplyBtn
+                textColor={"text-dark"}
+                bgColor="bg-white border border-3"
+                text="Go Back"
+                arrow={false}
+                arrowDark={false}
+                url={"/career"}
               />
             </div>
           </div>
