@@ -742,7 +742,7 @@ const Privacy_policy = () => {
           Building No./Flat No.: C/o- Chandan Kumar Singh <br />
           Road: Jaimangal Garh <br />
           Town: Manjhaul <br />
-          District: Begusarai <br />
+          District: Patna <br />
           State: Bihar <br />
           PIN Code: 851127
         </p>

@@ -846,7 +846,7 @@ const Property_purchase_loan = () => {
                             <p className="fs-20 font-poppins fw-semibold ">
                               Amit Singh
                             </p>
-                            <p className="fs-16 font-poppins">Engineer</p>
+                            <p className="fs-16 font-poppins"> Merchant</p>
                           </div>
                         </div>
                       </div>
