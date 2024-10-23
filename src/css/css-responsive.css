@@ -403,8 +403,8 @@
 
   .owl-prev,
   .owl-next {
-    width: 40px;
-    height: 40px;
+    width: 4.5rem;
+    height: 4.5rem;
 
     & img {
       width: 60%;

@@ -418,7 +418,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
+                          <p className="font-inter fs-16 text-gray mt-5">
                             Samriddh Kendra has been a game-changer for me and
                             my business. As a small shop owner, getting access
                             to insurance and financial support used to be a
@@ -452,7 +452,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
+                          <p className="font-inter fs-16 text-gray mt-5">
                             I never thought getting the right insurance coverage
                             could be so easy. Samriddh Kendra not only helped me
                             compare the best policies but also guided me through
@@ -483,7 +483,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
+                          <p className="font-inter fs-16 text-gray mt-5">
                             As a merchant, I needed a loan to expand my business
                             but didn't know where to begin. Samriddh Kendra made
                             it easy by connecting me with trusted financial
@@ -532,7 +532,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
+                          <p className="font-inter fs-16 text-gray mt-5">
                             Samriddh Kendra has been a game-changer for me and
                             my business. As a small shop owner, getting access
                             to insurance and financial support used to be a
@@ -566,7 +566,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
+                          <p className="font-inter fs-16 text-gray mt-5">
                             I never thought getting the right insurance coverage
                             could be so easy. Samriddh Kendra not only helped me
                             compare the best policies but also guided me through

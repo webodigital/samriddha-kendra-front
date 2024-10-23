@@ -522,7 +522,7 @@ li {
     justify-content: center;
     padding-top: 3rem;
     position: absolute;
-    top: 46rem;
+    top: 42rem;
     right: 76.6%;
   }
 }
@@ -1017,11 +1017,10 @@ li {
 
     & .review-card {
       width: 36rem;
-      height: fit-content;
+      height: 56rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding-bottom: 1rem;
 
       & .top-container {
         padding: 1rem;
