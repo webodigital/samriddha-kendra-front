@@ -15,7 +15,10 @@ const Home = () => {
       <section data-aos="zoom-in" className="container-fluid mt-15 section_1">
         <div className="container">
           <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
-            <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center ">
+            <div
+              data-aos="fade-left"
+              className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center "
+            >
               <h1 className="title-font fw-semibold fs-55">
                 <span className="text-body-secondary fw-medium">
                   Bridging the gap
@@ -26,7 +29,10 @@ const Home = () => {
                 Our mission is to connect rural customers with reliable services
               </p>
             </div>
-            <div className="image_Container col-xl-7 col-lg-6 col-md-6 col-12">
+            <div
+              data-aos="fade-right"
+              className="image_Container col-xl-7 col-lg-6 col-md-6 col-12"
+            >
               <img src="./Home_img_1.webp" className="img-fluid" />
             </div>
           </div>
