@@ -5,10 +5,9 @@ const Button = ({ content, url }) => {
   return (
     <Link to={url}>
       <button
-        onClick={() => {
-          !url && alert("Coming soon");
-        }}
-        className="btn fs-3 fw-bold text-dark cus-btn font-poppins rounded-0"
+        className={`btn fs-3 fw-bold text-dark cus-btn font-poppins rounded-0 ${
+          !url && "coming"
+        }`}
       >
         {content}
         <span className="mx-3 ">

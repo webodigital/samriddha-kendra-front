@@ -214,6 +214,46 @@ html {
 
 /***** Global Css *****/
 
+.coming {
+  position: relative;
+
+  /* Hides the ::before element initially */
+  &::before {
+    content: "Coming Soon";
+    /*Textcontent*/
+    position: absolute;
+    top: -3.3rem;
+    width: 100%;
+    left: 0rem;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 33;
+    padding: 0.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
 .ico {
   width: 7rem;
   cursor: pointer;

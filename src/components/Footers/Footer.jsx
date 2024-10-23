@@ -65,9 +65,9 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="mt-2">
-                    <Link to={"/blogs"}>
+                    <Link to={"/products"}>
                       <a href="#" className="text-white">
-                        Blog
+                        Products
                       </a>
                     </Link>
                   </li>
@@ -206,7 +206,7 @@ const Footer = () => {
               </Link>
             </li>
           </div>
-          <div className="col-3">
+          {/* <div className="col-3">
             <li className="mt-2 text-center">
               <Link to={"/privacy_policy"}>
                 <a href="" className="text-white">
@@ -214,11 +214,11 @@ const Footer = () => {
                 </a>
               </Link>
             </li>
-          </div>
+          </div> */}
         </div>
 
         <div className="row justify-content-center">
-          <p className="text-center mt-5 fs-4 text-lighter-gray">
+          <p className="text-center mt-3 fs-4 text-lighter-gray">
             &copy; 2024 CreditBucket Technologies Private Limited. All Rights
             Reserved.
           </p>

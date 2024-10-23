@@ -19,12 +19,9 @@ const ApplyBtn = ({
   return (
     <Link
       to={url}
-      onClick={() => {
-        !url && alert("Coming Soon");
-      }}
-      className={`btn apply-button rounded-4 text-center ${width}  ${
-        fs ? fs : "fs-18"
-      } ${
+      className={`btn apply-button rounded-4 text-center ${
+        !url && "coming"
+      } ${width}  ${fs ? fs : "fs-18"} ${
         fw ? fw : "fw-semibold"
       } py-2 px-4 font-inter  border-none d-flex align-items-center ${textColor} ${bgColor} `}
     >

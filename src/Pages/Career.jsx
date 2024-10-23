@@ -117,7 +117,7 @@ const Career = () => {
               <h1 className="font-inter fw-bold fs-32 text-dark">OPENINGS</h1>
 
               <div className="d-flex justify-content-between align-items-center mt-7 flex-wrap">
-                <h2 className="fs-26 font-inter fw-medium">
+                <h2 className="fs-26 font-inter fw-bold">
                   Careers at Samriddh Kendra
                 </h2>
                 <div className="searchContainer d-flex gap-3 rounded-4">
@@ -130,7 +130,7 @@ const Career = () => {
                 </div>
               </div>
 
-              <form className="row g-3 mt-7">
+              {/* <form className="row g-3 mt-7">
                 <div className="col-md-6">
                   <label className="form-label fs-20 font-inter">
                     Department
@@ -160,7 +160,7 @@ const Career = () => {
                     <option value="3">Hyderabad</option>
                   </select>
                 </div>
-              </form>
+              </form> */}
 
               <div className="outputContainer d-flex flex-column gap-4 mt-5">
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -185,7 +185,7 @@ const Career = () => {
                       <ApplyBtn
                         textColor={"text-white"}
                         bgColor="bg-dark-blue"
-                        text="View"
+                        text="View Details"
                         arrow={false}
                         arrowDark={false}
                         width=""
@@ -196,7 +196,7 @@ const Career = () => {
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
                   <div className="">
                     <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
+                      Relationship Manager
                     </h2>
                     <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
                       <p className="fs-18 fw-medium font-inter text-light-gray">
@@ -215,7 +215,7 @@ const Career = () => {
                       <ApplyBtn
                         textColor={"text-white"}
                         bgColor="bg-dark-blue"
-                        text="View"
+                        text="View Details"
                         arrow={false}
                         arrowDark={false}
                         width=""
@@ -225,9 +225,7 @@ const Career = () => {
                 </div>
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
                   <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
-                    </h2>
+                    <h2 className="fs-26 fw-medium font-inter">HR</h2>
                     <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
                       <p className="fs-18 fw-medium font-inter text-light-gray">
                         Growth and Strategy
@@ -245,7 +243,7 @@ const Career = () => {
                       <ApplyBtn
                         textColor={"text-white"}
                         bgColor="bg-dark-blue"
-                        text="View"
+                        text="View Details"
                         arrow={false}
                         arrowDark={false}
                         width=""
@@ -255,9 +253,7 @@ const Career = () => {
                 </div>
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
                   <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
-                    </h2>
+                    <h2 className="fs-26 fw-medium font-inter">Recruiters</h2>
                     <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
                       <p className="fs-18 fw-medium font-inter text-light-gray">
                         Growth and Strategy
@@ -271,76 +267,14 @@ const Career = () => {
                     </div>
                   </div>
                   <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
-                    </h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
-                    </div>
-                  </div>
-                  <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
-                  </div>
-                </div>{" "}
-                <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
-                  <div className="">
-                    <h2 className="fs-26 fw-medium font-inter">
-                      Associate Growth Manager
-                    </h2>
-                    <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        Growth and Strategy
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • Bengaluru, India
-                      </p>
-                      <p className="fs-18 fw-medium font-inter text-light-gray">
-                        • 1-3 years
-                      </p>
-                    </div>
-                  </div>
-                  <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
+                    <ApplyBtn
+                      textColor={"text-white"}
+                      bgColor="bg-dark-blue"
+                      text="View Details"
+                      arrow={false}
+                      arrowDark={false}
+                      width=""
+                    />
                   </div>
                 </div>
               </div>
