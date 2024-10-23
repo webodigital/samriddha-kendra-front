@@ -181,16 +181,14 @@ const Career = () => {
                     </div>
                   </div>
                   <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View Details"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
+                    <ApplyBtn
+                      textColor={"text-white"}
+                      bgColor="bg-dark-blue"
+                      text="View Details"
+                      arrow={false}
+                      arrowDark={false}
+                      width=""
+                    />
                   </div>
                 </div>
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -211,16 +209,14 @@ const Career = () => {
                     </div>
                   </div>
                   <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View Details"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
+                    <ApplyBtn
+                      textColor={"text-white"}
+                      bgColor="bg-dark-blue"
+                      text="View Details"
+                      arrow={false}
+                      arrowDark={false}
+                      width=""
+                    />
                   </div>
                 </div>
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -239,16 +235,14 @@ const Career = () => {
                     </div>
                   </div>
                   <div className="">
-                    <Link to="/career/apply">
-                      <ApplyBtn
-                        textColor={"text-white"}
-                        bgColor="bg-dark-blue"
-                        text="View Details"
-                        arrow={false}
-                        arrowDark={false}
-                        width=""
-                      />
-                    </Link>
+                    <ApplyBtn
+                      textColor={"text-white"}
+                      bgColor="bg-dark-blue"
+                      text="View Details"
+                      arrow={false}
+                      arrowDark={false}
+                      width=""
+                    />
                   </div>
                 </div>
                 <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
