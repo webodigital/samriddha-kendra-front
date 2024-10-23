@@ -70,7 +70,7 @@ const Products = () => {
                     image="/mort.webp"
                     cardTitle="Mortgage Loan"
                     btnContent="Apply for loan"
-                    path={""}
+                    path={"/loan/morgatge_loan"}
                   />
                 </div>
                 <div
@@ -81,7 +81,7 @@ const Products = () => {
                     image="/property.webp"
                     cardTitle="Property Loan"
                     btnContent="Apply for loan"
-                    path={""}
+                    path={"/loan/property_purchase_loan"}
                   />
                 </div>
               </div>
