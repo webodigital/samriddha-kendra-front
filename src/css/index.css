@@ -214,6 +214,46 @@ html {
 
 /***** Global Css *****/
 
+.coming {
+  position: relative;
+
+  /* Hides the ::before element initially */
+  &::before {
+    content: "Coming Soon";
+    /*Textcontent*/
+    position: absolute;
+    top: -3.3rem;
+    width: 100%;
+    left: 0rem;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 33;
+    padding: 0.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
 .ico {
   width: 7rem;
   cursor: pointer;
@@ -482,7 +522,7 @@ li {
     justify-content: center;
     padding-top: 3rem;
     position: absolute;
-    top: 39rem;
+    top: 42rem;
     right: 76.6%;
   }
 }
@@ -495,7 +535,7 @@ li {
     justify-content: center;
     padding-top: 3rem;
     position: absolute;
-    top: 39rem;
+    top: 46rem;
     right: 5rem;
   }
 }
@@ -572,6 +612,25 @@ li {
 
   box-shadow: var(--btn-bg) 3px 3px 0px -1px;
 }
+
+.btn-outline-dark {
+  border-radius: 1rem !important;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
+  color: var(--dark-blue) !important;
+
+  &:hover {
+    background: var(--dark-blue) !important;
+    color: var(--white) !important;
+    border-radius: 3rem !important;
+    -webkit-border-radius: 3rem !important;
+    -moz-border-radius: 3rem !important;
+    -ms-border-radius: 3rem !important;
+    -o-border-radius: 3rem !important;
+  }
+}
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -589,7 +648,7 @@ li {
 }
 
 .slider {
-  width: 38rem !important;
+  width: 45rem !important;
 }
 
 .button-container {
@@ -958,7 +1017,7 @@ li {
 
     & .review-card {
       width: 36rem;
-      height: 54rem;
+      height: 56rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -987,8 +1046,18 @@ li {
 
       & .profile-footer {
         width: 100%;
-        height: 10rem;
+        height: 9rem;
         background: var(--bg-light-gray);
+
+        img {
+          width: 9rem;
+          height: 100%;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+        }
       }
 
       & .avatar {
@@ -2593,7 +2662,7 @@ li {
 }
 
 .liftInsuranceSection_1 {
-  height: 88rem;
+  height: 70rem;
   background-image: url("/lifeInsurance.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2639,7 +2708,6 @@ li {
     margin-bottom: 10rem;
 
     .card {
-      height: 23rem;
       margin: 1rem;
 
       .card-body {
@@ -2830,9 +2898,23 @@ li {
 
 /***** HealthInsurance page Section *****/
 
+.prodimg {
+  width: 100%;
+  height: 24rem !important;
+  object-fit: cover;
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.514) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.521) 0px -2px 6px 0px inset;
+}
+
 .HealthInsurance_section1 {
-  height: 88rem;
-  background-image: url("/HealthInsurancebg.webp");
+  height: 70rem;
+  background-image: url("/HealthInsurancebg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2859,7 +2941,7 @@ li {
 
 .healthInsuranceSection_7 {
   .card {
-    height: 18rem !important;
+    height: 19.6rem !important;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -2919,7 +3001,7 @@ li {
 /***** motorInsurance page Section *****/
 
 .motorInsurance_section1 {
-  height: 88rem;
+  height: 70rem;
   background-image: url("/MotorInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2950,7 +3032,7 @@ li {
 /***** ShopInsurance page Section *****/
 
 .shopInsurance_section1 {
-  height: 88rem;
+  height: 70rem;
   background-image: url("/shopInsurancebg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -2990,7 +3072,7 @@ li {
 /***** Crop Section *****/
 
 .cropInsurancebg {
-  height: 88rem;
+  height: 70rem;
   background-image: url("https://www.newindia.co.in/portal/RWBCIS/img/bg-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -3039,7 +3121,7 @@ li {
 .footer {
   background-color: var(--dark-blue);
   height: fit-content;
-  padding: 7rem 0;
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;

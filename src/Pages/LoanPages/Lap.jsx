@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../../context/ContexAPI";
 import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 import ApplyBtn from "../../components/Buttons/ApplyBtn";
+import Title from "../../components/Titles/Title";
 
 const Lap = () => {
   const {
@@ -14,6 +15,7 @@ const Lap = () => {
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
     partnersCarouselOptions,
+    carouselOptions,
   } = useContext(CreatingContext);
 
   return (
@@ -23,8 +25,8 @@ const Lap = () => {
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
             LAP Loan
           </h1>
-          <div className="mt-5 bg-white rounded-4 py-4 px-5 d-flex flex-column align-items-start">
-            <div className="d-flex gap-3 mb-5 mt-3">
+          <div className=" rounded-4 py-4 px-5 d-flex flex-column align-items-start">
+            {/*  <div className="d-flex gap-3 mb-5 mt-3">
               <label className="loan-label fs-18 font-inter me-3 mt-3">
                 I am applying for
               </label>
@@ -42,7 +44,7 @@ const Lap = () => {
                 <option value="MBA Loans ">MBA Loans </option>
                 <option value="Dental Loan">Dental Loan</option>
               </select>
-            </div>
+            </div> */}
             <ApplyBtn
               textColor="text-white"
               bgColor={"bg-dark-blue"}
@@ -146,11 +148,7 @@ const Lap = () => {
           <div className="row justify-content-center">
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard bg-white border-none b-shadow">
-                <img
-                  className="img-fluid"
-                  src="/Undergraduate Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="/l1.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Tailored Loan Options
@@ -159,7 +157,7 @@ const Lap = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Graduate Loans.png" alt="" />
+                <img className="img-fluid" src="/l2.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Simplified Online Process
@@ -168,11 +166,7 @@ const Lap = () => {
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img
-                  className="img-fluid"
-                  src="/Coaching Institute Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="/l3.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Comprehensive Insurance Plans
@@ -181,7 +175,7 @@ const Lap = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Parent Loans.png" alt="" />
+                <img className="img-fluid" src="/l4.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Trusted Financial Partners
@@ -190,7 +184,7 @@ const Lap = () => {
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/MBA Loans.png" alt="" />
+                <img className="img-fluid" src="/l5.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Competitive Coverage Rates
@@ -199,7 +193,7 @@ const Lap = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="/Dental Loan.png" alt="" />
+                <img className="img-fluid" src="/l6.svg" alt="" />
 
                 <p className=" fs-18 fw-bold font-inter mt-4">
                   Easy Claim Processing
@@ -529,17 +523,17 @@ const Lap = () => {
                   Want free consulting
                 </h1>
                 <p className="fs-18 font-inter fw-normal mb-5">
-                  Applying for an education loan at Samriddh Kendra is quick and
-                  hassle-free. Follow these simple steps to secure the financial
-                  support you need for your studies{" "}
+                  Get free expert consulting today to find the perfect insurance
+                  and financial solutions for your business needs
                 </p>
 
                 <ApplyBtn
                   textColor="text-dark"
                   bgColor={"bg-white"}
-                  text="Apply Now"
+                  text="Contact Us"
                   arrow={false}
                   arrowDark={false}
+                  url={"/contact"}
                 />
               </div>
             </div>
@@ -604,7 +598,7 @@ const Lap = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_10 px-lg-0 px-md-0 px-4 my-10">
+      {/*  <section className="EducationLoanSection_10 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
           color="black"
@@ -721,6 +715,177 @@ const Lap = () => {
                 </div>
               </div>
             </OwlCarousel>
+          </div>
+        </div>
+      </section> */}
+
+      <section data-aos="zoom-in" className="section_8  mt-3 mb-8">
+        <header className="container mb-5">
+          <Title
+            first_text="What does "
+            span_text="  Customers"
+            last_text="say about us?"
+          />
+        </header>
+
+        <div className="partners-Customers py-5 container-fluid">
+          <div className="container py-5 position-relative positions1">
+            <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
+              <div
+                className="
+              ratings-container col-xl-4 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-xl-center justify-content-lg-center justify-content-md-start justify-content-start order-lg-last order-md-first order-first
+               "
+              >
+                <div className="  rating-card">
+                  <div className="img-container">
+                    <img className="img-fluid" src="/ratings.webp" alt="" />
+                  </div>
+                  <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
+                    <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
+                      Our Customers
+                    </p>
+
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-lg-3 fs-md-2 fs-1 mx-1">
+                        5.0
+                      </span>{" "}
+                      <img
+                        className="d-md-block  d-none"
+                        src="/star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="/star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="/star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="/star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="/star.png"
+                        alt="rating"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className=" reviews-container col-xl-8 col-lg-8 col-md-12 col-12 order-md-last order-last">
+                <div className="reviews">
+                  <OwlCarousel
+                    className="owl-carousel owl-theme"
+                    {...carouselOptions}
+                  >
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
+                            Top notch team, top notch product
+                          </h2>
+                          <p className="font-inter fs-18 text-gray mt-5">
+                            Samriddh Kendra has been a game-changer for me and
+                            my business. As a small shop owner, getting access
+                            to insurance and financial support used to be a
+                            challenge. But through Samriddh Kendra’s platform, I
+                            was able to secure a loan within days and sign up
+                            for an affordable insurance policy. Their process
+                            was simple, transparent, and efficient, and the
+                            support from their team has been phenomenal.
+                          </p>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
+                            alt=""
+                          />
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Ravi Kumar
+                            </p>
+                            <p className="fs-16 font-poppins">
+                              Retail Shop Owner
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
+                            Top notch team, top notch product
+                          </h2>
+                          <p className="font-inter fs-18 text-gray mt-5">
+                            I never thought getting the right insurance coverage
+                            could be so easy. Samriddh Kendra not only helped me
+                            compare the best policies but also guided me through
+                            the entire process. With their personalized service
+                            and professional approach, I feel more secure and
+                            financially stable now. It’s a great platform for
+                            anyone looking for financial inclusion.
+                          </p>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
+                            alt=""
+                          />
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Neha Sharma
+                            </p>
+                            <p className="fs-16 font-poppins">Teacher</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
+                            Top notch team, top notch product
+                          </h2>
+                          <p className="font-inter fs-18 text-gray mt-5">
+                            As a merchant, I needed a loan to expand my business
+                            but didn't know where to begin. Samriddh Kendra made
+                            it easy by connecting me with trusted financial
+                            institutions. Their platform allowed me to compare
+                            different loan options and pick the one that suited
+                            my needs best. Thanks to them, I received the
+                            funding I needed without any hassle.
+                          </p>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
+                            alt=""
+                          />
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Amit Singh
+                            </p>
+                            <p className="fs-16 font-poppins">
+                               Merchant Owner
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </OwlCarousel>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

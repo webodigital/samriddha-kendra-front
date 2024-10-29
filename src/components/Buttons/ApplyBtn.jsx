@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ApplyBtn = ({
   textColor,
@@ -16,11 +17,11 @@ const ApplyBtn = ({
   };
 
   return (
-    <a
-      href={url}
-      className={`btn apply-button rounded-4 text-center ${width}  ${
-        fs ? fs : "fs-18"
-      } ${
+    <Link
+      to={url}
+      className={`btn apply-button rounded-4 text-center ${
+        !url && "coming"
+      } ${width}  ${fs ? fs : "fs-18"} ${
         fw ? fw : "fw-semibold"
       } py-2 px-4 font-inter  border-none d-flex align-items-center ${textColor} ${bgColor} `}
     >
@@ -34,7 +35,7 @@ const ApplyBtn = ({
       ) : (
         ""
       )}
-    </a>
+    </Link>
   );
 };
 

@@ -178,17 +178,34 @@ const ContactUsForm = () => {
                 </div>
 
                 <div className="number mt-5">
-                  <p className="fs-2 text-medium-gray text-center fw-medium font-inter">CONTACT INFO</p>
-                  <div className="d-flex flex-wrap justify-content-center gap-5">
+                  <p className="fs-2 text-medium-gray text-center fw-medium font-inter">
+                    CONTACT INFO
+                  </p>
+                  <div className="d-flex flex-wrap align-items-center justify-content-center gap-5">
                     <div className="d-flex align-items-center gap-3">
-                      <img style={{ width: "20px" }} src="/mail.svg" alt="Mail" />
-                      <a href="mailto:support@samriddhkedra.in" className="text-white mt-3 fw-semibold fs-20 font-inter">
+                      <img
+                        style={{ width: "20px" }}
+                        className="mt-2"
+                        src="/mail.svg"
+                        alt=""
+                      />
+                      <a
+                        href="mailto:support@samriddhkedra.in"
+                        className="text-white mt-3 fw-semibold fs-20 font-inter"
+                      >
                         support@samriddhkedra.in
                       </a>
                     </div>
-                    <div className="d-flex align-items-center gap-3">
-                      <img style={{ width: "20px" }} src="./callIcon.png" alt="Call" />
-                      <a href="tel:+918758493204" className="text-white fw-semibold fs-20 font-inter">
+                    <div className="d-flex align-items-center gap-3 mt-3">
+                      <img
+                        style={{ width: "20px" }}
+                        src="./callIcon.png"
+                        alt=""
+                      />
+                      <a
+                        href="tel:+918758493204"
+                        className="text-white fw-semibold fs-20 font-inter"
+                      >
                         +91 8758493204
                       </a>
                     </div>

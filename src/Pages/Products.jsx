@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "../components/Cards/ProductCard";
 import ProductsTitles from "../components/Titles/ProductsTitles";
-import { Outlet, useLocation, Link } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 const Products = () => {
   const location = useLocation();
@@ -70,7 +70,7 @@ const Products = () => {
                     image="/mort.webp"
                     cardTitle="Mortgage Loan"
                     btnContent="Apply for loan"
-                    path={""}
+                    path={"/loan/morgatge_loan"}
                   />
                 </div>
                 <div
@@ -81,7 +81,7 @@ const Products = () => {
                     image="/property.webp"
                     cardTitle="Property Loan"
                     btnContent="Apply for loan"
-                    path={""}
+                    path={"/loan/property_purchase_loan"}
                   />
                 </div>
               </div>
@@ -97,6 +97,9 @@ const Products = () => {
                     btnContent="Apply for loan"
                     path={"/loan/personal"}
                     applyLink="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    url={
+                      "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/bddc6ad2-fc36-4d76-a0fa-f665ec275907/f7b24169-7301-4fbe-9e04-8b0a12b49f4a?name=Personal+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    }
                   />
                 </div>
                 <div

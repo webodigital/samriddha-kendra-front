@@ -7,6 +7,7 @@ import CreatingContext from "../context/ContexAPI";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
 import ContactUsForm from "../components/ContactForms/ContactUsForm";
 import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   const { carouselOptions, faqData } = useContext(CreatingContext);
@@ -311,8 +312,13 @@ const AboutUs = () => {
                   <p className="text-light-blue fs-26">Founder and CEO</p>
 
                   <div className="d-flex gap-4">
-                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
-                    <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    <a href="https://www.linkedin.com/in/suman-saurav-samriddh/">
+                      <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    </a>
+                    <a href="mailto:Saurav@samriddhkendra.in">
+                      {" "}
+                      <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -332,8 +338,13 @@ const AboutUs = () => {
                   </h5>
                   <p className="text-light-blue fs-26 w-100">Founder and CE</p>
                   <div className="d-flex gap-4 w-100 justify-content-center align-items-center">
-                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
-                    <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    <a href="https://www.linkedin.com/in/bipul-kumar-2356a4bb/">
+                      <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    </a>
+                    <a href="mailto:Bipul.kumar@samriddhkendra.in">
+                      {" "}
+                      <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -352,12 +363,17 @@ const AboutUs = () => {
                     Rajesh Mishra
                   </h5>
                   <p className="text-light-blue fs-26">
-                    CBO- Distribution Head
+                    CBO - Distribution Head
                   </p>
 
                   <div className="d-flex gap-4">
-                    <img className="img-fluid ico" src="/linkd.svg" alt="" />
-                    <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    <a href="https://www.linkedin.com/in/rajesh-mishra-286a13226/">
+                      <img className="img-fluid ico" src="/linkd.svg" alt="" />
+                    </a>
+                    <a href="mailto:Rajesh.mishra@samriddhkendra.in">
+                      {" "}
+                      <img className="img-fluid ico" src="/eml.svg" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -472,14 +488,11 @@ const AboutUs = () => {
                     </ul>
                   </div>
 
-                  <a
-                    style={{ color: "#fff" }}
-                    href="https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
-                  >
-                    <button className="btn btn-outline-light w-100 p-4 fs-2 rounded-4">
-                      Join
+                  <Link to={"/career"}>
+                    <button className="btn btn-outline-light text-capitalize w-100 p-4 fs-2 rounded-4">
+                      Apply Now
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -498,7 +511,7 @@ const AboutUs = () => {
                   <div className="Benifits-list text-white">
                     <p className="fs-18 text-war">Benefits</p>
                     <ul className="fs-18">
-                      <li>0 investment</li>
+                      <li>₹ 999 + GST investment</li>
                       <li>Earn upto 1.5 lacks per months extra</li>
                       <li>Work at your convenience</li>
                     </ul>

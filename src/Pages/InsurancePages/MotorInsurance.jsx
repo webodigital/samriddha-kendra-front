@@ -7,12 +7,8 @@ import CreatingContext from "../../context/ContexAPI";
 import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 
 const MotorInsurance = () => {
-  const {
-    aspirationsSliderCarouselOptions,
-    moterLoan,
-    reviewCarouselOptions,
-    partnersCarouselOptions,
-  } = useContext(CreatingContext);
+  const { moterLoan, reviewCarouselOptions, partnersCarouselOptions } =
+    useContext(CreatingContext);
 
   const [activeTab, setActiveTab] = useState("exclusions");
 
@@ -38,7 +34,7 @@ const MotorInsurance = () => {
             of the most effective solutions for stress-free driving.
           </p>
 
-          <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
+          {/* <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
             <div className="container">
               <div className="row">
                 <div className="col-6">
@@ -104,6 +100,35 @@ const MotorInsurance = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className=" rounded-4 py-4 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
+              <label className="loan-label fs-18 font-inter me-3 mt-3">
+                I am applying for
+              </label>
+              <select
+                value={loanType}
+                onChange={handleLoanChange}
+                className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
+              >
+                <option value="Mortgage Loan">Mortgage Loan</option>
+                <option value="Graduate Loan">Graduate Loan</option>
+                <option value="Coaching Institute Loans">
+                  Coaching Institute Loans
+                </option>
+                <option value="Parent Loans">Parent Loans</option>
+                <option value="MBA Loans ">MBA Loans </option>
+                <option value="Dental Loan">Dental Loan</option>
+              </select>
+            </div> */}
+            <ApplyBtn
+              textColor="text-white"
+              bgColor={"bg-dark-blue"}
+              text="Apply Now"
+              arrow={true}
+              arrowDark={false}
+            />
           </div>
         </div>
       </section>
@@ -238,14 +263,14 @@ const MotorInsurance = () => {
                       and third party liability arising out of its use.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -262,14 +287,14 @@ const MotorInsurance = () => {
                       damage and third party liability arising out of its use.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -286,14 +311,14 @@ const MotorInsurance = () => {
                       damage and third party liability arising out of its use.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -395,7 +420,7 @@ const MotorInsurance = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="d-flex flex-column align-items-start gap-3">
                 <EducationLoanTitle
-                  title={"What factors influence Health Insurance Premium?"}
+                  title={"What factors influence Motor Insurance Premium?"}
                   color=""
                   cusColor={"cusColor"}
                   fontSize="fs-36"
@@ -462,83 +487,9 @@ const MotorInsurance = () => {
           </div>
         </div>
       </section>
-
-      <section className="lifeInsuranceSection_6 px-lg-0 px-md-0 px-4 py-6">
-        <div className="container">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-lg-4 col-md-6 col-12">
-              <EducationLoanTitle
-                title={"How to Buy?"}
-                color="black"
-                fontSize="fs-40"
-                ratings={false}
-                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
-                pera2={""}
-              />
-
-              <div data-aos="fade-up" className="row flex-column gap-4">
-                <div className="col-12">
-                  <div className="d-flex align-items-start">
-                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
-                      1
-                    </p>
-                    <div className="txt">
-                      <h2 className="fw-medium fs-20 font-inter">
-                        Provide Registration No.
-                      </h2>
-                      <p className="fs-16 font-inter">
-                        Give us your car’s Registration Number and check your
-                        vehicle details.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="d-flex align-items-start">
-                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
-                      2
-                    </p>
-                    <div className="txt">
-                      <h2 className="fw-medium fs-20 font-inter">
-                        Payment of Premium
-                      </h2>
-                      <p className="fs-16 font-inter">
-                        Choose the best Plan and Add-ons for you, and confirm
-                        your details.
-                      </p>
-                    </div>
-                  </div>
-                </div>{" "}
-                <div className="col-12">
-                  <div className="d-flex align-items-start">
-                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
-                      3
-                    </p>
-                    <div className="txt">
-                      <h2 className="fw-medium fs-20 font-inter">
-                        Document upload & Get the policy
-                      </h2>
-                      <p className="fs-16 font-inter">
-                        Upload the required documents. Post insurer’s approval,
-                        the policy is sent on the registered email id.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-aos="fade-up" className="col-lg-7 col-md-6 col-12">
-              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
-                <img className="img-fluid" src="/How to Buy2.webp" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className=" lifeInsuranceSection_8 px-lg-0 px-md-0 px-4 py-6 my-5 bg-dark-blue">
         <EducationLoanTitle
-          title={"Health Insurance Plan - What it Covers?"}
+          title={"Motor Insurance Plan - What it Covers?"}
           color="white"
           fontSize="fs-36"
           ratings={false}
@@ -547,7 +498,7 @@ const MotorInsurance = () => {
         />
 
         <div className="container">
-          <ul className="nav gap-5 nav-underline">
+          {/*    <ul className="nav gap-5 nav-underline">
             <li className="nav-item">
               <a
                 className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
@@ -569,7 +520,7 @@ const MotorInsurance = () => {
                 Exclusions
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
@@ -696,7 +647,7 @@ const MotorInsurance = () => {
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-2">
-                      Health insurance for accidents to those inside the
+                      Motor insurance for accidents to those inside the
                       automobile.
                     </p>
                   </div>
@@ -764,7 +715,7 @@ const MotorInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
+      {/*       <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
           color="black"
@@ -883,7 +834,7 @@ const MotorInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*   <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
@@ -983,7 +934,7 @@ const MotorInsurance = () => {
         </div>
       </section>
  */}
-      <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4 ">
+      <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4 mt-5">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 ">
@@ -1018,7 +969,7 @@ const MotorInsurance = () => {
         </div>
       </section>
 
-      <section className="mt-15">
+      <section className="mt-5">
         <EducationLoanTitle
           title={"PRODUCTS YOU MAY LIKE"}
           color="black"
@@ -1036,7 +987,11 @@ const MotorInsurance = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
+                  <img
+                    src="/puml.jpg"
+                    className="p-4 img-fluid prodimg"
+                    alt=""
+                  />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
@@ -1052,6 +1007,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/life"}
                     />
                   </div>
                 </div>
@@ -1060,13 +1016,13 @@ const MotorInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Motor Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
-                      Health Insurance
+                      Motor Insurance
                     </h2>
                     <p className="fs-18 font-inter ps-4  mt-2">
                       Choose the right insurance with Samriddh Kendra.
@@ -1078,6 +1034,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/health"}
                     />
                   </div>
                 </div>
@@ -1086,7 +1043,7 @@ const MotorInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Shop Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1104,6 +1061,7 @@ const MotorInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/shop"}
                     />
                   </div>
                 </div>

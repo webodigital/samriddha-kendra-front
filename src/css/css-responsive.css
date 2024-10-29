@@ -374,15 +374,6 @@
       }
     }
   }
-
-  .section_8 {
-    & .partners-Customers {
-      & .review-card {
-        height: 60rem;
-      }
-    }
-  }
-
   .loan_container {
     & .image_container {
       & .loan2 {
@@ -412,8 +403,8 @@
 
   .owl-prev,
   .owl-next {
-    width: 40px;
-    height: 40px;
+    width: 4.5rem;
+    height: 4.5rem;
 
     & img {
       width: 60%;

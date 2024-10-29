@@ -39,7 +39,7 @@ const ShopInsurance = () => {
             network of trusted partners.
           </p>
 
-          <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
+          {/*     <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
             <div className="container">
               <input
                 className="font-inter text-dark w-100 mt-4 p-3 fs-18 fw-medium rounded-4"
@@ -80,6 +80,35 @@ const ShopInsurance = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className=" rounded-4 py-4 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
+              <label className="loan-label fs-18 font-inter me-3 mt-3">
+                I am applying for
+              </label>
+              <select
+                value={loanType}
+                onChange={handleLoanChange}
+                className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
+              >
+                <option value="Mortgage Loan">Mortgage Loan</option>
+                <option value="Graduate Loan">Graduate Loan</option>
+                <option value="Coaching Institute Loans">
+                  Coaching Institute Loans
+                </option>
+                <option value="Parent Loans">Parent Loans</option>
+                <option value="MBA Loans ">MBA Loans </option>
+                <option value="Dental Loan">Dental Loan</option>
+              </select>
+            </div> */}
+            <ApplyBtn
+              textColor="text-white"
+              bgColor={"bg-dark-blue"}
+              text="Apply Now"
+              arrow={true}
+              arrowDark={false}
+            />
           </div>
         </div>
       </section>
@@ -198,7 +227,7 @@ const ShopInsurance = () => {
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Shop insurance is crucial for safeguarding your business against unforeseen risks such as theft, fire, natural disasters, or property damage. Without proper coverage, these incidents can result in significant financial losses that may disrupt your operations or even threaten the future of your business. Shop insurance provides a safety net by covering the costs of repairs, replacements, and lost income, allowing you to recover quickly and continue running your business with minimal downtime. It not only protects your physical assets, like inventory and equipment, but also offers peace of mind, ensuring you're prepared for any unexpected challenges."
           pera2={" "}
         />
 
@@ -297,7 +326,7 @@ const ShopInsurance = () => {
           color="black"
           fontSize="fs-36"
           ratings={false}
-          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera="Our shop insurance plan covers a wide range of businesses, including retail stores, cafes, salons, and small offices, ensuring tailored protection for your unique needs."
           pera2={""}
         />
 
@@ -475,7 +504,7 @@ const ShopInsurance = () => {
         />
 
         <div className="container">
-          <ul className="nav gap-5 nav-underline">
+          {/* <ul className="nav gap-5 nav-underline">
             <li className="nav-item">
               <a
                 className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
@@ -498,7 +527,7 @@ const ShopInsurance = () => {
               </a>
             </li>
           </ul>
-
+ */}
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
               <div
@@ -647,7 +676,7 @@ const ShopInsurance = () => {
         </div>
       </section>
 
-      <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
+      {/*  <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
           color="black"
@@ -766,7 +795,7 @@ const ShopInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*     <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
@@ -866,7 +895,7 @@ const ShopInsurance = () => {
         </div>
       </section> */}
 
-      <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4  mb-15">
+      {/*     <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4  mb-15">
         <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 ">
@@ -899,7 +928,7 @@ const ShopInsurance = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="lifeInsuranceSection_14">
         <EducationLoanTitle
@@ -919,7 +948,11 @@ const ShopInsurance = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
+                  <img
+                    src="/puml.jpg"
+                    className="p-4 img-fluid prodimg"
+                    alt=""
+                  />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
@@ -935,6 +968,7 @@ const ShopInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/life"}
                     />
                   </div>
                 </div>
@@ -943,7 +977,7 @@ const ShopInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Motor Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -961,6 +995,7 @@ const ShopInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/motor"}
                     />
                   </div>
                 </div>
@@ -969,7 +1004,7 @@ const ShopInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Shop Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -987,6 +1022,7 @@ const ShopInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/health"}
                     />
                   </div>
                 </div>

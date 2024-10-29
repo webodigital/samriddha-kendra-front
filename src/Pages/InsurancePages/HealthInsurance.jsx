@@ -35,7 +35,7 @@ const HealthInsurance = () => {
             expenses, helping you access quality healthcare without worrying
             about high costs.
           </p>
-
+          {/* 
           <div className="getInsurance bg-white mt-5 rounded-4 py-5 px-4">
             <div className="container">
               <div className="row">
@@ -148,6 +148,34 @@ const HealthInsurance = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+          <div className=" rounded-4 py-4 d-flex flex-column align-items-start">
+            {/* <div className="d-flex gap-3 mb-5 mt-3">
+              <label className="loan-label fs-18 font-inter me-3 mt-3">
+                I am applying for
+              </label>
+              <select
+                value={loanType}
+                onChange={handleLoanChange}
+                className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
+              >
+                <option value="Mortgage Loan">Mortgage Loan</option>
+                <option value="Graduate Loan">Graduate Loan</option>
+                <option value="Coaching Institute Loans">
+                  Coaching Institute Loans
+                </option>
+                <option value="Parent Loans">Parent Loans</option>
+                <option value="MBA Loans ">MBA Loans </option>
+                <option value="Dental Loan">Dental Loan</option>
+              </select>
+            </div> */}
+            <ApplyBtn
+              textColor="text-white"
+              bgColor={"bg-dark-blue"}
+              text="Apply Now"
+              arrow={true}
+              arrowDark={false}
+            />
           </div>
         </div>
       </section>
@@ -285,14 +313,14 @@ const HealthInsurance = () => {
                       each member.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -309,14 +337,14 @@ const HealthInsurance = () => {
                       single sum insured under one policy.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -333,14 +361,14 @@ const HealthInsurance = () => {
                       60 years and above in age.
                     </p>
                   </div>
-                  <a href="#" className="card-link fw-bold fs-18 font-inter">
+                  {/* <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
                     <img
                       width={6.5}
                       src="/LearnMoreArrow.png"
                       className="ms-2"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -586,8 +614,8 @@ const HealthInsurance = () => {
               </div>
             </div>
             <div data-aos="fade-up" className="col-lg-7 col-md-6 col-12">
-              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
-                <img className="img-fluid" src="/How to Buy2.webp" alt="" />
+              <div className="mt-lg-0 mt-md-0 mt-6 text-center w-100 h-100">
+                <img className="img-fluid" src="/bl.webp" alt="" />
               </div>
             </div>
           </div>
@@ -713,7 +741,7 @@ const HealthInsurance = () => {
         />
 
         <div className="container">
-          <ul className="nav gap-5 nav-underline">
+          {/* <ul className="nav gap-5 nav-underline">
             <li className="nav-item">
               <a
                 className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
@@ -735,7 +763,7 @@ const HealthInsurance = () => {
                 Exclusions
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="row">
             <div className="col-lg-6 col-md-12 col-12">
@@ -953,7 +981,7 @@ const HealthInsurance = () => {
           </div>
         </div>
       </section>
-
+      {/* 
       <section className="lifeInsuranceSection_12 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
@@ -1073,7 +1101,7 @@ const HealthInsurance = () => {
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*   <section className="lifeInsuranceSection_13 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
         <div className="text-center pt-1">
@@ -1191,7 +1219,11 @@ const HealthInsurance = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="/puml.jpg" className="p-4 img-fluid" alt="" />
+                  <img
+                    src="/puml.jpg"
+                    className="p-4 img-fluid prodimg"
+                    alt=""
+                  />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <h2 className="fs-24 ps-4 font-inter fw-semibold">
@@ -1207,6 +1239,7 @@ const HealthInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/life"}
                     />
                   </div>
                 </div>
@@ -1215,7 +1248,7 @@ const HealthInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Motor Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1233,6 +1266,7 @@ const HealthInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/motor"}
                     />
                   </div>
                 </div>
@@ -1241,7 +1275,7 @@ const HealthInsurance = () => {
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
                   <img
                     src="/Shop Insurance img.webp"
-                    className="p-4 img-fluid"
+                    className="p-4 img-fluid prodimg"
                     alt=""
                   />
 
@@ -1259,6 +1293,7 @@ const HealthInsurance = () => {
                       text="Learn More"
                       arrow={true}
                       arrowDark={true}
+                      url={"/products/insurance/shop"}
                     />
                   </div>
                 </div>

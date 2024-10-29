@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+import jobDescriptions from "../Data/JobDescription.json";
 
 const CreatingContext = createContext();
 
@@ -19,8 +20,8 @@ const carouselOptions = {
   dots: false,
   autoplay: true,
   navText: [
-    '<img src="./Arrow left.png" alt="" />',
-    '<img src="./Arrow right.png" alt="" />',
+    '<img src="/Arrow left.png" alt="" />',
+    '<img src="/Arrow right.png" alt="" />',
   ],
   responsive: {
     0: { items: 1 },
@@ -572,6 +573,7 @@ export const ContextProvider = ({ children }) => {
         lifeInsurance,
         Property_purchase_loan,
         mortgageLoanFAQs,
+        jobDescriptions,
       }}
     >
       {children}

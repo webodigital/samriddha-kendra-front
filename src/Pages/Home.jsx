@@ -6,7 +6,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const { carouselOptions } = useContext(CreatingContext);
@@ -16,7 +15,10 @@ const Home = () => {
       <section data-aos="zoom-in" className="container-fluid mt-15 section_1">
         <div className="container">
           <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
-            <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center ">
+            <div
+              data-aos="fade-left"
+              className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center "
+            >
               <h1 className="title-font fw-semibold fs-55">
                 <span className="text-body-secondary fw-medium">
                   Bridging the gap
@@ -27,7 +29,10 @@ const Home = () => {
                 Our mission is to connect rural customers with reliable services
               </p>
             </div>
-            <div className="image_Container col-xl-7 col-lg-6 col-md-6 col-12">
+            <div
+              data-aos="fade-right"
+              className="image_Container col-xl-7 col-lg-6 col-md-6 col-12"
+            >
               <img src="./Home_img_1.webp" className="img-fluid" />
             </div>
           </div>
@@ -65,9 +70,7 @@ const Home = () => {
                   experience in reaching your financial aspirations.
                 </p>
                 <div className="btn-container mt-5">
-                  <Link to={"/products/loan/education_loan"}>
-                    <Button content={"Apply for loan"} />
-                  </Link>
+                  <Button url={"/products"} content={"Click to know more"} />
                 </div>
               </div>
             </div>
@@ -94,9 +97,7 @@ const Home = () => {
                   and 24/7 support.
                 </p>
                 <div className="btn-container mt-5">
-                  <Link to={"/products/insurance/life"}>
-                    <Button content={"Click to know more"} />
-                  </Link>
+                  <Button url={"/products"} content={"Click to know more"} />
                 </div>
               </div>
             </div>
@@ -122,13 +123,18 @@ const Home = () => {
                   products
                 </p>
                 <div className="btn-container mt-3">
-                  <Button content={"Click to know more"} />
+                  <Button
+                    url={
+                      "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/f2758c73-7e44-4a1d-bdd8-791f4aa00535/d1625db5-e8fe-4e77-ada9-ed7677475e93?name=SAMRIDDH+SATHI&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    }
+                    content={"Join Our Family"}
+                  />
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-              <div className="image_container text-xl-end text-center mt-md-5 mt-5">
-                <img className="img-fluid mobile" src="./Mobile.webp" alt="" />
+              <div className="image_container text-center">
+                <img className="img-fluid" src="./SamridhdhImg.webp" alt="" />
               </div>
             </div>
           </div>
@@ -345,7 +351,7 @@ const Home = () => {
         <header className="container mb-5">
           <Title
             first_text="What does "
-            span_text="Partners & Customers"
+            span_text="  Customers"
             last_text="say about us?"
           />
         </header>
@@ -364,7 +370,7 @@ const Home = () => {
                   </div>
                   <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
                     <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
-                      Our Partners
+                      Our Customers
                     </p>
 
                     <div className=" ratings mb-5">
@@ -412,49 +418,30 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
-                            Metaforms has been a gamechanger in our journey of
-                            optimising our user funnels. The level of attention
-                            to detail the team brings with pro-activeness in
-                            understanding the nuances of business is exemplary. 
+                          <p className="font-inter fs-16 text-gray mt-5">
+                            Samriddh Kendra has been a game-changer for me and
+                            my business. As a small shop owner, getting access
+                            to insurance and financial support used to be a
+                            challenge. But through Samriddh Kendra’s platform, I
+                            was able to secure a loan within days and sign up
+                            for an affordable insurance policy. Their process
+                            was simple, transparent, and efficient, and the
+                            support from their team has been phenomenal.
                           </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
-                              Apoorva
+                              Ravi Kumar
                             </p>
-                            <p className="fs-16 font-poppins">Porter</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="  item">
-                      <div className="bg-white review-card rounded-4">
-                        <div className="top-container">
-                          <div className="img">
-                            <img src="./empty-img.webp" alt="" />
-                          </div>
-                          <h2 className="title-font fs-24 text-dark fw-bold mx-4">
-                            All necessary integrations were available.
-                          </h2>
-                        </div>
-                        <div className="profile-footer d-flex align-items-center">
-                          <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
-                            alt=""
-                          />
-                          <div className="d-flex flex-column gap-2">
-                            <p className="fs-20 font-poppins fw-semibold ">
-                              Apoorva
+                            <p className="fs-16 font-poppins">
+                              Retail Shop Owner
                             </p>
-                            <p className="fs-16 font-poppins">Porter</p>
                           </div>
                         </div>
                       </div>
@@ -465,49 +452,58 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
-                            Metaforms has been a gamechanger in our journey of
-                            optimising our user funnels. The level of attention
-                            to detail the team brings with pro-activeness in
-                            understanding the nuances of business is exemplary. 
+                          <p className="font-inter fs-16 text-gray mt-5">
+                            I never thought getting the right insurance coverage
+                            could be so easy. Samriddh Kendra not only helped me
+                            compare the best policies but also guided me through
+                            the entire process. With their personalized service
+                            and professional approach, I feel more secure and
+                            financially stable now. It’s a great platform for
+                            anyone looking for financial inclusion.
                           </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
-                              Apoorva
+                              Neha Sharma
                             </p>
-                            <p className="fs-16 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">Teacher</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="  item">
-                      <div className="bg-white review-card rounded-4">
-                        <div className="top-container">
-                          <div className="img">
-                            <img src="./empty-img.webp" alt="" />
-                          </div>
-                          <h2 className="title-font fs-24 text-dark fw-bold mx-4">
-                            All necessary integrations were available.
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
+                            Top notch team, top notch product
                           </h2>
+                          <p className="font-inter fs-16 text-gray mt-5">
+                            As a merchant, I needed a loan to expand my business
+                            but didn't know where to begin. Samriddh Kendra made
+                            it easy by connecting me with trusted financial
+                            institutions. Their platform allowed me to compare
+                            different loan options and pick the one that suited
+                            my needs best. Thanks to them, I received the
+                            funding I needed without any hassle.
+                          </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
+                          <div className="d-flex flex-column">
                             <p className="fs-20 font-poppins fw-semibold ">
-                              Apoorva
+                              Amit Singh
                             </p>
-                            <p className="fs-16 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins"> Merchant</p>
                           </div>
                         </div>
                       </div>
@@ -520,7 +516,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section data-aos="zoom-in" className="section_8  mt-3">
+      {/*   <section data-aos="zoom-in" className="section_8  mt-3">
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5 position-relative positions2">
             <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
@@ -536,48 +532,30 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-18 text-gray mt-5">
-                            Metaforms has been a gamechanger in our journey of
-                            optimising our user funnels. The level of attention
-                            to detail the team brings with pro-activeness in
-                            understanding the nuances of business is exemplary. 
+                          <p className="font-inter fs-16 text-gray mt-5">
+                            Samriddh Kendra has been a game-changer for me and
+                            my business. As a small shop owner, getting access
+                            to insurance and financial support used to be a
+                            challenge. But through Samriddh Kendra’s platform, I
+                            was able to secure a loan within days and sign up
+                            for an affordable insurance policy. Their process
+                            was simple, transparent, and efficient, and the
+                            support from their team has been phenomenal.
                           </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
-                          />
-                          <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold">
-                              Apoorva
-                            </p>
-                            <p className="fs-4 font-poppins">Porter</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="bg-white review-card rounded-4">
-                        <div className="top-container">
-                          <div className="img">
-                            <img src="./empty-img.webp" alt="" />
-                          </div>
-                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
-                            All necessary integrations were available.
-                          </h2>
-                        </div>
-                        <div className="profile-footer d-flex align-items-center">
-                          <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
-                              Apoorva
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Ravi Kumar
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">
+                              Retail Shop Owner
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -585,52 +563,63 @@ const Home = () => {
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">
-                          <h2 className="title-font text-dark fs-1 fw-bold">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter  fs-lg-2 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
-                            Metaforms has been a gamechanger in our journey of
-                            optimising our user funnels. The level of attention
-                            to detail the team brings with pro-activeness in
-                            understanding the nuances of business is exemplary. 
+                          <p className="font-inter fs-16 text-gray mt-5">
+                            I never thought getting the right insurance coverage
+                            could be so easy. Samriddh Kendra not only helped me
+                            compare the best policies but also guided me through
+                            the entire process. With their personalized service
+                            and professional approach, I feel more secure and
+                            financially stable now. It’s a great platform for
+                            anyone looking for financial inclusion.
                           </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
-                              Apoorva
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Neha Sharma
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">  Freelancer</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="  item">
-                      <div className="bg-white review-card rounded-4">
-                        <div className="top-container">
-                          <div className="img">
-                            <img src="./empty-img.webp" alt="" />
-                          </div>
-                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
-                            All necessary integrations were available.
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
+                            Top notch team, top notch product
                           </h2>
+                          <p className="font-inter fs-18 text-gray mt-5">
+                            As a merchant, I needed a loan to expand my business
+                            but didn't know where to begin. Samriddh Kendra made
+                            it easy by connecting me with trusted financial
+                            institutions. Their platform allowed me to compare
+                            different loan options and pick the one that suited
+                            my needs best. Thanks to them, I received the
+                            funding I needed without any hassle.
+                          </p>
                         </div>
                         <div className="profile-footer d-flex align-items-center">
                           <img
-                            className="img-fluid avatar mr-4"
-                            src="./avtar.png"
+                            className="img-fluid avatar p-3 mr-4"
+                            src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                             alt=""
                           />
-                          <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
-                              Apoorva
+                          <div className="d-flex flex-column">
+                            <p className="fs-20 font-poppins fw-semibold ">
+                              Amit Singh
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">
+                               Merchant Owner
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -688,11 +677,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ----------------------------------------------------- */}
 
-      <section data-aos="zoom-in" className="section_9">
+      {/*   <section data-aos="zoom-in" className="section_9">
         <Title first_text="" span_text="Why Trust US?" last_text="" />
 
         <div className="container">
@@ -700,7 +689,7 @@ const Home = () => {
             ________ In the press ? _________
           </h2>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

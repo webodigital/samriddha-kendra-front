@@ -67,11 +67,11 @@ export const router = createBrowserRouter(
       <Route path="contact" element={<ContactUs />} />
       <Route path="privacy_policy" element={<Privacy_policy />} />
       <Route path="grievance_officer" element={<GrievanceOfficer />} />
-      <Route path="terms_of_use" element={<TermsOfUse />} />
+      <Route path="terms_Conditions" element={<TermsOfUse />} />
       <Route path="blogs" element={<Blogs />} />
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
       <Route path="career" element={<Career />}>
-        <Route path="apply" element={<ApplyForJob />} />
+        <Route path="apply/:id" element={<ApplyForJob />} />
       </Route>
       <Route
         path="*"
