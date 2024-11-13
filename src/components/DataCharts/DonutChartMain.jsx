@@ -4,13 +4,13 @@ import { Doughnut } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const DonutChart = ({ label1, label2, value1 = 0, value2 = 0 }) => {
+const DonutChart = ({ label1, label2 }) => {
   const data = {
-    labels: [label1, label2],
+    labels: [`${label1}                 `, `${label2}`],
     datasets: [
       {
-        label: "EMI Breakdown",
-        data: [value1, value2],
+        label: "Poll",
+        data: [25, 75],
         backgroundColor: ["#D9D9D9", "#3D4CD8"],
         borderWidth: 0,
       },
@@ -19,36 +19,26 @@ const DonutChart = ({ label1, label2, value1 = 0, value2 = 0 }) => {
 
   const options = {
     cutout: "75%",
-    responsive: true,
+    responsive: true, // Creating a wider ring to match the image
     plugins: {
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            let label = context.label || "";
-            let value = context.raw || 0;
-            return ` ₹${value.toLocaleString()}`;
-            //return `${label}: ₹${value.toLocaleString()}`;
-          },
-        },
-      },
       legend: {
         display: true,
-        position: "bottom",
+        align: "center",
         labels: {
-          boxWidth: 25,
+          boxWidth: 25, // Increase the size of the legend point
           boxHeight: 12,
           padding: 5,
           font: {
-            size: 14,
+            size: 14, // Adjusted font size for clarity
           },
           generateLabels: (chart) => {
             const data = chart.data;
             return data.labels.map((label, i) => ({
-              text: `${label}: ₹${data.datasets[0].data[i].toLocaleString()}`,
+              text: label,
               fillStyle: data.datasets[0].backgroundColor[i],
               strokeStyle: data.datasets[0].backgroundColor[i],
               lineWidth: 0,
-              borderRadius: 6,
+              borderRadius: 6, // Apply rounded corners to the box
               boxWidth: 20,
             }));
           },
@@ -60,7 +50,7 @@ const DonutChart = ({ label1, label2, value1 = 0, value2 = 0 }) => {
 
   return (
     <div className="calculation-container mt-3 rounded-4">
-      <Doughnut data={data} options={options} />
+      <Doughnut data={data} options={options}></Doughnut>
     </div>
   );
 };

@@ -18,14 +18,17 @@ import "bootstrap/dist/js/bootstrap.bundle.js";
 import { router } from "./Router/router";
 import { RouterProvider } from "react-router-dom";
 
-/* Apollo Client Setup */
-import { ApolloProvider } from "@apollo/client";
-import client from "./ApolloClient";
+/* 
+
+-
+-
+-
+-
+
+*/
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ApolloProvider client={client}>
-      <RouterProvider router={router} />
-    </ApolloProvider>
+    <RouterProvider router={router} />
   </StrictMode>
 );

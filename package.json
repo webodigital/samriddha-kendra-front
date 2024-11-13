@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.8",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.4",
+    "graphql": "^16.9.0",
     "jquery": "^3.7.1",
     "owl.carousel": "^2.3.4",
     "react": "^18.3.1",

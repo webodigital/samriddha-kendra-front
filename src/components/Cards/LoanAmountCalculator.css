@@ -1,0 +1,43 @@
+.input-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.inputAmount {
+  padding-left: 1.5em; /* Space for the unit symbol */
+  padding-right: 1.5em; /* Space for the unit symbol */
+}
+
+.unit-left {
+    position: absolute;
+    left: 0.5em;
+    color: #6c757d;
+
+    background-color: #e4e8ff;
+    /* padding: 0.7rem 1.7rem; */
+    /* text-align: center; */
+    /* width: 18rem; */
+    color: var(--btn-bg);
+    border: none;
+    outline: none;
+    font-size: 25px;
+    top: 0px;
+    vertical-align: middle;
+}
+
+.unit-right {
+  position: absolute;
+  right: 0.5em;
+  color: #6c757d;
+
+  background-color: #e4e8ff;
+  /* padding: 0.7rem 1.7rem; */
+  /* text-align: center; */
+  /* width: 18rem; */
+  color: var(--btn-bg);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  
+}
