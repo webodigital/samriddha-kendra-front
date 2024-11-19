@@ -24,14 +24,6 @@ const ContactUsForm = () => {
     setLoading(true);
     setMessage(null);
 
-    /* const mutation = `
-      mutation sendContact($name: String!, $phone: String!, $email: String!, $enquiry: String!) {
-        sendContact(name: $name, phone: $phone, email: $email, enquiry: $enquiry) {
-          success
-          message
-        }
-      }
-    `; */
     const mutation = `
       mutation sendContact($name: String!, $phone: String!, $email: String!, $enquiry: String!) {
         sendContact(name: $name, phone: $phone, email: $email, enquiry: $enquiry)
@@ -44,7 +36,7 @@ const ContactUsForm = () => {
       email: formData.email,
       enquiry: formData.enquiry,
     };
-    const YOUR_GRAPHQL_API_URL = "http://localhost:5000/graphql";
+    const YOUR_GRAPHQL_API_URL = import.meta.env.VITE_API_URL;
     try {
       const response = await fetch(YOUR_GRAPHQL_API_URL, {
         method: "POST",
@@ -60,18 +52,6 @@ const ContactUsForm = () => {
       });
 
       const result = await response.json();
-
-      /* if (result.data?.submitContactForm?.success) {
-        setMessage("Form submitted successfully!");
-        setFormData({
-          name: "",
-          phone: "",
-          email: "",
-          enquiry: "",
-        });
-      } else {
-        setMessage(result.data?.submitContactForm?.message || "Submission failed. Please try again.");
-      } */
 
       // Assuming the mutation returns a success message as a string
       if (result.data?.sendContact) {

@@ -22,6 +22,8 @@ import { RouterProvider } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
 import client from "./ApolloClient";
 
+console.log("API URL:", import.meta.env.VITE_API_URL); // For debugging
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ApolloProvider client={client}>
