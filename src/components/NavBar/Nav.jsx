@@ -182,7 +182,7 @@ const Nav = () => {
           <li className="nav-item d-lg-block d-md-none d-none">
             <a
               className="btn btn-outline-dark px-4 py-1 hover"
-              href="https://sk-on-prem-production.web.app/login"
+              href="https://loans.samriddhkendra.in/login"
             >
               Login
             </a>
@@ -424,7 +424,7 @@ const Nav = () => {
                 <a
                   style={{ color: "#fff" }}
                   className="px-4 py-1 hover"
-                  href="https://sk-on-prem-production.web.app/login"
+                  href="https://loans.samriddhkendra.in/login"
                 >
                   Login
                 </a>

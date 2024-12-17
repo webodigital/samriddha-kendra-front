@@ -52,7 +52,7 @@ const Business = () => {
               arrow={true}
               arrowDark={false}
               url={
-                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                "https://onboarding.samriddhkendra.in/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=109036a7-629c-4fd0-8f32-ba807a840771"
               }
             />
           </div>
@@ -383,7 +383,7 @@ const Business = () => {
               text="Apply Now"
               arrow={false}
               url={
-                "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                "https://onboarding.samriddhkendra.in/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=109036a7-629c-4fd0-8f32-ba807a840771"
               }
             />
           </div>
@@ -490,7 +490,7 @@ const Business = () => {
                   arrow={false}
                   arrowDark={false}
                   url={
-                    "https://sk-on-prem-prod-onboarding.web.app/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=6f483a6f-63a8-48c5-9c48-605bea5597cf"
+                    "https://onboarding.samriddhkendra.in/170e3ebc-c478-4acc-9dd6-75cdf022ca3f/aee7bd76-1a75-426d-a04c-3a44cda92929/6ae320db-a2ac-4627-a576-76c182f8f9a4?name=Business+Loan+Application&creator_id=109036a7-629c-4fd0-8f32-ba807a840771"
                   }
                 />
               </div>
