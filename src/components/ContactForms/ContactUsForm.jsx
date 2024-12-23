@@ -170,10 +170,10 @@ const ContactUsForm = () => {
                         alt=""
                       />
                       <a
-                        href="mailto:support@samriddhkedra.in"
+                        href="mailto:support@samriddhkendra.in"
                         className="text-white mt-3 fw-semibold fs-20 font-inter"
                       >
-                        support@samriddhkedra.in
+                      support@samriddhkendra.in
                       </a>
                     </div>
                     <div className="d-flex align-items-center gap-3 mt-3">
@@ -183,10 +183,10 @@ const ContactUsForm = () => {
                         alt=""
                       />
                       <a
-                        href="tel:+918758493204"
+                        href="tel:+18003131998"
                         className="text-white fw-semibold fs-20 font-inter"
                       >
-                        +91 8758493204
+                        1800-313-1998
                       </a>
                     </div>
                   </div>
