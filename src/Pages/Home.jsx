@@ -184,7 +184,7 @@ const Home = () => {
               />
               <Card
                 image={"./check.webp"}
-                title={"Qulified lead passed and loan dispersed"}
+                title={"Qualified lead passed and loan dispersed"}
                 description={
                   "After you select the offer, Samriddh app passes the lead to lender, after which they disperse the loan"
                 }
