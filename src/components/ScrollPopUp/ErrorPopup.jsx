@@ -38,7 +38,7 @@ const ScrollPopup = () => {
         className={`modal d-block ${showPopup ? "scale1" : "scale0"}`}
         tabIndex="-1"
       >
-        <div className="modal-dialog ">
+        <div className="modal-dialog">
           <div className="modal-content rounded-5 overflow-hidden">
             <div className="modal-header bg-warning  text-white">
               <h5 className="modal-title fs-20">Warning!</h5>
@@ -49,15 +49,15 @@ const ScrollPopup = () => {
                 onClick={handleClose}
               ></button>
             </div>
-            <div className="modal-body fs-16 px-4">
-              <p>
+            <div className="modal-body fs-18 px-4 text-justify">
+              <p className="text-justify">
                 Someone from the UK, likely a scammer, is sending emails under
                 the name "CreditBucket" and "Samridh," pretending to be "Suman."
                 Please double-check the sender's email address and verify its
                 authenticity before responding, as this could potentially be a
                 scam.
                 <strong className="ms-1 text-secondary">
-                  Stay cautious <span className="text-warning"> !!</span>
+                  Stay cautious !!
                 </strong>
               </p>
             </div>

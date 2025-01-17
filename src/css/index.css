@@ -3234,7 +3234,7 @@ li {
 }
 
 .modal-dialog {
-  max-width: 500px;
+  max-width: 600px !important;
   margin: auto;
   top: 20%;
 }
@@ -3245,10 +3245,6 @@ li {
 }
 .modal-header {
   border-bottom: none;
-}
-
-.modal-footer button {
-  min-width: 100px;
 }
 
 /***** End Error popup Section *****/
