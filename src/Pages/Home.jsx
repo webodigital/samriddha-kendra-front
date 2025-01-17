@@ -6,6 +6,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
+import ScrollPopup from "../components/ScrollPopUp/ErrorPopup";
 
 const Home = () => {
   const { carouselOptions } = useContext(CreatingContext);
@@ -690,6 +691,8 @@ const Home = () => {
           </h2>
         </div>
       </section> */}
+
+      <ScrollPopup />
     </div>
   );
 };

@@ -214,6 +214,23 @@ html {
 
 /***** Global Css *****/
 
+.scale1 {
+  scale: 1;
+  transform: translateY(10vh);
+  -webkit-transform: translateY(10vh);
+  -moz-transform: translateY(10vh);
+  -ms-transform: translateY(10vh);
+  -o-transform: translateY(10vh);
+}
+.scale0 {
+  scale: 0;
+  transform: translateY(-60vh);
+  -webkit-transform: translateY(-60vh);
+  -moz-transform: translateY(-60vh);
+  -ms-transform: translateY(-60vh);
+  -o-transform: translateY(-60vh);
+}
+
 .coming {
   position: relative;
 
@@ -3205,3 +3222,33 @@ li {
 }
 
 /***** End Custom Scroll Bar *****/
+
+/***** Error popup Section *****/
+
+.modal {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: auto;
+  top: 20%;
+}
+.modal-content {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer button {
+  min-width: 100px;
+}
+
+/***** End Error popup Section *****/
